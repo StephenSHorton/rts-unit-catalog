@@ -18,9 +18,9 @@ ta-armalab,ta,ARMALAB,Adv. Kbot Lab,,arm,structure,"Production buildings (plants
 ta-armap,ta,ARMAP,Aircraft Plant,,arm,structure,"Production buildings (plants, labs, shipyards)",1,t1_factory_air,Produces Aircraft,1850,850.0,1370.0,,,,img/ta/armap.png
 ta-armasy,ta,ARMASY,Adv. Shipyard,,arm,structure,"Production buildings (plants, labs, shipyards)",2,t2_factory_naval,Produces Ships,2820,2524.0,2402.0,,,,img/ta/armasy.png
 ta-armavp,ta,ARMAVP,Adv. Vehicle Plant,,arm,structure,"Production buildings (plants, labs, shipyards)",2,t2_factory_land,Produces Vehicles,2435,1984.0,3200.0,,,,img/ta/armavp.png
-ta-armhp,ta,ARMHP,Hovercraft Platform,,arm,structure,"Production buildings (plants, labs, shipyards)",2,t1_factory_land,Builds Hovercraft,3005,2007.0,5277.0,,,,img/ta/armhp.png
+ta-armhp,ta,ARMHP,Hovercraft Platform,,arm,structure,"Production buildings (plants, labs, shipyards)",2,t2_factory_land,Builds Hovercraft,3005,2007.0,5277.0,,,,img/ta/armhp.png
 ta-armlab,ta,ARMLAB,Kbot Lab,,arm,structure,"Production buildings (plants, labs, shipyards)",1,t1_factory_land,Produces Kbots,2690,705.0,1130.0,,,,img/ta/armlab.png
-ta-armplat,ta,ARMPLAT,Seaplane Platform,,arm,structure,"Production buildings (plants, labs, shipyards)",2,t1_factory_land,Builds Seaplanes,1820,2223.0,5396.0,,,,img/ta/armplat.png
+ta-armplat,ta,ARMPLAT,Seaplane Platform,,arm,structure,"Production buildings (plants, labs, shipyards)",2,t2_factory_air,Builds Seaplanes,1820,2223.0,5396.0,,,,img/ta/armplat.png
 ta-armsy,ta,ARMSY,Shipyard,,arm,structure,"Production buildings (plants, labs, shipyards)",1,t1_factory_naval,Produces Ships,2490,615.0,775.0,,,,img/ta/armsy.png
 ta-armvp,ta,ARMVP,Vehicle Plant,,arm,structure,"Production buildings (plants, labs, shipyards)",1,t1_factory_land,Produces Vehicles,2580,620.0,1000.0,,,,img/ta/armvp.png
 ta-armckfus,ta,ARMCKFUS,Cloakable Fusion Reactor,,arm,structure,Resource & storage buildings,2,t2_energy,Produces Energy,2200,5420.0,42058.0,,,,img/ta/armckfus.png
@@ -104,7 +104,7 @@ ta-armrock,ta,ARMROCK,Rocko,,arm,land,Kbots (bipedal walkers),1,t1_arty,Rocket K
 ta-armsnipe,ta,ARMSNIPE,Shooter,,arm,land,Kbots (bipedal walkers),2,t3_assault,Sniper Kbot,320,935.0,14727.0,,,ARMSNIPE_WEAPON,img/ta/armsnipe.png
 ta-armspy,ta,ARMSPY,Infiltrator,,arm,land,Kbots (bipedal walkers),2,other,SPY Kbot,270,128.0,9219.0,,,,img/ta/armspy.png
 ta-armvader,ta,ARMVADER,Invader,,arm,land,Kbots (bipedal walkers),2,other,Crawling Bomb,185,61.0,5473.0,,,,img/ta/armvader.png
-ta-armwar,ta,ARMWAR,Warrior,,arm,land,Kbots (bipedal walkers),1,t2_tank,Medium Infantry Kbot,850,196.0,2236.0,,,ARMWAR_LCANNON | ARMWAR_EMG,img/ta/armwar.png
+ta-armwar,ta,ARMWAR,Warrior,,arm,land,Kbots (bipedal walkers),1,t1_light_bot,Medium Infantry Kbot,850,196.0,2236.0,,,ARMWAR_LCANNON | ARMWAR_EMG,img/ta/armwar.png
 ta-armzeus,ta,ARMZEUS,Zeus,,arm,land,Kbots (bipedal walkers),2,t2_tank,Assault Kbot,875,267.0,2228.0,,,LIGHTNING,img/ta/armzeus.png
 ta-armah,ta,ARMAH,Swatter,,arm,land,"Vehicles (tanks, hovercraft, jeeps)",2,other,Anti-Air Hovercraft,375,120.0,1444.0,,,ARMAH_WEAPON,img/ta/armah.png
 ta-armanac,ta,ARMANAC,Anaconda,,arm,land,"Vehicles (tanks, hovercraft, jeeps)",2,other,Hovertank,880,272.0,2856.0,,,ARMANAC_WEAPON,img/ta/armanac.png
@@ -155,9 +155,9 @@ ta-corap,ta,CORAP,Aircraft Plant,,core,structure,"Production buildings (plants, 
 ta-corasy,ta,CORASY,Adv. Shipyard,,core,structure,"Production buildings (plants, labs, shipyards)",2,t2_factory_naval,Produces Ships,2760,2460.0,2325.0,,,,img/ta/corasy.png
 ta-coravp,ta,CORAVP,Adv. Vehicle Plant,,core,structure,"Production buildings (plants, labs, shipyards)",2,t2_factory_land,Produces Vehicles,2580,1947.0,3520.0,,,,img/ta/coravp.png
 ta-corgant,ta,CORGANT,Krogoth Gantry,,core,structure,"Production buildings (plants, labs, shipyards)",3,experimental,Builds Krogoth,3050,6587.0,9574.0,,,,img/ta/corgant.png
-ta-corhp,ta,CORHP,Hovercraft Platform,,core,structure,"Production buildings (plants, labs, shipyards)",2,t1_factory_land,Builds Hovercraft,3356,1793.0,5421.0,,,,img/ta/corhp.png
+ta-corhp,ta,CORHP,Hovercraft Platform,,core,structure,"Production buildings (plants, labs, shipyards)",2,t2_factory_land,Builds Hovercraft,3356,1793.0,5421.0,,,,img/ta/corhp.png
 ta-corlab,ta,CORLAB,Kbot Lab,,core,structure,"Production buildings (plants, labs, shipyards)",1,t1_factory_land,Produces Kbots,2600,680.0,1250.0,,,,img/ta/corlab.png
-ta-corplat,ta,CORPLAT,Seaplane Platform,,core,structure,"Production buildings (plants, labs, shipyards)",2,t1_factory_land,Builds Seaplanes,2000,2305.0,5367.0,,,,img/ta/corplat.png
+ta-corplat,ta,CORPLAT,Seaplane Platform,,core,structure,"Production buildings (plants, labs, shipyards)",2,t2_factory_air,Builds Seaplanes,2000,2305.0,5367.0,,,,img/ta/corplat.png
 ta-corsy,ta,CORSY,Shipyard,,core,structure,"Production buildings (plants, labs, shipyards)",1,t1_factory_naval,Produces Ships,2490,600.0,750.0,,,,img/ta/corsy.png
 ta-corvp,ta,CORVP,Vehicle Plant,,core,structure,"Production buildings (plants, labs, shipyards)",1,t1_factory_land,Produces Vehicles,2550,600.0,1100.0,,,,img/ta/corvp.png
 ta-corbuild,ta,CORBUILD,Hydration Plant,,core,structure,Resource & storage buildings,1,other,Creates Water,1806,220.0,2550.0,,,,
@@ -284,7 +284,7 @@ sc-dea0202,sc,DEA0202,Janus,Fighter/Bomber,uef,air,Fighter/Bomber,2,t2_bomber,Fi
 sc-del0204,sc,DEL0204,Mongoose,Gatling Bot,uef,land,Gatling Bot,2,t2_tank,Gatling Bot,650,200,1000,1000,2.9,Gatling Plasma Cannon | Heavy Fragmentation Grenade Launcher,img/sc/del0204.png
 sc-delk002,sc,DELK002,Cougar,Mobile Rapid-fire AA Cannon,uef,land,Mobile Rapid-fire AA Cannon,3,t2_flak,Mobile Rapid-fire AA Cannon,1900,600,7500,3000,3.5,Gatling Plasma Cannon,img/sc/delk002.png
 sc-dra0202,sc,DRA0202,Corsair,Fighter/Bomber,cybran,air,Fighter/Bomber,2,t2_bomber,Fighter/Bomber,1100,420,8400,2400,15,Nanite Missile System | Corsair Missile Launcher,img/sc/dra0202.png
-sc-drl0204,sc,DRL0204,Hoplite,Rocket Bot,cybran,land,Rocket Bot,2,t2_tank,Rocket Bot,550,200,1000,1000,3.4,Iridium Rocket Pack,img/sc/drl0204.png
+sc-drl0204,sc,DRL0204,Hoplite,Rocket Bot,cybran,land,Rocket Bot,2,t2_mml,Rocket Bot,550,200,1000,1000,3.4,Iridium Rocket Pack,img/sc/drl0204.png
 sc-drlk001,sc,DRLK001,Bouncer,Mobile Missile Anti-Air,cybran,land,Mobile Missile Anti-Air,3,t2_flak,Mobile Missile Anti-Air,1900,600,7500,3000,3.6,Targeting Laser | Nanodart Surface Launcher | Nanodart Launcher,img/sc/drlk001.png
 sc-drlk005,sc,DRLK005,Crab Egg (Bouncer),,cybran,structure,Crab Egg (Bouncer),3,t2_factory_land,Crab Egg (Bouncer),10,600,7500,1500,,,img/sc/drlk005.png
 sc-dslk004,sc,DSLK004,Uyanah,Lightning Tank,seraphim,land,Lightning Tank,3,t2_flak,Lightning Tank,1800,720,9600,3600,3.4,Lightning Surface Projector | Lightning Projector,img/sc/dslk004.png
@@ -350,14 +350,14 @@ sc-ual0104,sc,UAL0104,Thistle,Mobile Anti-Air Gun,aeon,land,Mobile Anti-Air Gun,
 sc-ual0105,sc,UAL0105,Engineer,,aeon,land,Engineer,1,t1_engineer,Engineer,120,52,260,260,1.9,,img/sc/ual0105.png
 sc-ual0106,sc,UAL0106,Flare,Light Assault Bot,aeon,land,Light Assault Bot,1,t1_light_bot,Light Assault Bot,115,42,165,160,3.8,Sonic Pulsar,img/sc/ual0106.png
 sc-ual0111,sc,UAL0111,Evensong,Mobile Missile Launcher,aeon,land,Mobile Missile Launcher,2,t2_mml,Mobile Missile Launcher,750,180,1350,800,2.8,Serpentine Missile,img/sc/ual0111.png
-sc-ual0201,sc,UAL0201,Aurora,Light Tank,aeon,land,Light Tank,1,t1_light_bot,Light Tank,155,54,270,290,3,Disruptor Cannon,img/sc/ual0201.png
+sc-ual0201,sc,UAL0201,Aurora,Light Tank,aeon,land,Light Tank,1,t1_hover,Light Tank,155,54,270,290,3,Disruptor Cannon,img/sc/ual0201.png
 sc-ual0202,sc,UAL0202,Obsidian,Heavy Tank,aeon,land,Heavy Tank,2,t2_tank,Heavy Tank,1250,360,1800,1600,2.7,Quantum Cannon,img/sc/ual0202.png
 sc-ual0205,sc,UAL0205,Ascendant,Mobile AA Flak Artillery,aeon,land,Mobile AA Flak Artillery,2,t2_flak,Mobile AA Flak Artillery,1000,160,800,800,2.7,Fizz Launcher,img/sc/ual0205.png
 sc-ual0208,sc,UAL0208,Engineer,,aeon,land,Engineer,2,t2_engineer,Engineer,340,130,650,650,1.9,,img/sc/ual0208.png
 sc-ual0301,sc,UAL0301,Support Armored Command Unit,,aeon,land,Support Armored Command Unit,3,t3_engineer,Support Armored Command Unit,15000,1950,27100,14400,2.2,Reacton Cannon,img/sc/ual0301.png
 sc-ual0303,sc,UAL0303,Harbinger Mark IV,Heavy Assault Bot,aeon,land,Heavy Assault Bot,3,t3_assault,Heavy Assault Bot,3600,840,9600,3600,2.95,High Intensity Laser,img/sc/ual0303.png
 sc-ual0304,sc,UAL0304,Serenity,Mobile Heavy Artillery,aeon,land,Mobile Heavy Artillery,3,t3_arty,Mobile Heavy Artillery,900,800,8000,4300,2.2,Sonance Artillery,img/sc/ual0304.png
-sc-ual0307,sc,UAL0307,Asylum,Mobile Shield Generator,aeon,land,Mobile Shield Generator,2,t2_tank,Mobile Shield Generator,100,220,1080,792,4,,img/sc/ual0307.png
+sc-ual0307,sc,UAL0307,Asylum,Mobile Shield Generator,aeon,land,Mobile Shield Generator,2,other,Mobile Shield Generator,100,220,1080,792,4,,img/sc/ual0307.png
 sc-ual0309,sc,UAL0309,Engineer,,aeon,land,Engineer,3,t3_engineer,Engineer,680,312,1560,1560,1.9,,img/sc/ual0309.png
 sc-ual0401,sc,UAL0401,Galactic Colossus,Experimental Assault Bot,aeon,land,Experimental Assault Bot,4,experimental,Experimental Assault Bot,99999,27500,343750,51500,2.4,Phason Laser | Right Tractor Claw | Left Tractor Claw,img/sc/ual0401.png
 sc-uas0102,sc,UAS0102,Shard,Air Attack Boat,aeon,navy,Air Attack Boat,1,t1_frigate,Air Attack Boat,800,120,1200,600,8,Sonic Pulse Battery,img/sc/uas0102.png
@@ -443,7 +443,7 @@ sc-uel0208,sc,UEL0208,Engineer,,uef,land,Engineer,2,t2_engineer,Engineer,400,130
 sc-uel0301,sc,UEL0301,Support Armored Command Unit,,uef,land,Support Armored Command Unit,3,t3_engineer,Support Armored Command Unit,16000,2100,25200,14400,2.2,Heavy Plasma Cannon,img/sc/uel0301.png
 sc-uel0303,sc,UEL0303,Titan,Heavy Assault Bot,uef,land,Heavy Assault Bot,3,t3_assault,Heavy Assault Bot,2400,480,5250,2400,3.8,Heavy Plasma Cannon,img/sc/uel0303.png
 sc-uel0304,sc,UEL0304,Demolisher,Mobile Heavy Artillery,uef,land,Mobile Heavy Artillery,3,t3_arty,Mobile Heavy Artillery,950,800,8000,4300,2.2,Anti Matter Artillery,img/sc/uel0304.png
-sc-uel0307,sc,UEL0307,Parashield,Mobile Shield Generator,uef,land,Mobile Shield Generator,2,t2_tank,Mobile Shield Generator,150,220,900,660,3.5,,img/sc/uel0307.png
+sc-uel0307,sc,UEL0307,Parashield,Mobile Shield Generator,uef,land,Mobile Shield Generator,2,other,Mobile Shield Generator,150,220,900,660,3.5,,img/sc/uel0307.png
 sc-uel0309,sc,UEL0309,Engineer,,uef,land,Engineer,3,t3_engineer,Engineer,800,312,1560,1560,1.9,,img/sc/uel0309.png
 sc-uel0401,sc,UEL0401,Fatboy,Experimental Mobile Factory,uef,land,Experimental Mobile Factory,4,experimental,Experimental Mobile Factory,12500,28000,350000,47500,1.75,Gauss Cannon | Gauss Cannon | Gauss Cannon | Gauss Cannon | Hells Fury Riot Gun | Hells Fury Riot Gun | Linked Railgun | Linked Railgun | Angler Torpedo,img/sc/uel0401.png
 sc-ues0103,sc,UES0103,Thunderhead Class,Frigate,uef,navy,Frigate,1,t1_frigate,Frigate,2120,280,2800,1400,6,Gauss Cannon | Linked Railgun,img/sc/ues0103.png
@@ -527,7 +527,7 @@ sc-url0208,sc,URL0208,Engineer,,cybran,land,Engineer,2,t2_engineer,Engineer,390,
 sc-url0301,sc,URL0301,Support Armored Command Unit,,cybran,land,Support Armored Command Unit,3,t3_engineer,Support Armored Command Unit,19000,2000,26400,14400,2.2,Disintegrator Pulse Laser | Nanite Missile System,img/sc/url0301.png
 sc-url0303,sc,URL0303,Loyalist,Siege Assault Bot,cybran,land,Siege Assault Bot,3,t3_assault,Siege Assault Bot,3000,480,5250,2400,3.8,Disintegrator Pulse Laser | Heavy Electron Bolter | Missile Deflector,img/sc/url0303.png
 sc-url0304,sc,URL0304,Trebuchet,Mobile Heavy Artillery,cybran,land,Mobile Heavy Artillery,3,t3_arty,Mobile Heavy Artillery,850,800,8000,4300,2.2,Proton Artillery,img/sc/url0304.png
-sc-url0306,sc,URL0306,Deceiver,Mobile Stealth Field System,cybran,land,Mobile Stealth Field System,2,t2_tank,Mobile Stealth Field System,350,160,1600,800,4,,img/sc/url0306.png
+sc-url0306,sc,URL0306,Deceiver,Mobile Stealth Field System,cybran,land,Mobile Stealth Field System,2,other,Mobile Stealth Field System,350,160,1600,800,4,,img/sc/url0306.png
 sc-url0309,sc,URL0309,Engineer,,cybran,land,Engineer,3,t3_engineer,Engineer,740,312,1560,1560,1.9,,img/sc/url0309.png
 sc-url0401,sc,URL0401,Scathis,Experimental Mobile Rapid-Fire Artillery,cybran,land,Experimental Mobile Rapid-Fire Artillery,4,experimental,Experimental Mobile Rapid-Fire Artillery,17000,220000,4000000,240000,1.5,Proton Artillery,img/sc/url0401.png
 sc-url0402,sc,URL0402,Monkeylord,Experimental Spiderbot,cybran,land,Experimental Spiderbot,4,experimental,Experimental Spiderbot,45000,20000,260000,27500,2.5,Heavy Microwave Laser | Heavy Electron Bolter | Heavy Electron Bolter | Nanite Missile System | Nanite Missile System | Meson Torpedo,img/sc/url0402.png
@@ -557,7 +557,7 @@ sc-xeb0204,sc,XEB0204,The Kennel,Engineering Station,uef,structure,Engineering S
 sc-xeb2306,sc,XEB2306,Ravager,Heavy Point Defense,uef,structure,Heavy Point Defense,3,t2_pd,Heavy Point Defense,6500,2000,17600,2000,,Heavy Plasma Gatling Cannon,img/sc/xeb2306.png
 sc-xeb2402,sc,XEB2402,Novax Center,Experimental Satellite System,uef,structure,Experimental Satellite System,4,experimental,Experimental Satellite System,9000,32000,800000,43600,,,img/sc/xeb2402.png
 sc-xel0209,sc,XEL0209,Sparky,Field Engineer,uef,land,Field Engineer,2,t2_engineer,Field Engineer,1040,225,1000,1000,3,Hells Fury Riot Gun,img/sc/xel0209.png
-sc-xel0305,sc,XEL0305,Percival,Armored Assault Bot,uef,land,Armored Assault Bot,3,t2_amphib,Armored Assault Bot,7200,1280,14000,4800,2.2,Ionized Plasma Cannon,img/sc/xel0305.png
+sc-xel0305,sc,XEL0305,Percival,Armored Assault Bot,uef,land,Armored Assault Bot,3,t3_assault,Armored Assault Bot,7200,1280,14000,4800,2.2,Ionized Plasma Cannon,img/sc/xel0305.png
 sc-xel0306,sc,XEL0306,Spearhead,Mobile Missile Platform,uef,land,Mobile Missile Platform,3,t2_mml,Mobile Missile Platform,1700,400,3000,2400,2.8,Long Range Cruise Missile,img/sc/xel0306.png
 sc-xes0102,sc,XES0102,Cooper,Torpedo Boat,uef,navy,Torpedo Boat,2,other,Torpedo Boat,2000,750,6000,3000,6,Angler Torpedo | Smart Charge AntiTorpedo,img/sc/xes0102.png
 sc-xes0205,sc,XES0205,Bulwark,Shield Boat,uef,navy,Shield Boat,2,other,Shield Boat,550,900,9000,3600,5,,img/sc/xes0205.png
@@ -573,8 +573,8 @@ sc-xrl0002,sc,XRL0002,Crab Egg (Engineer),,cybran,structure,Crab Egg (Engineer),
 sc-xrl0003,sc,XRL0003,Crab Egg (Brick),,cybran,structure,Crab Egg (Brick),3,t2_factory_land,Crab Egg (Brick),10,1280,17600,2400,,,img/sc/xrl0003.png
 sc-xrl0004,sc,XRL0004,Crab Egg (Flak),,cybran,structure,Crab Egg (Flak),2,t2_factory_land,Crab Egg (Flak),10,160,800,400,,,img/sc/xrl0004.png
 sc-xrl0005,sc,XRL0005,Crab Egg (Artillery),,cybran,structure,Crab Egg (Artillery),3,t2_factory_land,Crab Egg (Artillery),10,800,8000,2150,,,img/sc/xrl0005.png
-sc-xrl0302,sc,XRL0302,Fire Beetle,Mobile Bomb,cybran,land,Mobile Bomb,2,t2_tank,Mobile Bomb,1340,190,1300,700,3.8,Suicide | EMP | Detonation Trigger,img/sc/xrl0302.png
-sc-xrl0305,sc,XRL0305,The Brick,Armored Assault Bot,cybran,land,Armored Assault Bot,3,t2_amphib,Armored Assault Bot,7500,1280,14000,4800,2.4,Heavy Disintegrator Pulse Laser | Nanite Torpedo Launcher | Anti-Torpedo Flare,img/sc/xrl0305.png
+sc-xrl0302,sc,XRL0302,Fire Beetle,Mobile Bomb,cybran,land,Mobile Bomb,2,other,Mobile Bomb,1340,190,1300,700,3.8,Suicide | EMP | Detonation Trigger,img/sc/xrl0302.png
+sc-xrl0305,sc,XRL0305,The Brick,Armored Assault Bot,cybran,land,Armored Assault Bot,3,t3_assault,Armored Assault Bot,7500,1280,14000,4800,2.4,Heavy Disintegrator Pulse Laser | Nanite Torpedo Launcher | Anti-Torpedo Flare,img/sc/xrl0305.png
 sc-xrl0403,sc,XRL0403,Megalith,Experimental Megabot,cybran,land,Experimental Megabot,4,experimental,Experimental Megabot,110000,37500,437500,60625,2,Proton Cannon | Proton Cannon | Nanite Torpedo Launcher | Anti-Torpedo Flare | Electron Flak | Brackman Hack Peg Launcher,img/sc/xrl0403.png
 sc-xrs0204,sc,XRS0204,Barracuda,Submarine Killer,cybran,navy,Submarine Killer,2,t1_sub,Submarine Killer,1430,1100,8800,4400,6.5,Nanite Torpedo | Anti-Torpedo Flare,img/sc/xrs0204.png
 sc-xrs0205,sc,XRS0205,CI:18 Mermaid,Counter-Intelligence Boat,cybran,navy,Counter-Intelligence Boat,2,other,Counter-Intelligence Boat,1000,600,6000,3000,6,Anti-Torpedo Flare,img/sc/xrs0205.png
@@ -647,10 +647,10 @@ sc-xsl0203,sc,XSL0203,Yenzyne,Hover Tank,seraphim,land,Hover Tank,2,t2_tank,Hove
 sc-xsl0205,sc,XSL0205,Iashavoh,Mobile AA Flak Artillery,seraphim,land,Mobile AA Flak Artillery,2,t2_flak,Mobile AA Flak Artillery,1000,160,800,800,2.6,Olaris AA Artillery Cannon,img/sc/xsl0205.png
 sc-xsl0208,sc,XSL0208,Iya,Engineer,seraphim,land,Engineer,2,t2_engineer,Engineer,350,130,650,650,1.9,,img/sc/xsl0208.png
 sc-xsl0301,sc,XSL0301,Support Armored Command Unit,,seraphim,land,Support Armored Command Unit,3,t3_engineer,Support Armored Command Unit,15500,2400,30200,14400,2.2,Light Chronotron Cannon | Light Overcharge Cannon | Light AutoOvercharge Cannon | Laanse Tactical Missile Launcher,img/sc/xsl0301.png
-sc-xsl0303,sc,XSL0303,Othuum,Siege Tank,seraphim,land,Siege Tank,3,t2_amphib,Siege Tank,4700,840,9600,3600,2.85,Aire-au Bolter | Aire-au Bolter | Thau Cannon | Uall Cavitation Torpedo Launcher,img/sc/xsl0303.png
+sc-xsl0303,sc,XSL0303,Othuum,Siege Tank,seraphim,land,Siege Tank,3,t3_assault,Siege Tank,4700,840,9600,3600,2.85,Aire-au Bolter | Aire-au Bolter | Thau Cannon | Uall Cavitation Torpedo Launcher,img/sc/xsl0303.png
 sc-xsl0304,sc,XSL0304,Suthanus,Mobile Heavy Artillery,seraphim,land,Mobile Heavy Artillery,3,t3_arty,Mobile Heavy Artillery,925,800,8000,4300,2.2,Suthanus Heavy Artillery Cannon,img/sc/xsl0304.png
 sc-xsl0305,sc,XSL0305,Usha-Ah,Sniper Bot,seraphim,land,Sniper Bot,3,t3_assault,Sniper Bot,700,780,27000,5400,2.2,DummyWeapon | Sih Energy Rifle | Sih Energy Rifle Sniper Mode,img/sc/xsl0305.png
-sc-xsl0307,sc,XSL0307,Athanah,Mobile Shield Generator,seraphim,land,Mobile Shield Generator,3,t3_assault,Mobile Shield Generator,400,720,6400,3600,4,,img/sc/xsl0307.png
+sc-xsl0307,sc,XSL0307,Athanah,Mobile Shield Generator,seraphim,land,Mobile Shield Generator,3,other,Mobile Shield Generator,400,720,6400,3600,4,,img/sc/xsl0307.png
 sc-xsl0309,sc,XSL0309,Iyathuum,Engineer,seraphim,land,Engineer,3,t3_engineer,Engineer,700,312,1560,1560,1.9,,img/sc/xsl0309.png
 sc-xsl0401,sc,XSL0401,Ythotha,Experimental Assault Bot,seraphim,land,Experimental Assault Bot,4,experimental,Experimental Assault Bot,67000,26500,330000,46875,2.5,Phason Beam Generator | Gatling Plasma Cannon | Heavy Sinn Unthe Cannon | Olaris AA Artillery Cannon | Olaris AA Artillery Cannon,img/sc/xsl0401.png
 sc-xss0103,sc,XSS0103,Hau-esel,Frigate,seraphim,navy,Frigate,1,t1_frigate,Frigate,2000,270,2700,1350,6,Shie-eih Auto-Cannon | Shleo AA AutoGun,img/sc/xss0103.png
@@ -693,26 +693,26 @@ bar-armhvytrans,bar,armhvytrans,Osprey,Heavy Transport,arm,air,Heavy Transport,1
 bar-armdecade,bar,armdecade,Dolphin,Fast Assault Corvette,arm,navy,Fast Assault Corvette,1,t1_frigate,Fast Assault Corvette,970,175,1500,2450,104.7,Rapid-fire close-quarters plasma turret,img/bar/armdecade.png
 bar-legrail,bar,legrail,Lance,Long-range Skirmisher / Anti-air,legion,land,Long-range Skirmisher / Anti-air,1,t1_aa,Long-range Skirmisher / Anti-air,1100,240,3800,3800,46.5,Railgun | Railgun,img/bar/legrail.png
 bar-legavroc,bar,legavroc,Boreas,Stealthy Mobile Rocket Launcher,legion,land,Stealthy Mobile Rocket Launcher,2,t2_mml,Stealthy Mobile Rocket Launcher,1220,920,6500,20130,33.0,Heavy Long-Range g2g High-Trajectory Starburst Rocket Launcher,img/bar/legavroc.png
-bar-corfhp,bar,corfhp,Naval Hovercraft Platform,Builds Hovercraft,core,structure,Builds Hovercraft,1,t1_engineer,Builds Hovercraft,3750,670,2000,8700,,,img/bar/corfhp.png
-bar-legrl,bar,legrl,Bramble,Light Anti-Air Tower,legion,other,Light Anti-Air Tower,1,t1_aa_turret,Light Anti-Air Tower,335,80,850,1750,,Light g2a Missile Launcher,img/bar/legrl.png
+bar-corfhp,bar,corfhp,Naval Hovercraft Platform,Builds Hovercraft,core,structure,Builds Hovercraft,1,t1_factory_land,Builds Hovercraft,3750,670,2000,8700,,,img/bar/corfhp.png
+bar-legrl,bar,legrl,Bramble,Light Anti-Air Tower,legion,other,Light Anti-Air Tower,1,t1_aa,Light Anti-Air Tower,335,80,850,1750,,Light g2a Missile Launcher,img/bar/legrl.png
 bar-leganavalpinpointer,bar,leganavalpinpointer,Naval Pinpointer,"Enhances Radar Targeting, more facilities reduce radar wobble",legion,other,"Enhances Radar Targeting, more facilities reduce radar wobble",2,t1_radar,"Enhances Radar Targeting, more facilities reduce radar wobble",1530,800,7500,10300,,,img/bar/leganavalpinpointer.png
 bar-armavp,bar,armavp,Advanced Vehicle Plant,Produces Tech 2 Vehicles,arm,structure,Produces Tech 2 Vehicles,2,t2_factory_land,Produces Tech 2 Vehicles,4750,2600,14000,27000,,,img/bar/armavp.png
-bar-corspy,bar,corspy,Spectre,Radar-Invisible Spy Bot,core,land,Radar-Invisible Spy Bot,2,t1_radar,Radar-Invisible Spy Bot,380,165,12500,12000,62.099,Dummy Weapon,img/bar/corspy.png
+bar-corspy,bar,corspy,Spectre,Radar-Invisible Spy Bot,core,land,Radar-Invisible Spy Bot,2,other,Radar-Invisible Spy Bot,380,165,12500,12000,62.099,Dummy Weapon,img/bar/corspy.png
 bar-armcom,bar,armcom,Armada Commander,Commander,arm,commander,Commander,0,commander,Commander,3700,2700,26000,75000,37.5,Disintegrator | Light close-quarters g2g/g2a laser | Light underwater-combat laser,img/bar/armcom.png
 bar-corah,bar,corah,Birdeater,Anti-Air Hovercraft,core,land,Anti-Air Hovercraft,1,t1_aa,Anti-Air Hovercraft,1120,250,4700,3650,88.5,Missiles | Missiles,img/bar/corah.png
 bar-armvulc,bar,armvulc,Ragnarok,Rapid-Fire Long-Range Plasma Cannon,arm,structure,Rapid-Fire Long-Range Plasma Cannon,2,experimental,Rapid-Fire Long-Range Plasma Cannon,32000,70000,830000,1400000,,Rapid-fire long-range plasma cannon,img/bar/armvulc.png
 bar-corape,bar,corape,Wasp,Gunship,core,air,Gunship,2,t2_gunship,Gunship,1560,370,6800,18000,159,Heavy a2g shrapnel rockets,img/bar/corape.png
 bar-legspfighter,bar,legspfighter,Astrapios,Seaplane Fighter,legion,air,Seaplane Fighter,1,t1_interceptor,Seaplane Fighter,220,90,4500,6540,310.79999,Light Salvo Missile Launcher,img/bar/legspfighter.png
-bar-legavjam,bar,legavjam,Cicero,Mobile Radar Jammer Vehicle,legion,land,Mobile Radar Jammer Vehicle,2,t1_radar,Mobile Radar Jammer Vehicle,510,105,1900,6930,41,,img/bar/legavjam.png
+bar-legavjam,bar,legavjam,Cicero,Mobile Radar Jammer Vehicle,legion,land,Mobile Radar Jammer Vehicle,2,other,Mobile Radar Jammer Vehicle,510,105,1900,6930,41,,img/bar/legavjam.png
 bar-legavrad,bar,legavrad,Pheme,Mobile Radar Vehicle,legion,land,Mobile Radar Vehicle,2,t1_radar,Mobile Radar Vehicle,980,125,2000,7290,57,,img/bar/legavrad.png
 bar-corsy,bar,corsy,Shipyard,Produces Tech 1 Ships,core,structure,Produces Tech 1 Ships,1,t1_factory_naval,Produces Tech 1 Ships,4300,450,950,5100,,,img/bar/corsy.png
 bar-corcs,bar,corcs,Construction Ship,Tech 1 Constructor,core,navy,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,1080,200,2000,3700,60,,img/bar/corcs.png
-bar-legsplab,bar,legsplab,Offshore Seaplane Platform,Constructs Seaplanes,legion,other,Constructs Seaplanes,1,t1_engineer,Constructs Seaplanes,2200,1400,5500,11800,,,img/bar/legsplab.png
+bar-legsplab,bar,legsplab,Offshore Seaplane Platform,Constructs Seaplanes,legion,other,Constructs Seaplanes,1,t1_factory_air,Constructs Seaplanes,2200,1400,5500,11800,,,img/bar/legsplab.png
 bar-coruwgeo,bar,coruwgeo,Offshore Geothermal Powerplant,Produces 300 Energy,core,structure,Produces 300 Energy,1,t1_energy,Produces 300 Energy,,,,12900,,,img/bar/coruwgeo.png
 bar-armjamt,bar,armjamt,Sneaky Pete,Jammer Tower,arm,structure,Jammer Tower,1,other,Jammer Tower,790,240,8500,9950,,,img/bar/armjamt.png
-bar-legmrv,bar,legmrv,Quickshot,Fast Burst-Fire Raiding Vehicle,legion,land,Fast Burst-Fire Raiding Vehicle,2,other,Fast Burst-Fire Raiding Vehicle,970,250,4100,5900,135,Two-Round Burst Fire Plasma Cannon,img/bar/legmrv.png
+bar-legmrv,bar,legmrv,Quickshot,Fast Burst-Fire Raiding Vehicle,legion,land,Fast Burst-Fire Raiding Vehicle,2,t2_tank,Fast Burst-Fire Raiding Vehicle,970,250,4100,5900,135,Two-Round Burst Fire Plasma Cannon,img/bar/legmrv.png
 bar-armasy,bar,armasy,Advanced Shipyard,Produces Tech 2 Ships,arm,structure,Produces Tech 2 Ships,2,t2_factory_naval,Produces Tech 2 Ships,6000,2900,9700,24000,,,img/bar/armasy.png
-bar-corsjam,bar,corsjam,Phantasm,Radar Jammer Ship,core,navy,Radar Jammer Ship,2,t1_radar,Radar Jammer Ship,1450,280,4200,17000,40,,img/bar/corsjam.png
+bar-corsjam,bar,corsjam,Phantasm,Radar Jammer Ship,core,navy,Radar Jammer Ship,2,other,Radar Jammer Ship,1450,280,4200,17000,40,,img/bar/corsjam.png
 bar-legaap,bar,legaap,Legion Advanced Aircraft Plant,Advanced Aircraft Plant,legion,other,Advanced Aircraft Plant,2,t2_factory_air,Advanced Aircraft Plant,3900,2900,28000,31050,,,img/bar/legaap.png
 bar-coradvsol,bar,coradvsol,Advanced Solar Collector,Produces 80 Energy,core,structure,Produces 80 Energy,1,t1_energy,Produces 80 Energy,1200,370,4000,8150,,,img/bar/coradvsol.png
 bar-corbw,bar,corbw,Shuriken,Light Paralyzer Drone,core,air,Light Paralyzer Drone,1,other,Light Paralyzer Drone,83,58,1300,2070,280.5,Light EMP laser,img/bar/corbw.png
@@ -720,17 +720,17 @@ bar-legavantinuke,bar,legavantinuke,Hera,Mobile Anti-nuke Vehicle,legion,land,Mo
 bar-corcom,bar,corcom,Cortex Commander,Commander,core,commander,Commander,0,commander,Commander,3700,2700,26000,75000,37.5,Disintegrator | J7NSLaser | J7Laser,img/bar/corcom.png
 bar-armrad,bar,armrad,Radar Tower,Early Warning System,arm,structure,Early Warning System,1,t1_radar,Early Warning System,90,60,630,1140,,,img/bar/armrad.png
 bar-armthund,bar,armthund,Stormbringer,Bomber,arm,air,Bomber,1,t1_bomber,Bomber,670,145,4200,4780,250,Light a2g impulse warheads,img/bar/armthund.png
-bar-legrezbot,bar,legrezbot,Zagreus,Stealthy Resurrection / Repair / Reclaim Bot,legion,land,Stealthy Resurrection / Repair / Reclaim Bot,1,t1_engineer,Stealthy Resurrection / Repair / Reclaim Bot,220,130,1400,2800,78,,img/bar/legrezbot.png
+bar-legrezbot,bar,legrezbot,Zagreus,Stealthy Resurrection / Repair / Reclaim Bot,legion,land,Stealthy Resurrection / Repair / Reclaim Bot,1,other,Stealthy Resurrection / Repair / Reclaim Bot,220,130,1400,2800,78,,img/bar/legrezbot.png
 bar-leganavalmex,bar,leganavalmex,Advanced Underwater Metal Extractor,Advanced Underwater Metal Extractor / Storage,legion,other,Advanced Underwater Metal Extractor / Storage,2,t2_mex,Advanced Underwater Metal Extractor / Storage,3900,640,8100,14100,,,img/bar/leganavalmex.png
-bar-armlatnk,bar,armlatnk,Jaguar,Lightning Tank,arm,land,Lightning Tank,2,t2_tank,Lightning Tank,1060,330,6400,8000,90,Close-quarters lightning turret | Light g2a missile launcher,img/bar/armlatnk.png
-bar-armjuno,bar,armjuno,Juno,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,arm,structure,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,1,t1_radar,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,2350,640,17000,21800,,Anti radar/minefield/jammer magnetic impulse rocket,img/bar/armjuno.png
+bar-armlatnk,bar,armlatnk,Jaguar,Lightning Tank,arm,land,Lightning Tank,2,t2_flak,Lightning Tank,1060,330,6400,8000,90,Close-quarters lightning turret | Light g2a missile launcher,img/bar/armlatnk.png
+bar-armjuno,bar,armjuno,Juno,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,arm,structure,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,1,other,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,2350,640,17000,21800,,Anti radar/minefield/jammer magnetic impulse rocket,img/bar/armjuno.png
 bar-legperdition,bar,legperdition,Perdition,Long Range Napalm Launcher,legion,structure,Long Range Napalm Launcher,2,other,Long Range Napalm Launcher,4000,1250,15000,62000,,Long-Range Tactical Hellfire Napalm Shell,img/bar/legperdition.png
 bar-legdrag,bar,legdrag,Dragon's Teeth,Fortification,legion,structure,Fortification,1,wall,Fortification,2800,8,0,255,,,img/bar/legdrag.png
 bar-armbanth,bar,armbanth,Titan,Assault Mech,arm,land,Assault Mech,3,experimental,Assault Mech,69000,13500,286000,360000,45.6,BanthStep | High-energy long-range g2g/g2a lazor of DEEEEEEWWWWWWMMMMMM | Close-quarters impulsion blaster | Heavy g2g/g2a guided starburst missile launcher,img/bar/armbanth.png
 bar-corbuzz,bar,corbuzz,Calamity,Rapid-Fire Long-Range Plasma Cannon,core,structure,Rapid-Fire Long-Range Plasma Cannon,2,experimental,Rapid-Fire Long-Range Plasma Cannon,33500,68000,800000,1400000,,Rapid-fire long-range plasma cannon,img/bar/corbuzz.png
-bar-legmohocon,bar,legmohocon,Advanced Metal Fortifier,Advanced Metal Extractor and Construction Turret,legion,other,Advanced Metal Extractor and Construction Turret,2,t2_mex,Advanced Metal Extractor and Construction Turret,3900,1060,14500,19400,,,img/bar/legmohocon.png
+bar-legmohocon,bar,legmohocon,Advanced Metal Fortifier,Advanced Metal Extractor and Construction Turret,legion,other,Advanced Metal Extractor and Construction Turret,2,other,Advanced Metal Extractor and Construction Turret,3900,1060,14500,19400,,,img/bar/legmohocon.png
 bar-armmark,bar,armmark,Compass,Radar Bot,arm,land,Radar Bot,2,t1_radar,Radar Bot,355,100,1250,5000,40.5,,img/bar/armmark.png
-bar-armhlt,bar,armhlt,Overwatch,Area Control Laser Tower,arm,structure,Area Control Laser Tower,1,t2_pd,Area Control Laser Tower,2600,440,4700,11300,,Heavy g2g high energy laser,img/bar/armhlt.png
+bar-armhlt,bar,armhlt,Overwatch,Area Control Laser Tower,arm,structure,Area Control Laser Tower,1,t1_pd,Area Control Laser Tower,2600,440,4700,11300,,Heavy g2g high energy laser,img/bar/armhlt.png
 bar-cormoho,bar,cormoho,Advanced Metal Extractor,Advanced Metal Extractor / Storage,core,structure,Advanced Metal Extractor / Storage,2,t2_mex,Advanced Metal Extractor / Storage,3900,640,8100,14100,,,img/bar/cormoho.png
 bar-corcut,bar,corcut,Cutlass,Seaplane Gunship,core,air,Seaplane Gunship,1,t2_gunship,Seaplane Gunship,1010,230,5400,11500,152.39999,RiotCannon,img/bar/corcut.png
 bar-legfort,bar,legfort,Tyrannus,Flying Kinetic Multi-Weapon Fortress,legion,air,Flying Kinetic Multi-Weapon Fortress,2,other,Flying Kinetic Multi-Weapon Fortress,16700,5600,79000,119750,93.0,PlasmaCannon | Burst-fire Machine Gun | Advanced d2a rapid missile launcher,img/bar/legfort.png
@@ -753,53 +753,53 @@ bar-armpincer,bar,armpincer,Pincer,Light Amphibious Tank,arm,land,Light Amphibio
 bar-armbull,bar,armbull,Bull,Heavy Assault Tank,arm,land,Heavy Assault Tank,2,t2_tank,Heavy Assault Tank,4650,950,13000,23000,62,Heavy g2g plasma cannon,img/bar/armbull.png
 bar-armllt,bar,armllt,Sentry,Light Laser Tower,arm,structure,Light Laser Tower,1,t1_pd,Light Laser Tower,620,85,680,2400,,Light g2g laser turret,img/bar/armllt.png
 bar-leglht,bar,leglht,Pharos,Light Heat Ray Tower,legion,structure,Light Heat Ray Tower,1,other,Light Heat Ray Tower,550,70,550,2200,,Light g2g Heat Ray,img/bar/leglht.png
-bar-armamsub,bar,armamsub,Amphibious Complex,Produces Amphibious / Underwater Units,arm,structure,Produces Amphibious / Underwater Units,1,t1_engineer,Produces Amphibious / Underwater Units,2650,1200,5500,11100,,,img/bar/armamsub.png
+bar-armamsub,bar,armamsub,Amphibious Complex,Produces Amphibious / Underwater Units,arm,structure,Produces Amphibious / Underwater Units,1,t1_factory_land,Produces Amphibious / Underwater Units,2650,1200,5500,11100,,,img/bar/armamsub.png
 bar-legwin,bar,legwin,Wind Turbine,Produces Energy. Depends on wind strength.,legion,structure,Produces Energy. Depends on wind strength.,1,t1_energy,Produces Energy. Depends on wind strength.,230,45,175,1680,,,img/bar/legwin.png
 bar-armcv,bar,armcv,Construction Vehicle,Tech 1 Constructor,arm,land,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,1380,135,1950,4050,54,,img/bar/armcv.png
-bar-legnavyartyship,bar,legnavyartyship,Octeres,Long-Range Cluster Artillery Vessel,legion,navy,Long-Range Cluster Artillery Vessel,1,t1_arty,Long-Range Cluster Artillery Vessel,4500,1450,15000,20000,45,Long-Range Naval Cluster Artillery Cannon | Cluster Munitions | Long-Range Naval Cluster Artillery Cannon,img/bar/legnavyartyship.png
-bar-legctl,bar,legctl,Euryale,Coastal Torpedo Launcher,legion,other,Coastal Torpedo Launcher,1,other,Coastal Torpedo Launcher,2200,240,2200,5900,,Homing Torpedo Launcher,img/bar/legctl.png
+bar-legnavyartyship,bar,legnavyartyship,Octeres,Long-Range Cluster Artillery Vessel,legion,navy,Long-Range Cluster Artillery Vessel,1,other,Long-Range Cluster Artillery Vessel,4500,1450,15000,20000,45,Long-Range Naval Cluster Artillery Cannon | Cluster Munitions | Long-Range Naval Cluster Artillery Cannon,img/bar/legnavyartyship.png
+bar-legctl,bar,legctl,Euryale,Coastal Torpedo Launcher,legion,other,Coastal Torpedo Launcher,1,t1_sub,Coastal Torpedo Launcher,2200,240,2200,5900,,Homing Torpedo Launcher,img/bar/legctl.png
 bar-armpw,bar,armpw,Pawn,Fast Infantry Bot,arm,land,Fast Infantry Bot,1,t1_light_bot,Fast Infantry Bot,370,54,900,1650,87,Rapid-fire close-quarters g2g plasma guns,img/bar/armpw.png
-bar-legrampart,bar,legrampart,Rampart,"Geothermal Antinuke, Jammer, Radar and Drone Platform",legion,structure,"Geothermal Antinuke, Jammer, Radar and Drone Platform",2,t2_energy,"Geothermal Antinuke, Jammer, Radar and Drone Platform",8600,2600,38000,36000,,HeavyCannon | ICBM intercepting missile launcher,img/bar/legrampart.png
+bar-legrampart,bar,legrampart,Rampart,"Geothermal Antinuke, Jammer, Radar and Drone Platform",legion,structure,"Geothermal Antinuke, Jammer, Radar and Drone Platform",2,other,"Geothermal Antinuke, Jammer, Radar and Drone Platform",8600,2600,38000,36000,,HeavyCannon | ICBM intercepting missile launcher,img/bar/legrampart.png
 bar-armvp,bar,armvp,Vehicle Plant,Produces Tech 1 Vehicles,arm,structure,Produces Tech 1 Vehicles,1,t1_factory_land,Produces Tech 1 Vehicles,3000,590,1550,5700,,,img/bar/armvp.png
 bar-legrad,bar,legrad,Radar Tower,Early Warning System,legion,other,Early Warning System,1,t1_radar,Early Warning System,90,60,630,1140,,,img/bar/legrad.png
 bar-armrl,bar,armrl,Nettle,Light Anti-air Tower,arm,structure,Light Anti-air Tower,1,t1_aa_turret,Light Anti-air Tower,330,80,900,1800,,Light g2a missile launcher,img/bar/armrl.png
 bar-legstr,bar,legstr,Hoplite,Fast Raider Bot,legion,land,Fast Raider Bot,2,experimental,Fast Raider Bot,1780,355,5250,9240,84.0,Twin Rapid-fire Machine Guns,img/bar/legstr.png
 bar-armatl,bar,armatl,Moray,Advanced Torpedo Launcher,arm,structure,Advanced Torpedo Launcher,2,other,Advanced Torpedo Launcher,2800,1000,8500,9260,,Heavy long-range homing torpedo launcher,img/bar/armatl.png
 bar-corgarp,bar,corgarp,Garpike,Light Amphibious Tank,core,land,Light Amphibious Tank,1,t1_tank,Light Amphibious Tank,1420,220,2600,3100,58.5,PincerCannon,img/bar/corgarp.png
-bar-corhp,bar,corhp,Hovercraft Platform,Builds Hovercraft,core,structure,Builds Hovercraft,1,t1_engineer,Builds Hovercraft,3750,670,2000,8700,,,img/bar/corhp.png
+bar-corhp,bar,corhp,Hovercraft Platform,Builds Hovercraft,core,structure,Builds Hovercraft,1,t1_factory_land,Builds Hovercraft,3750,670,2000,8700,,,img/bar/corhp.png
 bar-armantiship,bar,armantiship,Haven,"Mobile Anti-Nuke, Generator, and Radar/Sonar",arm,navy,"Mobile Anti-Nuke, Generator, and Radar/Sonar",2,antinuke,"Mobile Anti-Nuke, Generator, and Radar/Sonar",5000,1400,12000,27000,63,ICBM intercepting missile launcher,img/bar/armantiship.png
 bar-legspcon,bar,legspcon,Construction Seaplane,Tech 1 Constructor,legion,other,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,405,150,7800,12000,192,,img/bar/legspcon.png
 bar-armkraken,bar,armkraken,Gorgon,Floating Rapid-fire Plasma Tower,arm,structure,Floating Rapid-fire Plasma Tower,2,other,Floating Rapid-fire Plasma Tower,4450,1000,13000,20000,,Rapid-fire gauss cannon,img/bar/armkraken.png
-bar-cornanotcplat,bar,cornanotcplat,Naval Construction Turret,Assist & Repair in large radius,core,structure,Assist & Repair in large radius,1,t1_engineer,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/cornanotcplat.png
+bar-cornanotcplat,bar,cornanotcplat,Naval Construction Turret,Assist & Repair in large radius,core,structure,Assist & Repair in large radius,1,other,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/cornanotcplat.png
 bar-leginf,bar,leginf,Inferno,Long-Range Burst-Fire Napalm Artillery Vehicle,legion,land,Long-Range Burst-Fire Napalm Artillery Vehicle,2,t1_arty,Long-Range Burst-Fire Napalm Artillery Vehicle,3650,1700,30000,42900,37.5,Heavy Burst-Fire Napalm Artillery Tri-Cannons,img/bar/leginf.png
 bar-leglraa,bar,leglraa,Xyston,Long-Range Anti-Air Rail Accelerator,legion,other,Long-Range Anti-Air Rail Accelerator,2,t2_flak,Long-Range Anti-Air Rail Accelerator,1670,1600,36000,28000,,Heavy Anti-Air Railgun | Long-range heavy g2a missile launcher,img/bar/leglraa.png
 bar-cordecom,bar,cordecom,Commander,Decoy Commander,core,commander,Decoy Commander,2,commander,Decoy Commander,3700,750,13000,33000,37.5,Disintegrator | J7Laser | J7NSLaser,img/bar/cordecom.png
-bar-armrectr,bar,armrectr,Lazarus,Stealthy Rez / Repair / Reclaim Bot,arm,land,Stealthy Rez / Repair / Reclaim Bot,1,t1_engineer,Stealthy Rez / Repair / Reclaim Bot,220,130,1400,2800,78,,img/bar/armrectr.png
+bar-armrectr,bar,armrectr,Lazarus,Stealthy Rez / Repair / Reclaim Bot,arm,land,Stealthy Rez / Repair / Reclaim Bot,1,other,Stealthy Rez / Repair / Reclaim Bot,220,130,1400,2800,78,,img/bar/armrectr.png
 bar-armtarg,bar,armtarg,Pinpointer,"Enhanced Radar Targeting, more facilities enhance accuracy",arm,structure,"Enhanced Radar Targeting, more facilities enhance accuracy",2,t1_radar,"Enhanced Radar Targeting, more facilities enhance accuracy",2100,810,7200,8700,,,img/bar/armtarg.png
 bar-cordrag,bar,cordrag,Dragon's Teeth,Fortification,core,structure,Fortification,1,wall,Fortification,2800,8,0,255,,,img/bar/cordrag.png
 bar-leganavyheavysub,bar,leganavyheavysub,Sphyrna,Long-Range Battle Submarine,legion,other,Long-Range Battle Submarine,2,t1_sub,Long-Range Battle Submarine,3900,1900,29000,34370,39,Long-Range Heavy Torpedo,img/bar/leganavyheavysub.png
 bar-legalab,bar,legalab,Legion Advanced Bot Lab,Advanced Bot Lab,legion,other,Advanced Bot Lab,2,t2_factory_land,Advanced Bot Lab,4500,2600,16000,25200,,,img/bar/legalab.png
 bar-legelrpcmech,bar,legelrpcmech,Astraeus,Long-Range Cluster Plasma Siege Mech,legion,other,Long-Range Cluster Plasma Siege Mech,3,experimental,Long-Range Cluster Plasma Siege Mech,17000,11000,150000,178000,25,Long-Range g2g Heavy Cluster Plasma Cannon | Plasma Burst,img/bar/legelrpcmech.png
 bar-corwolv,bar,corwolv,Wolverine,Light Mobile Artillery,core,land,Light Mobile Artillery,1,t1_arty,Light Mobile Artillery,750,170,2500,3550,48,LightArtillery,img/bar/corwolv.png
-bar-armplat,bar,armplat,Seaplane Platform,Builds Seaplanes,arm,structure,Builds Seaplanes,1,t1_engineer,Builds Seaplanes,2000,1450,5000,12000,,,img/bar/armplat.png
+bar-armplat,bar,armplat,Seaplane Platform,Builds Seaplanes,arm,structure,Builds Seaplanes,1,t1_factory_air,Builds Seaplanes,2000,1450,5000,12000,,,img/bar/armplat.png
 bar-legbal,bar,legbal,Ballista,Medium Rocket Bot,legion,land,Medium Rocket Bot,1,t1_arty,Medium Rocket Bot,900,160,1920,2400,43.5,Rockets,img/bar/legbal.png
 bar-armblade,bar,armblade,Hornet,Rapid Assault Gunship,arm,air,Rapid Assault Gunship,2,t2_gunship,Rapid Assault Gunship,3000,1250,22000,32000,204,Heavy a2g armor-piercing sabot missile launcher,img/bar/armblade.png
 bar-armeyes,bar,armeyes,Beholder,Perimeter Camera,arm,structure,Perimeter Camera,1,other,Perimeter Camera,280,32,850,750,,,img/bar/armeyes.png
 bar-corak,bar,corak,Grunt,Fast Infantry Bot,core,land,Fast Infantry Bot,1,t1_light_bot,Fast Infantry Bot,280,42,820,1250,81,Laser,img/bar/corak.png
 bar-corsub,bar,corsub,Orca,Submarine,core,navy,Submarine,1,t1_sub,Submarine,1060,580,4000,7200,57,Light torpedo launcher,img/bar/corsub.png
 bar-cormart,bar,cormart,Quaker,Mobile Artillery,core,land,Mobile Artillery,2,t3_arty,Mobile Artillery,1200,400,4400,9000,58,PlasmaCannon,img/bar/cormart.png
-bar-leglts,bar,leglts,Aeolus,Light Air Transport,legion,other,Light Air Transport,1,t1_transport,Light Air Transport,265,68,1300,3850,207,,img/bar/leglts.png
+bar-leglts,bar,leglts,Aeolus,Light Air Transport,legion,other,Light Air Transport,1,other,Light Air Transport,265,68,1300,3850,207,,img/bar/leglts.png
 bar-coresupp,bar,coresupp,Supporter,Light Gun Boat,core,navy,Light Gun Boat,1,other,Light Gun Boat,480,100,1000,1400,109.8,LightLaser,img/bar/coresupp.png
 bar-corexp,bar,corexp,Exploiter,Armed Metal Extractor,core,structure,Armed Metal Extractor,1,t1_mex,Armed Metal Extractor,1440,240,1900,2900,,Light close-quarters g2g laser turret,img/bar/corexp.png
-bar-legamph,bar,legamph,Telchine,Advanced Amphibious Assault Bot/Coast Guard,legion,other,Advanced Amphibious Assault Bot/Coast Guard,2,t2_pd,Advanced Amphibious Assault Bot/Coast Guard,2750,600,13200,16980,48,Heavy g2g Cleansing Heat Ray | Depthcharge launcher,img/bar/legamph.png
+bar-legamph,bar,legamph,Telchine,Advanced Amphibious Assault Bot/Coast Guard,legion,other,Advanced Amphibious Assault Bot/Coast Guard,2,other,Advanced Amphibious Assault Bot/Coast Guard,2750,600,13200,16980,48,Heavy g2g Cleansing Heat Ray | Depthcharge launcher,img/bar/legamph.png
 bar-armsilo,bar,armsilo,Armageddon,Nuclear ICBM Launcher,arm,structure,Nuclear ICBM Launcher,2,nuke,Nuclear ICBM Launcher,5900,8100,90000,178500,,Nuclear Launch | Intercontinental ballistic nuclear warhead,img/bar/armsilo.png
-bar-legamphlab,bar,legamphlab,Amphibious Complex,Produces Amphibious / Underwater Units,legion,other,Produces Amphibious / Underwater Units,1,t1_engineer,Produces Amphibious / Underwater Units,2800,1200,5600,11400,,,img/bar/legamphlab.png
+bar-legamphlab,bar,legamphlab,Amphibious Complex,Produces Amphibious / Underwater Units,legion,other,Produces Amphibious / Underwater Units,1,t1_factory_land,Produces Amphibious / Underwater Units,2800,1200,5600,11400,,,img/bar/legamphlab.png
 bar-armfast,bar,armfast,Sprinter,Fast Raider Bot,arm,land,Fast Raider Bot,2,t2_tank,Fast Raider Bot,690,160,3800,5000,111.3,Rapid-firing close-quarters g2g plasma guns,img/bar/armfast.png
 bar-legnavyscout,bar,legnavyscout,Hippocampus,Light Assault Corvette,legion,navy,Light Assault Corvette,1,t1_frigate,Light Assault Corvette,700,120,1600,1800,97,Twin Rapid-fire Machine Guns,img/bar/legnavyscout.png
 bar-armepoch,bar,armepoch,Epoch,Flagship,arm,navy,Flagship,2,t3_battleship,Flagship,50000,20000,190000,290000,53.85,Secondary rapid-fire heavy plasma cannon | Heavy g2a flak cannon | Primary rapid-fire heavy long-range plasma cannon | Pop-up rapid-fire g2a missile launcher,img/bar/armepoch.png
 bar-armuwes,bar,armuwes,Naval Energy Storage,Increases Energy Storage (6000),arm,structure,Increases Energy Storage (6000),1,t1_energy,Increases Energy Storage (6000),1890,170,1700,4110,,,img/bar/armuwes.png
 bar-corfrt,bar,corfrt,Slingshot,Floating Anti-air Tower,core,structure,Floating Anti-air Tower,1,t1_aa_turret,Floating Anti-air Tower,395,90,1000,2200,,Light g2a missile launcher,img/bar/corfrt.png
-bar-legstarfall,bar,legstarfall,Starfall,Very Long Range 63-Salvo Plasma Cannon (360K Energy Per Burst),legion,other,Very Long Range 63-Salvo Plasma Cannon (360K Energy Per Burst),2,t2_energy,Very Long Range 63-Salvo Plasma Cannon (360K Energy Per Burst),26000,63000,720000,1400000,,Very Long-Range High-Trajectory 63-Salvo Plasma Launcher | Plasma Volley Energy Charger (supplies energy to Starfall cannon),img/bar/legstarfall.png
+bar-legstarfall,bar,legstarfall,Starfall,Very Long Range 63-Salvo Plasma Cannon (360K Energy Per Burst),legion,other,Very Long Range 63-Salvo Plasma Cannon (360K Energy Per Burst),2,other,Very Long Range 63-Salvo Plasma Cannon (360K Energy Per Burst),26000,63000,720000,1400000,,Very Long-Range High-Trajectory 63-Salvo Plasma Launcher | Plasma Volley Energy Charger (supplies energy to Starfall cannon),img/bar/legstarfall.png
 bar-armroy,bar,armroy,Corsair,Destroyer,arm,navy,Destroyer,1,t2_destroyer,Destroyer,3700,880,6600,10200,67.2,Depthcharge launcher | Heavy long-range plasma cannon,img/bar/armroy.png
 bar-coracsub,bar,coracsub,Advanced Construction Sub,Tech 2 Constructor,core,navy,Tech 2 Constructor,2,t2_engineer,Tech 2 Constructor,1110,700,9000,23000,64.8,,img/bar/coracsub.png
 bar-corcrus,bar,corcrus,Buccaneer,Cruiser,core,navy,Cruiser,2,t2_cruiser,Cruiser,6200,1000,12000,23000,54,Medium depthcharge launcher | L2DeckLaser | HighEnergyLaser,img/bar/corcrus.png
@@ -809,7 +809,7 @@ bar-corshark,bar,corshark,Predator,Fast Assault Submarine,core,navy,Fast Assault
 bar-legmed,bar,legmed,Medusa,Heavy Long-Range Salvo Rocket Tank,legion,other,Heavy Long-Range Salvo Rocket Tank,2,t2_mml,Heavy Long-Range Salvo Rocket Tank,3000,1500,22500,30370,39.0,Hexaburst Homing Siege Rockets | Targeting System,img/bar/legmed.png
 bar-corsd,bar,corsd,Nemesis,Intrusion Countermeasure System,core,structure,Intrusion Countermeasure System,2,other,Intrusion Countermeasure System,2800,750,6700,12000,,,img/bar/corsd.png
 bar-corvoyr,bar,corvoyr,Augur,Radar Bot,core,land,Radar Bot,2,t1_radar,Radar Bot,390,99,1350,5000,45,,img/bar/corvoyr.png
-bar-leganavaleconv,bar,leganavaleconv,Naval Advanced Energy Converter,Converts 600 energy into 10.3 metal per sec,legion,other,Converts 600 energy into 10.3 metal per sec,2,t1_fab,Converts 600 energy into 10.3 metal per sec,560,370,21000,31300,,,img/bar/leganavaleconv.png
+bar-leganavaleconv,bar,leganavaleconv,Naval Advanced Energy Converter,Converts 600 energy into 10.3 metal per sec,legion,other,Converts 600 energy into 10.3 metal per sec,2,other,Converts 600 energy into 10.3 metal per sec,560,370,21000,31300,,,img/bar/leganavaleconv.png
 bar-coruwmmm,bar,coruwmmm,Naval Advanced Energy Converter,Converts 600 energy into 10.3 metal per sec,core,structure,Converts 600 energy into 10.3 metal per sec,2,t1_fab,Converts 600 energy into 10.3 metal per sec,560,370,21000,31300,,,img/bar/coruwmmm.png
 bar-legamstor,bar,legamstor,Hardened Metal Storage,Increases Metal Storage (10000),legion,structure,Increases Metal Storage (10000),2,other,Increases Metal Storage (10000),11200,760,11000,20500,,,img/bar/legamstor.png
 bar-armserp,bar,armserp,Serpent,Long-Range Battle Submarine,arm,navy,Long-Range Battle Submarine,2,t1_sub,Long-Range Battle Submarine,3550,1800,27000,32000,45,Heavy guided torpedo launcher,img/bar/armserp.png
@@ -821,7 +821,7 @@ bar-coruwmme,bar,coruwmme,Naval Advanced Metal Extractor,Advanced Metal Extracto
 bar-corestor,bar,corestor,Energy Storage,Increases Energy Storage (6000),core,structure,Increases Energy Storage (6000),1,t1_energy,Increases Energy Storage (6000),2000,175,1800,4260,,,img/bar/corestor.png
 bar-corenaa,bar,corenaa,Naval Birdshot,Anti-Air Flak Gun - Naval Series,core,structure,Anti-Air Flak Gun - Naval Series,2,t2_flak,Anti-Air Flak Gun - Naval Series,2000,890,25000,23100,,Heavy g2a flak cannon,img/bar/corenaa.png
 bar-armdl,bar,armdl,Anemone,Coastal Torpedo Launcher,arm,structure,Coastal Torpedo Launcher,1,other,Coastal Torpedo Launcher,2200,240,2200,6000,,Depthcharge launcher,img/bar/armdl.png
-bar-corplat,bar,corplat,Seaplane Platform,Builds Seaplanes,core,structure,Builds Seaplanes,1,t1_engineer,Builds Seaplanes,2200,1400,5500,11800,,,img/bar/corplat.png
+bar-corplat,bar,corplat,Seaplane Platform,Builds Seaplanes,core,structure,Builds Seaplanes,1,t1_factory_air,Builds Seaplanes,2200,1400,5500,11800,,,img/bar/corplat.png
 bar-leganavybattlesub,bar,leganavybattlesub,Architeuthis,Fast Assault Submarine,legion,other,Fast Assault Submarine,2,t1_sub,Fast Assault Submarine,2350,1100,16000,25000,72,Packhound Torpedo System,img/bar/leganavybattlesub.png
 bar-coramph,bar,coramph,Duck,Amphibious Bot,core,land,Amphibious Bot,2,t2_amphib,Amphibious Bot,2350,330,9500,12500,55.5,HighEnergyLaser | Torpedo,img/bar/coramph.png
 bar-corhunt,bar,corhunt,Watcher,Advanced Radar / Sonar Plane,core,air,Advanced Radar / Sonar Plane,1,t1_radar,Advanced Radar / Sonar Plane,730,130,6900,11500,324.29999,,img/bar/corhunt.png
@@ -831,12 +831,12 @@ bar-legspcarrier,bar,legspcarrier,Hecatoncheir,Airborne Drone Carrier,legion,air
 bar-armmerl,bar,armmerl,Ambassador,Stealthy Rocket Launcher - good vs. static defense,arm,land,Stealthy Rocket Launcher - good vs. static defense,2,t2_mml,Stealthy Rocket Launcher - good vs. static defense,1220,920,6500,21000,33,Heavy long-range g2g high-trajectory starburst rocket launcher,img/bar/armmerl.png
 bar-armfatf,bar,armfatf,Naval Pinpointer,Enhanced Radar Targeting,arm,structure,Enhanced Radar Targeting,2,t1_radar,Enhanced Radar Targeting,1610,800,7300,9880,,,img/bar/armfatf.png
 bar-legsrail,bar,legsrail,Arquebus,All-Terrain Heavy Railgun,legion,land,All-Terrain Heavy Railgun,2,experimental,All-Terrain Heavy Railgun,2200,800,16000,20800,42.0,Railgun,img/bar/legsrail.png
-bar-cormlv,bar,cormlv,Trapper,Stealthy Minelayer / Minesweeper,core,land,Stealthy Minelayer / Minesweeper,1,t1_engineer,Stealthy Minelayer / Minesweeper,450,65,1300,3640,69,Seismic charge,img/bar/cormlv.png
+bar-cormlv,bar,cormlv,Trapper,Stealthy Minelayer / Minesweeper,core,land,Stealthy Minelayer / Minesweeper,1,other,Stealthy Minelayer / Minesweeper,450,65,1300,3640,69,Seismic charge,img/bar/cormlv.png
 bar-leghrk,bar,leghrk,Thanatos,Salvo Rocket Bot,legion,land,Salvo Rocket Bot,2,t2_mml,Salvo Rocket Bot,1200,750,9000,12600,45,CatapultRockets,img/bar/leghrk.png
 bar-leginfestor,bar,leginfestor,Infestor,Infesting All-Terrain Spider Assault Bot,legion,land,Infesting All-Terrain Spider Assault Bot,2,t2_tank,Infesting All-Terrain Spider Assault Bot,1200,250,5200,4310,54.0,Close-Quarters Light Heat Ray,img/bar/leginfestor.png
 bar-armaca,bar,armaca,Advanced Construction Aircraft,Tech 2 Constructor,arm,air,Tech 2 Constructor,2,t2_engineer,Tech 2 Constructor,200,340,12000,22000,192,,img/bar/armaca.png
 bar-legcv,bar,legcv,Legion Construction Vehicle,Tech 1 Constructor,legion,land,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,1330,125,2100,3900,57.0,,img/bar/legcv.png
-bar-armsjam,bar,armsjam,Bermuda,Radar Jammer Ship,arm,navy,Radar Jammer Ship,2,t1_radar,Radar Jammer Ship,1350,310,5000,20000,45,,img/bar/armsjam.png
+bar-armsjam,bar,armsjam,Bermuda,Radar Jammer Ship,arm,navy,Radar Jammer Ship,2,other,Radar Jammer Ship,1350,310,5000,20000,45,,img/bar/armsjam.png
 bar-legerailtank,bar,legerailtank,Daedalus,Experimental Rail Accelerator Tank,legion,other,Experimental Rail Accelerator Tank,3,experimental,Experimental Rail Accelerator Tank,,,,125000,61.0,Siege Rail Accelerator,img/bar/legerailtank.png
 bar-cormmkr,bar,cormmkr,Advanced Energy Converter,Converts 600 energy into 10.3 metal per sec,core,structure,Converts 600 energy into 10.3 metal per sec,2,t2_fab,Converts 600 energy into 10.3 metal per sec,560,370,21000,31300,,,img/bar/cormmkr.png
 bar-leggat,bar,leggat,Decurion,Armored Assault Tank,legion,land,Armored Assault Tank,1,t1_tank,Armored Assault Tank,2550,300,3000,4800,45.0,Rapid-fire Machine Gun,img/bar/leggat.png
@@ -852,9 +852,9 @@ bar-armjanus,bar,armjanus,Janus,Twin Medium Rocket Launcher,arm,land,Twin Medium
 bar-legeheatraymech,bar,legeheatraymech,Sol Invictus,Experimental Dual Heat-Ray/Riot Mech,legion,other,Experimental Dual Heat-Ray/Riot Mech,3,experimental,Experimental Dual Heat-Ray/Riot Mech,110000,23500,615000,585250,40,Footsteps | Targeting System | Ultra Heavy Riot Autocannon | Anti-Air Flak Cannon | Experimental Thermal Ordnance Generators,img/bar/legeheatraymech.png
 bar-legch,bar,legch,Construction Hovercraft,Tech 1 Constructor,legion,land,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,1390,185,2600,4360,72.9,,img/bar/legch.png
 bar-corthud,bar,corthud,Thug,Light Plasma Bot,core,land,Light Plasma Bot,1,t1_arty,Light Plasma Bot,1100,140,1150,2100,45,PlasmaCannon,img/bar/corthud.png
-bar-legcib,bar,legcib,Blindfold,"Drops a Juno Bomb to Remove Mines, Scouts, Radars, and Jammers",legion,air,"Drops a Juno Bomb to Remove Mines, Scouts, Radars, and Jammers",1,t1_radar,"Drops a Juno Bomb to Remove Mines, Scouts, Radars, and Jammers",890,100,3500,4200,300.0,Anti radar/minefield/jammer magnetic impulse bomb,img/bar/legcib.png
+bar-legcib,bar,legcib,Blindfold,"Drops a Juno Bomb to Remove Mines, Scouts, Radars, and Jammers",legion,air,"Drops a Juno Bomb to Remove Mines, Scouts, Radars, and Jammers",1,other,"Drops a Juno Bomb to Remove Mines, Scouts, Radars, and Jammers",890,100,3500,4200,300.0,Anti radar/minefield/jammer magnetic impulse bomb,img/bar/legcib.png
 bar-leguwmstore,bar,leguwmstore,Naval Metal Storage,Increases Metal Storage (3000),legion,other,Increases Metal Storage (3000),1,other,Increases Metal Storage (3000),2100,340,590,2920,,,img/bar/leguwmstore.png
-bar-armhp,bar,armhp,Hovercraft Platform,Builds Hovercraft,arm,structure,Builds Hovercraft,1,t1_engineer,Builds Hovercraft,3350,670,2000,8700,,,img/bar/armhp.png
+bar-armhp,bar,armhp,Hovercraft Platform,Builds Hovercraft,arm,structure,Builds Hovercraft,1,t1_factory_land,Builds Hovercraft,3350,670,2000,8700,,,img/bar/armhp.png
 bar-legmstor,bar,legmstor,Metal Storage,Increases Metal Storage (3000),legion,structure,Increases Metal Storage (3000),1,other,Increases Metal Storage (3000),2100,340,590,2920,,,img/bar/legmstor.png
 bar-legafus,bar,legafus,Advanced Fusion Reactor,Produces 3300 Energy (Hazardous),legion,other,Produces 3300 Energy (Hazardous),2,t2_energy,Produces 3300 Energy (Hazardous),9400,10500,69000,340000,,,img/bar/legafus.png
 bar-corvrad,bar,corvrad,Omen,Radar Vehicle,core,land,Radar Vehicle,2,t1_radar,Radar Vehicle,570,92,1300,5000,48,,img/bar/corvrad.png
@@ -864,29 +864,29 @@ bar-armsehak,bar,armsehak,Horizon,Advanced Radar / Sonar Plane,arm,air,Advanced 
 bar-leggant,bar,leggant,Experimental Gantry,Produces Experimental Units,legion,other,Produces Experimental Units,3,t2_factory_land,Produces Experimental Units,17800,8400,62000,67300,,,img/bar/leggant.png
 bar-armuwgeo,bar,armuwgeo,Offshore Geothermal Powerplant,Produces 300 Energy,arm,structure,Produces 300 Energy,1,t1_energy,Produces 300 Energy,,,,13100,,,img/bar/armuwgeo.png
 bar-armuwms,bar,armuwms,Naval Metal Storage,Increases Metal Storage (3000),arm,structure,Increases Metal Storage (3000),1,other,Increases Metal Storage (3000),3600,330,570,2920,,,img/bar/armuwms.png
-bar-armanac,bar,armanac,Crocodile,Hovertank,arm,land,Hovertank,1,t1_tank,Hovertank,1530,270,2400,3000,69.99,Medium g2g plasma cannon,img/bar/armanac.png
+bar-armanac,bar,armanac,Crocodile,Hovertank,arm,land,Hovertank,1,t1_hover,Hovertank,1530,270,2400,3000,69.99,Medium g2g plasma cannon,img/bar/armanac.png
 bar-corvroc,bar,corvroc,Negotiator,Stealthy Rocket Launcher - good vs. static defense,core,land,Stealthy Rocket Launcher - good vs. static defense,2,t2_mml,Stealthy Rocket Launcher - good vs. static defense,1390,880,6700,20000,33,Rocket,img/bar/corvroc.png
 bar-legsptorpgunship,bar,legsptorpgunship,Ladon,Torpedo Seaplane Gunship,legion,air,Torpedo Seaplane Gunship,1,t2_gunship,Torpedo Seaplane Gunship,900,190,5000,10720,273,VTOL Torpedo Launcher,img/bar/legsptorpgunship.png
-bar-legadveconv,bar,legadveconv,Advanced Energy Converter,Converts 600 energy into 10.3 metal per sec,legion,other,Converts 600 energy into 10.3 metal per sec,2,t1_fab,Converts 600 energy into 10.3 metal per sec,560,370,21000,31300,,,img/bar/legadveconv.png
-bar-armshltxuw,bar,armshltxuw,Experimental Gantry,Produces Large Amphibious Units,arm,structure,Produces Large Amphibious Units,3,experimental,Produces Large Amphibious Units,16000,7900,58000,62000,,,img/bar/armshltxuw.png
+bar-legadveconv,bar,legadveconv,Advanced Energy Converter,Converts 600 energy into 10.3 metal per sec,legion,other,Converts 600 energy into 10.3 metal per sec,2,other,Converts 600 energy into 10.3 metal per sec,560,370,21000,31300,,,img/bar/legadveconv.png
+bar-armshltxuw,bar,armshltxuw,Experimental Gantry,Produces Large Amphibious Units,arm,structure,Produces Large Amphibious Units,3,t2_factory_land,Produces Large Amphibious Units,16000,7900,58000,62000,,,img/bar/armshltxuw.png
 bar-legestor,bar,legestor,Energy Storage,Increases Energy Storage (6000),legion,other,Increases Energy Storage (6000),1,t1_energy,Increases Energy Storage (6000),2000,175,1800,4260,,,img/bar/legestor.png
 bar-armcroc,bar,armcroc,Turtle,Heavy Amphibious Tank,arm,land,Heavy Amphibious Tank,2,t2_amphib,Heavy Amphibious Tank,5000,750,15000,21000,54,Medium g2g gauss-cannon | Light g2a missile launcher,img/bar/armcroc.png
 bar-corpyro,bar,corpyro,Fiend,Fast Assault Bot,core,land,Fast Assault Bot,2,t2_tank,Fast Assault Bot,1060,200,3000,6500,82.5,FlameThrower,img/bar/corpyro.png
-bar-legsnapper,bar,legsnapper,Snapper,Amphibious Screwdrive Bomb,legion,land,Amphibious Screwdrive Bomb,2,t2_tank,Amphibious Screwdrive Bomb,550,60,5600,9260,81.0,Self-destruction | Crawlingbomb Dummy Weapon,img/bar/legsnapper.png
+bar-legsnapper,bar,legsnapper,Snapper,Amphibious Screwdrive Bomb,legion,land,Amphibious Screwdrive Bomb,2,other,Amphibious Screwdrive Bomb,550,60,5600,9260,81.0,Self-destruction | Crawlingbomb Dummy Weapon,img/bar/legsnapper.png
 bar-armfrad,bar,armfrad,Naval Radar / Sonar Tower,Early Warning System,arm,structure,Early Warning System,1,t1_radar,Early Warning System,110,130,1000,1800,,,img/bar/armfrad.png
 bar-leganavalfusion,bar,leganavalfusion,Naval Fusion Reactor,Produces 1200 Energy,legion,other,Produces 1200 Energy,2,t2_energy,Produces 1200 Energy,5900,5400,34000,105000,,,img/bar/leganavalfusion.png
 bar-armferret,bar,armferret,Ferret,Pop-Up Anti-Air Missile Battery,arm,structure,Pop-Up Anti-Air Missile Battery,1,t1_aa_turret,Pop-Up Anti-Air Missile Battery,1330,360,5700,5800,,Pop-up rapid-fire g2a missile launcher,img/bar/armferret.png
-bar-coramsub,bar,coramsub,Amphibious Complex,Produces Amphibious / Underwater Units,core,structure,Produces Amphibious / Underwater Units,1,t1_engineer,Produces Amphibious / Underwater Units,2800,1200,5600,11400,,,img/bar/coramsub.png
+bar-coramsub,bar,coramsub,Amphibious Complex,Produces Amphibious / Underwater Units,core,structure,Produces Amphibious / Underwater Units,1,t1_factory_land,Produces Amphibious / Underwater Units,2800,1200,5600,11400,,,img/bar/coramsub.png
 bar-armmine1,bar,armmine1,Light Mine,,arm,structure,Light Mine,1,other,Light Mine,11,7,270,100,,Crawlingbomb Dummy Weapon,img/bar/armmine1.png
 bar-cordl,bar,cordl,Jellyfish,Coastal Torpedo Launcher,core,structure,Coastal Torpedo Launcher,1,other,Coastal Torpedo Launcher,2350,250,2200,6200,,Depthcharge launcher,img/bar/cordl.png
 bar-armconsul,bar,armconsul,Consul,Combat Engineer,arm,land,Combat Engineer,2,t2_engineer,Combat Engineer,1080,250,4300,8500,78,,img/bar/armconsul.png
-bar-legajamk,bar,legajamk,Tiresias,Mobile Jammer Bot,legion,land,Mobile Jammer Bot,2,t2_tank,Mobile Jammer Bot,345,75,1550,6280,39,,img/bar/legajamk.png
+bar-legajamk,bar,legajamk,Tiresias,Mobile Jammer Bot,legion,land,Mobile Jammer Bot,2,other,Mobile Jammer Bot,345,75,1550,6280,39,,img/bar/legajamk.png
 bar-leggantuw,bar,leggantuw,Experimental Gantry,Produces Large Amphibious Units,legion,other,Produces Large Amphibious Units,3,t2_factory_land,Produces Large Amphibious Units,17800,8400,62000,67300,,,img/bar/leggantuw.png
-bar-corsktl,bar,corsktl,Skuttle,Advanced Amphibious Crawling Bomb,core,land,Advanced Amphibious Crawling Bomb,2,t2_tank,Advanced Amphibious Crawling Bomb,355,755,27000,23000,84,Mine Detonator | Crawlingbomb Dummy Weapon,img/bar/corsktl.png
+bar-corsktl,bar,corsktl,Skuttle,Advanced Amphibious Crawling Bomb,core,land,Advanced Amphibious Crawling Bomb,2,other,Advanced Amphibious Crawling Bomb,355,755,27000,23000,84,Mine Detonator | Crawlingbomb Dummy Weapon,img/bar/corsktl.png
 bar-legmine1,bar,legmine1,Light Mine,,legion,other,Light Mine,1,other,Light Mine,11,7,270,100,,BOOM,img/bar/legmine1.png
 bar-corhvytrans,bar,corhvytrans,Hephaestus,Heavy Transport,core,air,Heavy Transport,1,t1_transport,Heavy Transport,800,190,4000,8500,100,,img/bar/corhvytrans.png
 bar-armcir,bar,armcir,Chainsaw,Medium-Range Anti-Air Missile Battery,arm,structure,Medium-Range Anti-Air Missile Battery,1,t1_aa_turret,Medium-Range Anti-Air Missile Battery,4450,750,7300,12000,,Rapid-fire long-range g2a missile barrel,img/bar/armcir.png
-bar-corjuno,bar,corjuno,Juno,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,core,structure,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,1,t1_radar,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,2500,660,16000,27700,,Anti radar/minefield/jammer magnetic impulse rocket | juno_pulse_ghost,img/bar/corjuno.png
+bar-corjuno,bar,corjuno,Juno,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,core,structure,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,1,other,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,2500,660,16000,27700,,Anti radar/minefield/jammer magnetic impulse rocket | juno_pulse_ghost,img/bar/corjuno.png
 bar-coruwms,bar,coruwms,Naval Metal Storage,Increases Metal Storage (3000),core,structure,Increases Metal Storage (3000),1,other,Increases Metal Storage (3000),2100,340,590,2920,,,img/bar/coruwms.png
 bar-armgate,bar,armgate,Keeper,Plasma Shield,arm,structure,Plasma Shield,2,shield,Plasma Shield,3550,3000,54000,55000,,PlasmaRepulsor,img/bar/armgate.png
 bar-corca,bar,corca,Construction Aircraft,Tech 1 Constructor,core,air,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,161,115,3200,8360,201,,img/bar/corca.png
@@ -897,8 +897,8 @@ bar-armsfig,bar,armsfig,Cyclone,Seaplane Swarmer,arm,air,Seaplane Swarmer,1,othe
 bar-armflash,bar,armflash,Blitz,Fast Assault Tank,arm,land,Fast Assault Tank,1,t1_tank,Fast Assault Tank,750,110,900,1960,101,Rapid-fire close-quarters plasma gun,img/bar/armflash.png
 bar-legsolar,bar,legsolar,Solar Collector,Produces 20 Energy,legion,other,Produces 20 Energy,1,t1_energy,Produces 20 Energy,340,155,0,2800,,,img/bar/legsolar.png
 bar-armamd,bar,armamd,Citadel,Anti-Nuke System,arm,structure,Anti-Nuke System,2,antinuke,Anti-Nuke System,3300,1500,38000,60000,,ICBM intercepting missile launcher,img/bar/armamd.png
-bar-armjam,bar,armjam,Umbra,Radar Jammer Vehicle,arm,land,Radar Jammer Vehicle,2,t1_radar,Radar Jammer Vehicle,510,105,1700,7000,33,,img/bar/armjam.png
-bar-leglob,bar,leglob,Satyr,Light Plasma Bot,legion,land,Light Plasma Bot,1,t1_tank,Light Plasma Bot,550,60,400,1100,51.0,Vertical Plasma Cannon | Forwards Plasma Cannon,img/bar/leglob.png
+bar-armjam,bar,armjam,Umbra,Radar Jammer Vehicle,arm,land,Radar Jammer Vehicle,2,other,Radar Jammer Vehicle,510,105,1700,7000,33,,img/bar/armjam.png
+bar-leglob,bar,leglob,Satyr,Light Plasma Bot,legion,land,Light Plasma Bot,1,t1_light_bot,Light Plasma Bot,550,60,400,1100,51.0,Vertical Plasma Cannon | Forwards Plasma Cannon,img/bar/leglob.png
 bar-corcv,bar,corcv,Construction Vehicle,Tech 1 Constructor,core,land,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,1430,145,2100,4160,51,,img/bar/corcv.png
 bar-corsfig,bar,corsfig,Bat,Seaplane Swarmer,core,air,Seaplane Swarmer,1,other,Seaplane Swarmer,220,90,4600,6500,315.60001,Guided a2a missile launcher,img/bar/corsfig.png
 bar-armsy,bar,armsy,Shipyard,Produces Tech 1 Ships,arm,structure,Produces Tech 1 Ships,1,t1_factory_naval,Produces Tech 1 Ships,4100,450,950,5160,,,img/bar/armsy.png
@@ -909,12 +909,12 @@ bar-armsb,bar,armsb,Tsunami,Seaplane Bomber,arm,air,Seaplane Bomber,1,t1_bomber,
 bar-armalab,bar,armalab,Advanced Bot Lab,Produces Tech 2 Bots,arm,structure,Produces Tech 2 Bots,2,t2_factory_land,Produces Tech 2 Bots,4250,2600,15000,25000,,,img/bar/armalab.png
 bar-legmex,bar,legmex,Metal Extractor,Extracts Slightly Reduced Metal and Produces 7 Energy,legion,structure,Extracts Slightly Reduced Metal and Produces 7 Energy,1,t1_mex,Extracts Slightly Reduced Metal and Produces 7 Energy,275,50,500,1880,,,img/bar/legmex.png
 bar-armawac,bar,armawac,Oracle,Radar / Sonar Plane,arm,air,Radar / Sonar Plane,2,t1_radar,Radar / Sonar Plane,890,175,8600,16000,317.39999,,img/bar/armawac.png
-bar-corsnap,bar,corsnap,Cayman,Hovertank,core,land,Hovertank,1,t1_tank,Hovertank,1720,300,3100,3500,66.99,MediumPlasmaCannon,img/bar/corsnap.png
+bar-corsnap,bar,corsnap,Cayman,Hovertank,core,land,Hovertank,1,t1_hover,Hovertank,1720,300,3100,3500,66.99,MediumPlasmaCannon,img/bar/corsnap.png
 bar-corsok,bar,corsok,Cataphract,Heavy Laser Hovertank,core,land,Heavy Laser Hovertank,3,experimental,Heavy Laser Hovertank,4200,950,19000,34000,45.3,Disruptor Bolt | Depthcharge launcher,img/bar/corsok.png
 bar-armscab,bar,armscab,Umbrella,Mobile All-Terrain Anti-Nuke,arm,land,Mobile All-Terrain Anti-Nuke,2,antinuke,Mobile All-Terrain Anti-Nuke,870,1150,30000,49000,51,ICBM intercepting missile launcher,img/bar/armscab.png
 bar-cormine3,bar,cormine3,Heavy Mine,,core,structure,Heavy Mine,1,other,Heavy Mine,11,50,2800,700,,Crawlingbomb Dummy Weapon,img/bar/cormine3.png
 bar-corageo,bar,corageo,Advanced Geothermal Powerplant,Produces 1250 Energy (Hazardous),core,structure,Produces 1250 Energy (Hazardous),2,t2_energy,Produces 1250 Energy (Hazardous),4150,1500,27000,48000,,,img/bar/corageo.png
-bar-corsala,bar,corsala,Salamander,Medium Heat Ray Amphibious Tank,core,land,Medium Heat Ray Amphibious Tank,2,t2_tank,Medium Heat Ray Amphibious Tank,2100,350,7000,10500,72,Medium g2g Heat Ray,img/bar/corsala.png
+bar-corsala,bar,corsala,Salamander,Medium Heat Ray Amphibious Tank,core,land,Medium Heat Ray Amphibious Tank,2,t2_amphib,Medium Heat Ray Amphibious Tank,2100,350,7000,10500,72,Medium g2g Heat Ray,img/bar/corsala.png
 bar-armzeus,bar,armzeus,Welder,Assault Bot,arm,land,Assault Bot,2,t2_tank,Assault Bot,2950,350,6100,9500,47.4,Close-quarters g2g lightning rifle,img/bar/armzeus.png
 bar-legkam,bar,legkam,Martyr,Self-destructs to deal explosive damage to target area,legion,other,Self-destructs to deal explosive damage to target area,1,other,Self-destructs to deal explosive damage to target area,160,65,2000,2200,220.0,Mine Detonator | Martyr trigger | Crawlingbomb Dummy Weapon,img/bar/legkam.png
 bar-armuwageo,bar,armuwageo,Advanced Geothermal Powerplant,Produces 1250 Energy (Hazardous),arm,structure,Produces 1250 Energy (Hazardous),2,t2_energy,Produces 1250 Energy (Hazardous),,,,50000,,,img/bar/armuwageo.png
@@ -932,7 +932,7 @@ bar-legmos,bar,legmos,Mosquito,Light Gunship with Stockpiling Rockets,legion,air
 bar-armck,bar,armck,Construction Bot,Tech 1 Constructor,arm,land,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,690,110,1600,3450,36,,img/bar/armck.png
 bar-armpnix,bar,armpnix,Blizzard,Strategic Bomber,arm,air,Strategic Bomber,2,t2_bomber,Strategic Bomber,1130,230,12500,25000,258,Heavy a2g impulse warheads,img/bar/armpnix.png
 bar-armatlas,bar,armatlas,Stork,Light Air Transport,arm,air,Light Air Transport,1,t1_transport,Light Air Transport,265,68,1300,3850,207,,img/bar/armatlas.png
-bar-armgeo,bar,armgeo,Geothermal Powerplant,Produces 300 Energy,arm,structure,Produces 300 Energy,1,t2_energy,Produces 300 Energy,1940,560,13000,13100,,,img/bar/armgeo.png
+bar-armgeo,bar,armgeo,Geothermal Powerplant,Produces 300 Energy,arm,structure,Produces 300 Energy,1,t1_energy,Produces 300 Energy,1940,560,13000,13100,,,img/bar/armgeo.png
 bar-armason,bar,armason,Advanced Sonar Station,Extended Sonar,arm,structure,Extended Sonar,2,t1_radar,Extended Sonar,2350,170,2600,6150,,,img/bar/armason.png
 bar-armfboy,bar,armfboy,Fatboy,Heavy Plasma Bot,arm,land,Heavy Plasma Bot,2,t2_tank,Heavy Plasma Bot,7800,1400,15000,28000,30,Heavy AoE g2g plasma cannon,img/bar/armfboy.png
 bar-armart,bar,armart,Shellshocker,Light Artillery Vehicle,arm,land,Light Artillery Vehicle,1,t1_arty,Light Artillery Vehicle,620,135,2200,3000,54,Long-range high-trajectory g2g plasma cannon,img/bar/armart.png
@@ -943,34 +943,34 @@ bar-armaap,bar,armaap,Advanced Aircraft Plant,Produces Tech 2 Aircraft,arm,struc
 bar-legafcv,bar,legafcv,Aceso,Light Construction Buggy,legion,other,Light Construction Buggy,2,t2_engineer,Light Construction Buggy,450,200,2900,4000,110,,img/bar/legafcv.png
 bar-legbart,bar,legbart,Belcher,Napalm / Skirmish Bot,legion,land,Napalm / Skirmish Bot,2,t2_tank,Napalm / Skirmish Bot,1780,550,5500,10000,60.0,HeavyCannon,img/bar/legbart.png
 bar-armgmm,bar,armgmm,Prude,"Safe Geothermal Powerplant, produces 750 Energy",arm,structure,"Safe Geothermal Powerplant, produces 750 Energy",2,t2_energy,"Safe Geothermal Powerplant, produces 750 Energy",13900,1150,25000,41500,,,img/bar/armgmm.png
-bar-armrecl,bar,armrecl,Grim Reaper,Resurrection Sub,arm,navy,Resurrection Sub,1,t1_engineer,Resurrection Sub,420,210,3000,6200,66,,img/bar/armrecl.png
+bar-armrecl,bar,armrecl,Grim Reaper,Resurrection Sub,arm,navy,Resurrection Sub,1,other,Resurrection Sub,420,210,3000,6200,66,,img/bar/armrecl.png
 bar-corason,bar,corason,Advanced Sonar Station,Extended Sonar,core,structure,Extended Sonar,2,t1_radar,Extended Sonar,2400,160,2400,6100,,,img/bar/corason.png
 bar-corkorg,bar,corkorg,Juggernaut,Experimental Assault Bot,core,land,Experimental Assault Bot,3,experimental,Experimental Assault Bot,149000,29000,615000,730000,37,KrogRestore | KrogAim | KrogStep | HeavyRockets | GaussCannon | Experimental g2g Eradicator Heat Ray | KrogCrush,img/bar/corkorg.png
-bar-armspy,bar,armspy,Ghost,Radar-Invisible Spy Bot,arm,land,Radar-Invisible Spy Bot,2,t1_radar,Radar-Invisible Spy Bot,300,135,8800,12000,65.4,Dummy Weapon,img/bar/armspy.png
+bar-armspy,bar,armspy,Ghost,Radar-Invisible Spy Bot,arm,land,Radar-Invisible Spy Bot,2,other,Radar-Invisible Spy Bot,300,135,8800,12000,65.4,Dummy Weapon,img/bar/armspy.png
 bar-coruwes,bar,coruwes,Naval Energy Storage,Increases Energy Storage (6000),core,structure,Increases Energy Storage (6000),1,t1_energy,Increases Energy Storage (6000),2000,175,1800,4260,,,img/bar/coruwes.png
 bar-legdeflector,bar,legdeflector,Soteria,Plasma Shield,legion,structure,Plasma Shield,2,shield,Plasma Shield,3550,3200,55000,55000,,PlasmaRepulsor,img/bar/legdeflector.png
 bar-corvp,bar,corvp,Vehicle Plant,Produces Tech 1 Vehicles,core,structure,Produces Tech 1 Vehicles,1,t1_factory_land,Produces Tech 1 Vehicles,3000,570,1550,5650,,,img/bar/corvp.png
-bar-leglab,bar,leglab,Legion Bot Lab,Bot Lab,legion,structure,Bot Lab,1,t1_engineer,Bot Lab,2900,470,1050,5000,,,img/bar/leglab.png
-bar-armvader,bar,armvader,Tumbleweed,Amphibious Rolling Bomb,arm,land,Amphibious Rolling Bomb,2,t2_tank,Amphibious Rolling Bomb,445,65,5800,7900,84,Self-destruction | Crawlingbomb Dummy Weapon,img/bar/armvader.png
-bar-armaas,bar,armaas,Dragonslayer,Anti-Air Ship,arm,navy,Anti-Air Ship,2,t2_flak,Anti-Air Ship,3900,1000,12000,21000,63,Missiles | Long-range g2a guided missile launcher | Heavy g2a flak cannon,img/bar/armaas.png
+bar-leglab,bar,leglab,Legion Bot Lab,Bot Lab,legion,structure,Bot Lab,1,t1_factory_land,Bot Lab,2900,470,1050,5000,,,img/bar/leglab.png
+bar-armvader,bar,armvader,Tumbleweed,Amphibious Rolling Bomb,arm,land,Amphibious Rolling Bomb,2,other,Amphibious Rolling Bomb,445,65,5800,7900,84,Self-destruction | Crawlingbomb Dummy Weapon,img/bar/armvader.png
+bar-armaas,bar,armaas,Dragonslayer,Anti-Air Ship,arm,navy,Anti-Air Ship,2,other,Anti-Air Ship,3900,1000,12000,21000,63,Missiles | Long-range g2a guided missile launcher | Heavy g2a flak cannon,img/bar/armaas.png
 bar-corsent,bar,corsent,Fury,Anti-Air Flak Vehicle,core,land,Anti-Air Flak Vehicle,2,t2_flak,Anti-Air Flak Vehicle,2700,470,10500,16000,69,Missiles | FlakCannon,img/bar/corsent.png
 bar-armmar,bar,armmar,Marauder,Amphibious Assault Mech,arm,land,Amphibious Assault Mech,3,experimental,Amphibious Assault Mech,4900,970,21000,33000,94.5,Double close-quarters gauss cannon | Guided g2a missile launcher,img/bar/armmar.png
 bar-legkeres,bar,legkeres,Keres,Heavy Assault and Anti-Swarm Tank,legion,other,Heavy Assault and Anti-Swarm Tank,3,experimental,Heavy Assault and Anti-Swarm Tank,,,,60000,48.0,Heavy riot cannon | Heavy rotary cannon,img/bar/legkeres.png
 bar-corarad,bar,corarad,Advanced Radar Tower,Long-Range Radar,core,structure,Long-Range Radar,2,t1_radar,Long-Range Radar,365,400,14000,8000,,,img/bar/corarad.png
 bar-leguwgeo,bar,leguwgeo,Offshore Geothermal Powerplant,Produces 300 Energy,legion,other,Produces 300 Energy,1,t1_energy,Produces 300 Energy,,,,12900,,,img/bar/leguwgeo.png
 bar-corap,bar,corap,Aircraft Plant,Produces Tech 1 Aircraft,core,structure,Produces Tech 1 Aircraft,1,t1_factory_air,Produces Tech 1 Aircraft,2150,630,1100,5380,,,img/bar/corap.png
-bar-correcl,bar,correcl,Death Cavalry,Resurrection Sub,core,navy,Resurrection Sub,1,t1_engineer,Resurrection Sub,420,200,3200,5960,66.9,,img/bar/correcl.png
-bar-legap,bar,legap,Legion Drone Plant,Drone Plant,legion,other,Drone Plant,1,t1_engineer,Drone Plant,1780,430,1100,6380,,,img/bar/legap.png
+bar-correcl,bar,correcl,Death Cavalry,Resurrection Sub,core,navy,Resurrection Sub,1,other,Resurrection Sub,420,200,3200,5960,66.9,,img/bar/correcl.png
+bar-legap,bar,legap,Legion Drone Plant,Drone Plant,legion,other,Drone Plant,1,t1_factory_air,Drone Plant,1780,430,1100,6380,,,img/bar/legap.png
 bar-legfdrag,bar,legfdrag,Shark's Teeth,Naval Fortification,legion,other,Naval Fortification,1,other,Naval Fortification,4450,15,0,400,,,img/bar/legfdrag.png
 bar-armmanni,bar,armmanni,Starlight,Mobile Tachyon Weapon,arm,land,Mobile Tachyon Weapon,2,other,Mobile Tachyon Weapon,2800,1200,18500,33000,42,Heavy long-range g2g tachyon beam,img/bar/armmanni.png
 bar-cormexp,bar,cormexp,Advanced Exploiter,Armed Advanced Metal Extractor,core,structure,Armed Advanced Metal Extractor,2,t2_mex,Armed Advanced Metal Extractor,7800,2400,12000,32500,,High energy g2g laser | Heavy g2g/g2a barrage missile launcher,img/bar/cormexp.png
 bar-legaabot,bar,legaabot,Toxotai,Amphibious Anti-Air Bot,legion,land,Amphibious Anti-Air Bot,1,t1_aa,Amphibious Anti-Air Bot,610,120,950,1800,55,Advanced g2a Salvo Missile Launcher,img/bar/legaabot.png
-bar-armsh,bar,armsh,Seeker,Fast Attack Hovercraft,arm,land,Fast Attack Hovercraft,1,other,Fast Attack Hovercraft,290,85,1250,1700,113.7,Light Close-Quarters Fast-Firing g2g Laser,img/bar/armsh.png
-bar-leganavyradjamship,bar,leganavyradjamship,Dolus,Hybrid Radar & Jammer Ship,legion,navy,Hybrid Radar & Jammer Ship,2,t1_radar,Hybrid Radar & Jammer Ship,1700,450,6000,19800,36,,img/bar/leganavyradjamship.png
+bar-armsh,bar,armsh,Seeker,Fast Attack Hovercraft,arm,land,Fast Attack Hovercraft,1,t1_hover,Fast Attack Hovercraft,290,85,1250,1700,113.7,Light Close-Quarters Fast-Firing g2g Laser,img/bar/armsh.png
+bar-leganavyradjamship,bar,leganavyradjamship,Dolus,Hybrid Radar & Jammer Ship,legion,navy,Hybrid Radar & Jammer Ship,2,other,Hybrid Radar & Jammer Ship,1700,450,6000,19800,36,,img/bar/leganavyradjamship.png
 bar-armrock,bar,armrock,Rocketeer,Rocket Bot - good vs. static defenses,arm,land,Rocket Bot - good vs. static defenses,1,t1_arty,Rocket Bot - good vs. static defenses,720,120,1000,2010,50.7,Medium g2g rocket launcher,img/bar/armrock.png
-bar-legfmg,bar,legfmg,Gelasma,Heavy Land/Air Floating Gatling Gun Turret,legion,other,Heavy Land/Air Floating Gatling Gun Turret,1,other,Heavy Land/Air Floating Gatling Gun Turret,3900,450,5500,7600,,Rapid-Fire Gatling Gun,img/bar/legfmg.png
+bar-legfmg,bar,legfmg,Gelasma,Heavy Land/Air Floating Gatling Gun Turret,legion,other,Heavy Land/Air Floating Gatling Gun Turret,1,t1_aa,Heavy Land/Air Floating Gatling Gun Turret,3900,450,5500,7600,,Rapid-Fire Gatling Gun,img/bar/legfmg.png
 bar-corshroud,bar,corshroud,Shroud,Long-Range Jamming Tower,core,structure,Long-Range Jamming Tower,2,other,Long-Range Jamming Tower,890,130,20000,9400,,,img/bar/corshroud.png
-bar-cormando,bar,cormando,Commando,Stealthy Paratrooper Bot,core,land,Stealthy Paratrooper Bot,2,t2_tank,Stealthy Paratrooper Bot,1560,1200,15500,24000,75,CommandoBlaster,img/bar/cormando.png
+bar-cormando,bar,cormando,Commando,Stealthy Paratrooper Bot,core,land,Stealthy Paratrooper Bot,2,other,Stealthy Paratrooper Bot,1560,1200,15500,24000,75,CommandoBlaster,img/bar/cormando.png
 bar-leganavymissileship,bar,leganavymissileship,Ultor,Missile Cruiser,legion,navy,Missile Cruiser,2,t2_cruiser,Missile Cruiser,3350,2000,10000,23000,61.44,Anti-Air Salvo Missile Launcher | Heavy Long-Range Vertical Salvo Rocket Launcher,img/bar/leganavymissileship.png
 bar-corflak,bar,corflak,Birdshot,Anti-Air Flak Gun,core,structure,Anti-Air Flak Gun,2,t2_flak,Anti-Air Flak Gun,1840,850,14000,20100,,Heavy g2a flak cannon,img/bar/corflak.png
 bar-legcom,bar,legcom,Legion Commander,Commander,legion,commander,Commander,0,commander,Commander,3700,2700,26000,75000,37.5,Close-Quarters Heatray | Disintegrator | Anti Air Missile Launcher | Underwater Torpedo Launcher,img/bar/legcom.png
@@ -980,27 +980,27 @@ bar-armap,bar,armap,Aircraft Plant,Produces Tech 1 Aircraft,arm,structure,Produc
 bar-armmls,bar,armmls,Voyager,Naval Engineer,arm,navy,Naval Engineer,2,t2_engineer,Naval Engineer,1460,190,3200,6000,66,,img/bar/armmls.png
 bar-armamph,bar,armamph,Platypus,Amphibious Bot,arm,land,Amphibious Bot,2,t2_amphib,Amphibious Bot,1170,260,2700,7000,90,Light close-quarters laser | Light g2a missile launcher,img/bar/armamph.png
 bar-cormship,bar,cormship,Messenger,Cruise Missile Ship,core,navy,Cruise Missile Ship,2,other,Cruise Missile Ship,3350,2000,10000,24000,61.44,Heavy long-range g2g starburst rocket launcher | Medium Range g2a AA Missiles | Heavy long-range g2g ballistic missile launcher,img/bar/cormship.png
-bar-legatorpbomber,bar,legatorpbomber,Aesacus,Torpedo Bomber,legion,other,Torpedo Bomber,2,t2_bomber,Torpedo Bomber,1900,480,9480,21970,290,Medium Homing Torpedo Launcher,img/bar/legatorpbomber.png
+bar-legatorpbomber,bar,legatorpbomber,Aesacus,Torpedo Bomber,legion,other,Torpedo Bomber,2,t1_sub,Torpedo Bomber,1900,480,9480,21970,290,Medium Homing Torpedo Launcher,img/bar/legatorpbomber.png
 bar-armuwadvms,bar,armuwadvms,Hardened Metal Storage,Increases Metal Storage (10000),arm,structure,Increases Metal Storage (10000),2,other,Increases Metal Storage (10000),10300,750,11500,20400,,,img/bar/armuwadvms.png
 bar-corfmkr,bar,corfmkr,Naval Energy Converter,Converts 70 energy into 1 metal per sec,core,structure,Converts 70 energy into 1 metal per sec,1,t1_fab,Converts 70 energy into 1 metal per sec,167,1,1250,2680,,,img/bar/corfmkr.png
-bar-legsh,bar,legsh,Glaucus,Fast Attack Hovercraft,legion,land,Fast Attack Hovercraft,1,other,Fast Attack Hovercraft,220,60,1200,1200,96,Light Close-Quarters g2g Heat Ray,img/bar/legsh.png
+bar-legsh,bar,legsh,Glaucus,Fast Attack Hovercraft,legion,land,Fast Attack Hovercraft,1,t1_hover,Fast Attack Hovercraft,220,60,1200,1200,96,Light Close-Quarters g2g Heat Ray,img/bar/legsh.png
 bar-armmercury,bar,armmercury,Mercury,Long Range Anti-Air Tower,arm,structure,Long Range Anti-Air Tower,2,t2_flak,Long Range Anti-Air Tower,1670,1600,33000,28000,,Heavy long-range g2a guided missile launcher,img/bar/armmercury.png
 bar-armyork,bar,armyork,Shredder,Anti-Air Flak Vehicle,arm,land,Anti-Air Flak Vehicle,2,t2_flak,Anti-Air Flak Vehicle,2600,450,9100,13000,70.5,Missiles | Heavy g2a flak cannon,img/bar/armyork.png
 bar-cormabm,bar,cormabm,Saviour,Mobile Anti-Nuke,core,land,Mobile Anti-Nuke,2,antinuke,Mobile Anti-Nuke,870,1250,32000,52000,51,ICBM intercepting missile launcher,img/bar/cormabm.png
-bar-corarch,bar,corarch,Arrow Storm,Anti-Air Ship,core,navy,Anti-Air Ship,2,t2_flak,Anti-Air Ship,3900,1000,12000,21000,60.48,Missiles | AA2Missile | FlakCannon,img/bar/corarch.png
+bar-corarch,bar,corarch,Arrow Storm,Anti-Air Ship,core,navy,Anti-Air Ship,2,other,Anti-Air Ship,3900,1000,12000,21000,60.48,Missiles | AA2Missile | FlakCannon,img/bar/corarch.png
 bar-cormstor,bar,cormstor,Metal Storage,Increases Metal Storage (3000),core,structure,Increases Metal Storage (3000),1,other,Increases Metal Storage (3000),2100,340,590,2920,,,img/bar/cormstor.png
 bar-armbrawl,bar,armbrawl,Roughneck,Gunship,arm,air,Gunship,2,t2_gunship,Gunship,1780,310,6200,17000,160.8,Rapid-fire a2g plasma guns,img/bar/armbrawl.png
-bar-armwar,bar,armwar,Centurion,Anti-Swarm Bot,arm,land,Anti-Swarm Bot,1,t2_tank,Anti-Swarm Bot,1590,270,3100,4200,45,Dual close-quarters g2g laser,img/bar/armwar.png
+bar-armwar,bar,armwar,Centurion,Anti-Swarm Bot,arm,land,Anti-Swarm Bot,1,t1_light_bot,Anti-Swarm Bot,1590,270,3100,4200,45,Dual close-quarters g2g laser,img/bar/armwar.png
 bar-legfhive,bar,legfhive,Naval Hive,Carries 6 Drones (costs 15m 500E each),legion,structure,Carries 6 Drones (costs 15m 500E each),1,other,Carries 6 Drones (costs 15m 500E each),1200,300,9000,7500,,HeavyCannon,img/bar/legfhive.png
 bar-armcsa,bar,armcsa,Construction Seaplane,Tech 1 Constructor,arm,air,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,405,150,7800,14500,192,,img/bar/armcsa.png
-bar-armmlv,bar,armmlv,Groundhog,Stealthy Minelayer / Minesweeper,arm,land,Stealthy Minelayer / Minesweeper,1,t1_engineer,Stealthy Minelayer / Minesweeper,335,57,1100,3520,75,Seismic charge,img/bar/armmlv.png
-bar-corgantuw,bar,corgantuw,Experimental Gantry,Produces Large Amphibious Units,core,structure,Produces Large Amphibious Units,3,experimental,Produces Large Amphibious Units,17800,8350,62500,68000,,,img/bar/corgantuw.png
+bar-armmlv,bar,armmlv,Groundhog,Stealthy Minelayer / Minesweeper,arm,land,Stealthy Minelayer / Minesweeper,1,other,Stealthy Minelayer / Minesweeper,335,57,1100,3520,75,Seismic charge,img/bar/armmlv.png
+bar-corgantuw,bar,corgantuw,Experimental Gantry,Produces Large Amphibious Units,core,structure,Produces Large Amphibious Units,3,t2_factory_land,Produces Large Amphibious Units,17800,8350,62500,68000,,,img/bar/corgantuw.png
 bar-correap,bar,correap,Tiger,Heavy Assault Tank,core,land,Heavy Assault Tank,2,t2_tank,Heavy Assault Tank,5300,665,10000,16000,70.5,PlasmaCannon,img/bar/correap.png
 bar-legeshotgunmech,bar,legeshotgunmech,Praetorian,Multi-Weapon Shotgun Assault Mech,legion,land,Multi-Weapon Shotgun Assault Mech,3,experimental,Multi-Weapon Shotgun Assault Mech,25000,7000,120000,159000,60,Long-Range Cluster Plasma Cannon | Rotary Microflak Cannon | Targeting System | Parabolic Trajectory Multi-Rocket Launcher | Long-Range Cluster Plasma Cannon | Dual Heavy Assault Kinetic Shotgun,img/bar/legeshotgunmech.png
 bar-armham,bar,armham,Mace,Light Plasma Bot,arm,land,Light Plasma Bot,1,t1_arty,Light Plasma Bot,1000,130,1300,2200,46.2,Light g2g plasma cannon (low trajectory),img/bar/armham.png
 bar-armmship,bar,armmship,Longbow,Missile Cruiser,arm,navy,Missile Cruiser,2,t2_cruiser,Missile Cruiser,3350,2000,10000,24000,63,Heavy long-range g2g starburst rocket launcher | Medium Range g2a AA Missiles | Heavy long-range g2g ballistic missile launcher,img/bar/armmship.png
-bar-legafigdef,bar,legafigdef,Ajax,Defensive Air-Superiority Fighter,legion,other,Defensive Air-Superiority Fighter,2,t2_fighter,Defensive Air-Superiority Fighter,480,180,6200,11850,270,Heavy A2A Gatling Guns,img/bar/legafigdef.png
-bar-legcluster,bar,legcluster,Amputator,Area Control Cluster Artillery,legion,structure,Area Control Cluster Artillery,1,t1_arty,Area Control Cluster Artillery,2900,850,11000,17400,,Long-Range g2g Cluster Plasma Cannon | Long-Range g2g Cluster Plasma Cannon | Long-Range g2g Cluster Plasma Cannon | Cluster Munitions,img/bar/legcluster.png
+bar-legafigdef,bar,legafigdef,Ajax,Defensive Air-Superiority Fighter,legion,other,Defensive Air-Superiority Fighter,2,t2_flak,Defensive Air-Superiority Fighter,480,180,6200,11850,270,Heavy A2A Gatling Guns,img/bar/legafigdef.png
+bar-legcluster,bar,legcluster,Amputator,Area Control Cluster Artillery,legion,structure,Area Control Cluster Artillery,1,t2_arty,Area Control Cluster Artillery,2900,850,11000,17400,,Long-Range g2g Cluster Plasma Cannon | Long-Range g2g Cluster Plasma Cannon | Long-Range g2g Cluster Plasma Cannon | Cluster Munitions,img/bar/legcluster.png
 bar-corfink,bar,corfink,Finch,Scout,core,air,Scout,1,t1_air_scout,Scout,100,51,1450,2400,360,,img/bar/corfink.png
 bar-corfav,bar,corfav,Rascal,Light Scout Vehicle,core,land,Light Scout Vehicle,1,t1_land_scout,Light Scout Vehicle,90,26,270,1150,153,Light Close-Quarters g2g Laser,img/bar/corfav.png
 bar-cortl,bar,cortl,Urchin,Offshore Torpedo Launcher,core,structure,Offshore Torpedo Launcher,1,other,Offshore Torpedo Launcher,1440,170,1800,3750,,Torpedo launcher,img/bar/cortl.png
@@ -1011,33 +1011,33 @@ bar-legvcarry,bar,legvcarry,Mantis,Mobile Drone Carrier Truck (Drones cost 15m 5
 bar-legca,bar,legca,Legion Construction Aircraft,Tech 1 Constructor,legion,air,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,151,105,3200,7560,215.0,,img/bar/legca.png
 bar-coravp,bar,coravp,Advanced Vehicle Plant,Produces Tech 2 Vehicles,core,structure,Produces Tech 2 Vehicles,2,t2_factory_land,Produces Tech 2 Vehicles,5100,2600,16000,28000,,,img/bar/coravp.png
 bar-corbhmth,bar,corbhmth,Cerberus,Geothermal Plasma Battery,core,structure,Geothermal Plasma Battery,2,t2_energy,Geothermal Plasma Battery,8300,3100,35000,59600,,Heavy g2g barrage plasma battery,img/bar/corbhmth.png
-bar-legfhp,bar,legfhp,Offshore Hovercraft Platform,Builds Hovercraft,legion,other,Builds Hovercraft,1,t1_engineer,Builds Hovercraft,3750,670,2000,8700,,,img/bar/legfhp.png
-bar-legner,bar,legner,Nereus,Hovertank,legion,land,Hovertank,1,t1_tank,Hovertank,1100,220,2000,2400,76,Medium g2g plasma cannon,img/bar/legner.png
+bar-legfhp,bar,legfhp,Offshore Hovercraft Platform,Builds Hovercraft,legion,other,Builds Hovercraft,1,t1_factory_land,Builds Hovercraft,3750,670,2000,8700,,,img/bar/legfhp.png
+bar-legner,bar,legner,Nereus,Hovertank,legion,land,Hovertank,1,t1_hover,Hovertank,1100,220,2000,2400,76,Medium g2g plasma cannon,img/bar/legner.png
 bar-armsnipe,bar,armsnipe,Sharpshooter,Sniper Bot,arm,land,Sniper Bot,2,t3_assault,Sniper Bot,580,680,20000,24000,33,Long-range g2g armor-piercing rifle | SniperWeapon,img/bar/armsnipe.png
 bar-legageo,bar,legageo,Advanced Geothermal Powerplant,Produces 1250 Energy (Hazardous),legion,structure,Produces 1250 Energy (Hazardous),2,t2_energy,Produces 1250 Energy (Hazardous),4150,1600,27000,49950,,,img/bar/legageo.png
 bar-armpship,bar,armpship,Ellysaw,Assault Frigate,arm,navy,Assault Frigate,1,t1_frigate,Assault Frigate,2150,380,2550,4250,81,Light long-range plasma cannon,img/bar/armpship.png
 bar-corafus,bar,corafus,Advanced Fusion Reactor,Produces 3000 Energy (Hazardous),core,structure,Produces 3000 Energy (Hazardous),2,t2_energy,Produces 3000 Energy (Hazardous),9400,9700,48000,329200,,,img/bar/corafus.png
 bar-armamb,bar,armamb,Rattlesnake,Cloakable Pop-up Plasma Artillery,arm,structure,Cloakable Pop-up Plasma Artillery,2,t2_arty,Cloakable Pop-up Plasma Artillery,4000,2500,17000,27000,,Pop-up heavy  long range g2g plasma cannon | Pop-up heavy  long range g2g plasma cannon | Pop-up heavy  long range g2g plasna cannon,img/bar/armamb.png
-bar-legnanotcplat,bar,legnanotcplat,Naval Construction Turret,Assist & Repair in large radius,legion,structure,Assist & Repair in large radius,1,t1_engineer,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/legnanotcplat.png
+bar-legnanotcplat,bar,legnanotcplat,Naval Construction Turret,Assist & Repair in large radius,legion,structure,Assist & Repair in large radius,1,other,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/legnanotcplat.png
 bar-armaak,bar,armaak,Archangel,Advanced Amphibious Anti-Air Bot,arm,land,Advanced Amphibious Anti-Air Bot,2,t2_flak,Advanced Amphibious Anti-Air Bot,2200,520,5600,10000,47.4,Long-Range Anti-Air Missile Launcher | Medium-Range Anti-Air Missile Launcher,img/bar/armaak.png
 bar-armuwmmm,bar,armuwmmm,Naval Advanced Energy Converter,Converts 600 energy into 10.3 metal per sec,arm,structure,Converts 600 energy into 10.3 metal per sec,2,t1_fab,Converts 600 energy into 10.3 metal per sec,445,380,21000,35000,,,img/bar/armuwmmm.png
 bar-cormls,bar,cormls,Pathfinder,Naval Engineer,core,navy,Naval Engineer,2,t2_engineer,Naval Engineer,1600,200,3300,6500,57.75,,img/bar/cormls.png
-bar-legnavyrezsub,bar,legnavyrezsub,Dionysus,Resurrection Submarine,legion,navy,Resurrection Submarine,1,t1_engineer,Resurrection Submarine,420,200,3200,5960,66.9,,img/bar/legnavyrezsub.png
+bar-legnavyrezsub,bar,legnavyrezsub,Dionysus,Resurrection Submarine,legion,navy,Resurrection Submarine,1,other,Resurrection Submarine,420,200,3200,5960,66.9,,img/bar/legnavyrezsub.png
 bar-leghive,bar,leghive,Hive,Carries 6 Drones (costs 15m 500E each),legion,structure,Carries 6 Drones (costs 15m 500E each),1,other,Carries 6 Drones (costs 15m 500E each),1200,300,7500,6000,,HeavyCannon,img/bar/leghive.png
 bar-legtide,bar,legtide,Tidal Generator,Produces Energy (depends on map),legion,other,Produces Energy (depends on map),1,t1_energy,Produces Energy (depends on map),395,85,250,2100,,,img/bar/legtide.png
-bar-armpb,bar,armpb,Pit Bull,Pop-up Gauss Cannon,arm,structure,Pop-up Gauss Cannon,2,other,Pop-up Gauss Cannon,2800,680,14000,15000,,Pop-up heavy g2g gauss cannon,img/bar/armpb.png
+bar-armpb,bar,armpb,Pit Bull,Pop-up Gauss Cannon,arm,structure,Pop-up Gauss Cannon,2,t2_arty,Pop-up Gauss Cannon,2800,680,14000,15000,,Pop-up heavy g2g gauss cannon,img/bar/armpb.png
 bar-cordoom,bar,cordoom,Bulwark,Energy Weapon,core,structure,Energy Weapon,2,t3_arty_static,Energy Weapon,9400,3000,37000,55200,,Long-range g2g tachyon accelerator | Light close-quarters g2g laser | High energy g2g laser,img/bar/cordoom.png
-bar-legcar,bar,legcar,Cardea,Shotgun Hovertank,legion,land,Shotgun Hovertank,1,t1_tank,Shotgun Hovertank,3600,550,11000,11000,51,Medium Shotgun,img/bar/legcar.png
-bar-corfhlt,bar,corfhlt,Coral,Floating Heavy Laser Tower,core,structure,Floating Heavy Laser Tower,1,t2_pd,Floating Heavy Laser Tower,4350,480,6200,11400,,High energy g2g laser,img/bar/corfhlt.png
+bar-legcar,bar,legcar,Cardea,Shotgun Hovertank,legion,land,Shotgun Hovertank,1,t1_hover,Shotgun Hovertank,3600,550,11000,11000,51,Medium Shotgun,img/bar/legcar.png
+bar-corfhlt,bar,corfhlt,Coral,Floating Heavy Laser Tower,core,structure,Floating Heavy Laser Tower,1,t1_pd,Floating Heavy Laser Tower,4350,480,6200,11400,,High energy g2g laser,img/bar/corfhlt.png
 bar-corstorm,bar,corstorm,Aggravator,Rocket Bot - good vs. static defenses,core,land,Rocket Bot - good vs. static defenses,1,t1_arty,Rocket Bot - good vs. static defenses,740,110,1150,1950,47.7,Rockets,img/bar/corstorm.png
 bar-legaceb,bar,legaceb,Proteus,All-Terrain Combat Engineer,legion,other,All-Terrain Combat Engineer,2,t2_engineer,All-Terrain Combat Engineer,830,310,5600,9500,75.0,,img/bar/legaceb.png
 bar-armseer,bar,armseer,Prophet,Radar Vehicle,arm,land,Radar Vehicle,2,t1_radar,Radar Vehicle,980,125,2000,7500,57,,img/bar/armseer.png
-bar-armshltx,bar,armshltx,Experimental Gantry,Produces Experimental Units,arm,structure,Produces Experimental Units,3,experimental,Produces Experimental Units,16000,7900,58000,62000,,,img/bar/armshltx.png
+bar-armshltx,bar,armshltx,Experimental Gantry,Produces Experimental Units,arm,structure,Produces Experimental Units,3,t2_factory_land,Produces Experimental Units,16000,7900,58000,62000,,,img/bar/armshltx.png
 bar-legsd,bar,legsd,Ichnaea,Intrusion Countermeasure System - tracks down stealthy units,legion,other,Intrusion Countermeasure System - tracks down stealthy units,2,other,Intrusion Countermeasure System - tracks down stealthy units,2650,710,7100,11900,,,img/bar/legsd.png
 bar-armlship,bar,armlship,Maelstrom,Fast Raider/Skirmisher,arm,navy,Fast Raider/Skirmisher,2,other,Fast Raider/Skirmisher,2200,570,11400,15000,99,Close-quarters lightning turret | Light g2a missile launcher,img/bar/armlship.png
 bar-corfrad,bar,corfrad,Naval Radar / Sonar Tower,Early Warning System,core,structure,Early Warning System,1,t1_radar,Early Warning System,114,130,1000,1800,,,img/bar/corfrad.png
 bar-armafus,bar,armafus,Advanced Fusion Reactor,Produces 3000 Energy (Hazardous),arm,structure,Produces 3000 Energy (Hazardous),2,t2_energy,Produces 3000 Energy (Hazardous),7900,9700,69000,312500,,,img/bar/armafus.png
-bar-legvp,bar,legvp,Legion Vehicle Plant,Produces Tech 1 Vehicles,legion,other,Produces Tech 1 Vehicles,1,t1_engineer,Produces Tech 1 Vehicles,3000,570,1650,5700,,,img/bar/legvp.png
+bar-legvp,bar,legvp,Legion Vehicle Plant,Produces Tech 1 Vehicles,legion,other,Produces Tech 1 Vehicles,1,t1_factory_land,Produces Tech 1 Vehicles,3000,570,1650,5700,,,img/bar/legvp.png
 bar-leganavyflagship,bar,leganavyflagship,Neptune,Naval Combat Flagship,legion,navy,Naval Combat Flagship,2,t3_battleship,Naval Combat Flagship,48000,16000,240000,269000,63,Dual Experimental Thermal Ordnance Generators | Targeting System | Dual Naval-Series Rail Accelerators,img/bar/leganavyflagship.png
 bar-leganavyartyship,bar,leganavyartyship,Corinth,Long Range Cluster Plasma Bombardment Vessel,legion,navy,Long Range Cluster Plasma Bombardment Vessel,2,other,Long Range Cluster Plasma Bombardment Vessel,22000,13000,125000,204750,48,Plasma Cluster Burst | Heavy Artillery Cluster Plasma Cannon | Dual Quad-Barrelled Long-Range Cluster Plasma Cannon | Plasma Cluster Burst,img/bar/leganavyartyship.png
 bar-armarad,bar,armarad,Advanced Radar Tower,Long-Range Radar,arm,structure,Long-Range Radar,2,t1_radar,Long-Range Radar,355,400,14000,8000,,,img/bar/armarad.png
@@ -1047,7 +1047,7 @@ bar-legaca,bar,legaca,Advanced Construction Aircraft,Tech 2 Constructor,legion,o
 bar-armckfus,bar,armckfus,Cloakable Fusion Reactor,Produces 750 Energy,arm,structure,Produces 750 Energy,2,t2_energy,Produces 750 Energy,3800,3650,22000,65000,,,img/bar/armckfus.png
 bar-legmh,bar,legmh,Salacia,Hovercraft Rocket Launcher,legion,land,Hovercraft Rocket Launcher,1,t1_arty,Hovercraft Rocket Launcher,520,190,3100,3300,70,Rocket,img/bar/legmh.png
 bar-coruwfus,bar,coruwfus,Naval Fusion Reactor,Produces 1220 Energy,core,structure,Produces 1220 Energy,2,t2_energy,Produces 1220 Energy,5900,5400,34000,105000,,,img/bar/coruwfus.png
-bar-corroach,bar,corroach,Bedbug,Amphibious Crawling Bomb,core,land,Amphibious Crawling Bomb,2,t2_tank,Amphibious Crawling Bomb,620,69,5800,7900,76,Self-destruction | Crawlingbomb Dummy Weapon,img/bar/corroach.png
+bar-corroach,bar,corroach,Bedbug,Amphibious Crawling Bomb,core,land,Amphibious Crawling Bomb,2,other,Amphibious Crawling Bomb,620,69,5800,7900,76,Self-destruction | Crawlingbomb Dummy Weapon,img/bar/corroach.png
 bar-corsb,bar,corsb,Dam Buster,Seaplane Bomber,core,air,Seaplane Bomber,1,t1_bomber,Seaplane Bomber,940,200,8200,9000,240,CorSeaAdvancedBombs,img/bar/corsb.png
 bar-legehovertank,bar,legehovertank,Charybdis,Heavy Assault Hovertank,legion,other,Heavy Assault Hovertank,3,experimental,Heavy Assault Hovertank,4900,1350,25000,41600,63,Heavy Sweepfire Heatray | Depthcharge Launcher | Parabolic Trajectory Multi-Rocket Launcher,img/bar/legehovertank.png
 bar-corlab,bar,corlab,Bot Lab,Produces Tech 1 Bots,core,structure,Produces Tech 1 Bots,1,t1_factory_land,Produces Tech 1 Bots,2900,470,1050,5000,,,img/bar/corlab.png
@@ -1055,7 +1055,7 @@ bar-armsd,bar,armsd,Tracer,Intrusion Countermeasure System - tracks down stealth
 bar-legwhisper,bar,legwhisper,Whisper,Radar / Sonar Plane,legion,other,Radar / Sonar Plane,2,t1_radar,Radar / Sonar Plane,990,210,9000,16480,321,,img/bar/legwhisper.png
 bar-cortarg,bar,cortarg,Pinpointer,"Enhanced Radar Targeting, more facilities enhance accuracy",core,structure,"Enhanced Radar Targeting, more facilities enhance accuracy",2,t1_radar,"Enhanced Radar Targeting, more facilities enhance accuracy",2000,800,7500,10900,,,img/bar/cortarg.png
 bar-cordemon,bar,cordemon,Demon,Flamethrower Mech,core,land,Flamethrower Mech,3,experimental,Flamethrower Mech,18000,6000,90000,160000,63,Demon's Maw; Heavy long range AoE flamethrower | ShoulderRockets | Heavy long range AoE flamethrower,img/bar/cordemon.png
-bar-armnanotc,bar,armnanotc,Construction Turret,Assist & Repair in large radius,arm,structure,Assist & Repair in large radius,1,t1_engineer,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/armnanotc.png
+bar-armnanotc,bar,armnanotc,Construction Turret,Assist & Repair in large radius,arm,structure,Assist & Repair in large radius,1,other,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/armnanotc.png
 bar-armvang,bar,armvang,Vanguard,All-Terrain Heavy Plasma Cannon,arm,land,All-Terrain Heavy Plasma Cannon,3,experimental,All-Terrain Heavy Plasma Cannon,8500,3300,71000,120000,33,Heavy long-range g2g plasma cannon | Heavy long-range g2g plasma cannon | Heavy long-range g2g plasma cannon,img/bar/armvang.png
 bar-legdtr,bar,legdtr,Dragon's Jaw,Pop-up Riot Cannon Turret,legion,other,Pop-up Riot Cannon Turret,1,other,Pop-up Riot Cannon Turret,1610,290,1550,4420,,Area Control Riot Cannon,img/bar/legdtr.png
 bar-corch,bar,corch,Construction Hovercraft,Tech 1 Constructor,core,land,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,1490,190,3000,4580,60.899,,img/bar/corch.png
@@ -1072,16 +1072,16 @@ bar-cormh,bar,cormh,Mangonel,Hovercraft Rocket Launcher,core,land,Hovercraft Roc
 bar-armmstor,bar,armmstor,Metal Storage,Increases Metal Storage (3000),arm,structure,Increases Metal Storage (3000),1,other,Increases Metal Storage (3000),2100,330,570,2920,,,img/bar/armmstor.png
 bar-legvenator,bar,legvenator,Venator,Rapid-Response Flak Interceptor Fighter,legion,other,Rapid-Response Flak Interceptor Fighter,2,t2_flak,Rapid-Response Flak Interceptor Fighter,210,110,3200,9730,450,Birdshot Cannon,img/bar/legvenator.png
 bar-legfloat,bar,legfloat,Triton,Heavy Convertible Tank/Boat,legion,land,Heavy Convertible Tank/Boat,2,t2_tank,Heavy Convertible Tank/Boat,,,,12000,55,Rapid-fire machine gun | Medium g2g gauss cannon,img/bar/legfloat.png
-bar-coreter,bar,coreter,Obscurer,Radar Jammer Vehicle,core,land,Radar Jammer Vehicle,2,t1_radar,Radar Jammer Vehicle,580,105,1900,7500,41.4,,img/bar/coreter.png
+bar-coreter,bar,coreter,Obscurer,Radar Jammer Vehicle,core,land,Radar Jammer Vehicle,2,other,Radar Jammer Vehicle,580,105,1900,7500,41.4,,img/bar/coreter.png
 bar-armacv,bar,armacv,Advanced Construction Vehicle,Tech 2 Constructor,arm,land,Tech 2 Constructor,2,t2_engineer,Tech 2 Constructor,2050,550,6800,16000,52.5,,img/bar/armacv.png
 bar-legaskirmtank,bar,legaskirmtank,Gladiator,Medium Burst-Fire Skirmisher Tank,legion,land,Medium Burst-Fire Skirmisher Tank,2,t2_tank,Medium Burst-Fire Skirmisher Tank,2500,450,6800,10490,65,Heavy Rotary Plasma Cannon,img/bar/legaskirmtank.png
 bar-armmex,bar,armmex,Metal Extractor,Extracts Metal from Metalspots,arm,structure,Extracts Metal from Metalspots,1,t1_mex,Extracts Metal from Metalspots,270,50,500,1800,,,img/bar/armmex.png
 bar-leganavycruiser,bar,leganavycruiser,Thalassa,Gatling Gun Cruiser,legion,navy,Gatling Gun Cruiser,2,t2_cruiser,Gatling Gun Cruiser,5600,900,10800,20290,57,Twin Rapid-fire Machine Guns | Medium depthcharge launcher | Dual Heavy Assault Kinetic Shotgun | Dual Rotary Machine Guns,img/bar/leganavycruiser.png
 bar-legmg,bar,legmg,Cacophony,Heavy Land/Air Gatling Gun Turret,legion,structure,Heavy Land/Air Gatling Gun Turret,1,other,Heavy Land/Air Gatling Gun Turret,2350,420,5500,7600,,Heavy Rapid-fire Machine Gun,img/bar/legmg.png
-bar-leganavyaaship,bar,leganavyaaship,Notus,Advanced Anti-Air Gatling Flak Ship,legion,navy,Advanced Anti-Air Gatling Flak Ship,2,t2_flak,Advanced Anti-Air Gatling Flak Ship,3900,1000,12000,20100,57,Advanced Anti-Air Salvo Missile Launcher | Dual Rotary Microflak Cannons,img/bar/leganavyaaship.png
+bar-leganavyaaship,bar,leganavyaaship,Notus,Advanced Anti-Air Gatling Flak Ship,legion,navy,Advanced Anti-Air Gatling Flak Ship,2,other,Advanced Anti-Air Gatling Flak Ship,3900,1000,12000,20100,57,Advanced Anti-Air Salvo Missile Launcher | Dual Rotary Microflak Cannons,img/bar/leganavyaaship.png
 bar-legfus,bar,legfus,Fusion Reactor,Produces 950 Energy,legion,other,Produces 950 Energy,2,t2_energy,Produces 950 Energy,4600,4000,25000,66000,,,img/bar/legfus.png
 bar-legnavydestro,bar,legnavydestro,Syracusia,Hybrid Heatray-Drone Carrier Destroyer,legion,navy,Hybrid Heatray-Drone Carrier Destroyer,1,t2_destroyer,Hybrid Heatray-Drone Carrier Destroyer,3800,860,9000,11500,58,Dual Ballistics Drone Control Matrix | Medium Sweepfire Heatray,img/bar/legnavydestro.png
-bar-leglupara,bar,leglupara,Lupara,Bomb-Resistant Medium-Range Anti-Air Flak Battery,legion,other,Bomb-Resistant Medium-Range Anti-Air Flak Battery,1,t1_aa_turret,Bomb-Resistant Medium-Range Anti-Air Flak Battery,4000,900,8200,12500,,Medium g2a Flak Blunderbuss,img/bar/leglupara.png
+bar-leglupara,bar,leglupara,Lupara,Bomb-Resistant Medium-Range Anti-Air Flak Battery,legion,other,Bomb-Resistant Medium-Range Anti-Air Flak Battery,1,t1_aa,Bomb-Resistant Medium-Range Anti-Air Flak Battery,4000,900,8200,12500,,Medium g2a Flak Blunderbuss,img/bar/leglupara.png
 bar-corfship,bar,corfship,Brimstone,Anti-Swarm Ship,core,navy,Anti-Swarm Ship,2,other,Anti-Swarm Ship,2700,630,9400,13000,93,Heavy long range AoE flamethrower | Missiles,img/bar/corfship.png
 bar-armfig,bar,armfig,Falcon,Fighter,arm,air,Fighter,1,t1_interceptor,Fighter,167,73,2900,3500,289.20001,Light a2a missile launcher,img/bar/armfig.png
 bar-legnavyfrigate,bar,legnavyfrigate,Argonaut,Torpedo Launcher Frigate,legion,navy,Torpedo Launcher Frigate,1,t1_frigate,Torpedo Launcher Frigate,2600,370,3700,4800,72,Deck Torpedo Launcher | Deck Torpedo Launcher,img/bar/legnavyfrigate.png
@@ -1089,26 +1089,26 @@ bar-armmine2,bar,armmine2,Medium Mine,,arm,structure,Medium Mine,1,other,Medium 
 bar-corblackhy,bar,corblackhy,Black Hydra,Flagship,core,navy,Flagship,2,t3_battleship,Flagship,53000,21000,190000,310000,49.5,BattleshipCannon | Pop-up rapid-fire g2a missile launcher | HighEnergyLaser | RapidSamMissile,img/bar/corblackhy.png
 bar-armdrag,bar,armdrag,Dragon's Teeth,Fortification,arm,structure,Fortification,1,wall,Fortification,2800,8,0,255,,,img/bar/armdrag.png
 bar-corvalk,bar,corvalk,Hercules,Light Air Transport,core,air,Light Air Transport,1,t1_transport,Light Air Transport,280,74,1450,4120,198,,img/bar/corvalk.png
-bar-legshot,bar,legshot,Phalanx,Shielded Riot Defence Bot,legion,land,Shielded Riot Defence Bot,2,shield,Shielded Riot Defence Bot,3350,450,4750,10160,50.0,Medium Blast Riot Cannon,img/bar/legshot.png
+bar-legshot,bar,legshot,Phalanx,Shielded Riot Defence Bot,legion,land,Shielded Riot Defence Bot,2,t2_tank,Shielded Riot Defence Bot,3350,450,4750,10160,50.0,Medium Blast Riot Cannon,img/bar/legshot.png
 bar-cortitan,bar,cortitan,Angler,Torpedo Bomber,core,air,Torpedo Bomber,2,t2_bomber,Torpedo Bomber,1960,410,8200,18000,279,Heavy homing torpedo launcher,img/bar/cortitan.png
 bar-corhurc,bar,corhurc,Hailstorm,Heavy Strategic Bomber,core,air,Heavy Strategic Bomber,2,t2_bomber,Heavy Strategic Bomber,1520,310,18500,36000,248.399,Heavy a2g incinerating warheads,img/bar/corhurc.png
 bar-coruwageo,bar,coruwageo,Advanced Geothermal Powerplant,Produces 1250 Energy (Hazardous),core,structure,Produces 1250 Energy (Hazardous),2,t2_energy,Produces 1250 Energy (Hazardous),,,,48000,,,img/bar/coruwageo.png
-bar-corhlt,bar,corhlt,Warden,Area Control Laser Tower,core,structure,Area Control Laser Tower,1,t2_pd,Area Control Laser Tower,2750,480,4700,11400,,High energy g2g laser,img/bar/corhlt.png
+bar-corhlt,bar,corhlt,Warden,Area Control Laser Tower,core,structure,Area Control Laser Tower,1,t1_pd,Area Control Laser Tower,2750,480,4700,11400,,High energy g2g laser,img/bar/corhlt.png
 bar-coraca,bar,coraca,Advanced Construction Aircraft,Tech 2 Constructor,core,air,Tech 2 Constructor,2,t2_engineer,Tech 2 Constructor,205,360,11000,22000,181.5,,img/bar/coraca.png
-bar-legfig,bar,legfig,Noctua,Fighter / Scout Drone,legion,other,Fighter / Scout Drone,1,t1_interceptor,Fighter / Scout Drone,220,40,1600,2000,270.0,Burst-Fire A2A Machine Gun,img/bar/legfig.png
+bar-legfig,bar,legfig,Noctua,Fighter / Scout Drone,legion,other,Fighter / Scout Drone,1,t1_aa,Fighter / Scout Drone,220,40,1600,2000,270.0,Burst-Fire A2A Machine Gun,img/bar/legfig.png
 bar-corerad,bar,corerad,Eradicator,Medium-Range Anti-Air Missile Battery,core,structure,Medium-Range Anti-Air Missile Battery,1,t1_aa_turret,Medium-Range Anti-Air Missile Battery,4450,800,7900,12000,,Long-range rapid-fire g2a missile launcher,img/bar/corerad.png
 bar-armfflak,bar,armfflak,Naval Arbalest,Anti-Air Flak Gun - Naval Series,arm,structure,Anti-Air Flak Gun - Naval Series,2,t2_flak,Anti-Air Flak Gun - Naval Series,1920,850,23000,21900,,Heavy g2a flak cannon,img/bar/armfflak.png
 bar-corrl,bar,corrl,Thistle,Light Anti-air Tower,core,structure,Light Anti-air Tower,1,t1_aa_turret,Light Anti-air Tower,335,80,850,1750,,Light g2a missile launcher,img/bar/corrl.png
-bar-legfrl,bar,legfrl,Polybolos,Floating Anti-Air Turret,legion,other,Floating Anti-Air Turret,1,t1_aa_turret,Floating Anti-Air Turret,380,90,1000,2200,,Light g2a Missile Launcher,img/bar/legfrl.png
+bar-legfrl,bar,legfrl,Polybolos,Floating Anti-Air Turret,legion,other,Floating Anti-Air Turret,1,t1_aa,Floating Anti-Air Turret,380,90,1000,2200,,Light g2a Missile Launcher,img/bar/legfrl.png
 bar-leganavyconsub,bar,leganavyconsub,Advanced Construction Submarine,Tech 2 Constructor,legion,other,Tech 2 Constructor,2,t2_engineer,Tech 2 Constructor,1110,700,9000,18000,64.8,,img/bar/leganavyconsub.png
-bar-corparrow,bar,corparrow,Poison Arrow,Very Heavy Amphibious Tank,core,land,Very Heavy Amphibious Tank,2,t2_tank,Very Heavy Amphibious Tank,6300,1050,21000,26000,51,PoisonArrowCannon,img/bar/corparrow.png
+bar-corparrow,bar,corparrow,Poison Arrow,Very Heavy Amphibious Tank,core,land,Very Heavy Amphibious Tank,2,t2_amphib,Very Heavy Amphibious Tank,6300,1050,21000,26000,51,PoisonArrowCannon,img/bar/corparrow.png
 bar-corveng,bar,corveng,Valiant,Fighter,core,air,Fighter,1,t1_interceptor,Fighter,156,73,2800,3330,297.60001,Light guided a2a missile launcher,img/bar/corveng.png
-bar-corsh,bar,corsh,Goon,Fast Attack Hovercraft,core,land,Fast Attack Hovercraft,1,other,Fast Attack Hovercraft,255,75,1500,1500,109.5,Light Close-Quarters Fast-Firing g2g Laser,img/bar/corsh.png
+bar-corsh,bar,corsh,Goon,Fast Attack Hovercraft,core,land,Fast Attack Hovercraft,1,t1_hover,Fast Attack Hovercraft,255,75,1500,1500,109.5,Light Close-Quarters Fast-Firing g2g Laser,img/bar/corsh.png
 bar-armch,bar,armch,Construction Hovercraft,Tech 1 Constructor,arm,land,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,1440,200,2700,4470,66.9,,img/bar/armch.png
 bar-corshad,bar,corshad,Whirlwind,Bomber,core,air,Bomber,1,t1_bomber,Bomber,680,150,4600,5050,234,Medium a2g incinerating warheads,img/bar/corshad.png
-bar-corhal,bar,corhal,Halberd,Assault Hovertank,core,land,Assault Hovertank,1,t1_tank,Assault Hovertank,4350,640,13000,12900,45.3,HighEnergyLaser,img/bar/corhal.png
-bar-leganavaltorpturret,bar,leganavaltorpturret,Delphinus,Advanced Offshore Torpedo Launcher,legion,other,Advanced Offshore Torpedo Launcher,2,other,Advanced Offshore Torpedo Launcher,2800,1050,8500,10900,,Long-range advanced torpedo launcher,img/bar/leganavaltorpturret.png
-bar-legsy,bar,legsy,Shipyard,Produces Tech 1 Ships,legion,other,Produces Tech 1 Ships,1,t1_engineer,Produces Tech 1 Ships,4300,450,950,5100,,,img/bar/legsy.png
+bar-corhal,bar,corhal,Halberd,Assault Hovertank,core,land,Assault Hovertank,1,t1_hover,Assault Hovertank,4350,640,13000,12900,45.3,HighEnergyLaser,img/bar/corhal.png
+bar-leganavaltorpturret,bar,leganavaltorpturret,Delphinus,Advanced Offshore Torpedo Launcher,legion,other,Advanced Offshore Torpedo Launcher,2,t1_sub,Advanced Offshore Torpedo Launcher,2800,1050,8500,10900,,Long-range advanced torpedo launcher,img/bar/leganavaltorpturret.png
+bar-legsy,bar,legsy,Shipyard,Produces Tech 1 Ships,legion,other,Produces Tech 1 Ships,1,t1_factory_naval,Produces Tech 1 Ships,4300,450,950,5100,,,img/bar/legsy.png
 bar-coracv,bar,coracv,Advanced Construction Vehicle,Tech 2 Constructor,core,land,Tech 2 Constructor,2,t2_engineer,Tech 2 Constructor,2150,580,7000,17000,49.5,,img/bar/coracv.png
 bar-corfmine3,bar,corfmine3,Heavy Mine,"Heavy Mine, Naval Series",core,structure,"Heavy Mine, Naval Series",1,other,"Heavy Mine, Naval Series",11,32,1600,400,,Crawlingbomb Dummy Weapon,img/bar/corfmine3.png
 bar-armmh,bar,armmh,Possum,Hovercraft Rocket Launcher,arm,land,Hovercraft Rocket Launcher,1,t1_arty,Hovercraft Rocket Launcher,530,175,3000,3300,63.9,Light long-range g2g starburst rocket launcher,img/bar/armmh.png
@@ -1116,7 +1116,7 @@ bar-corgator,bar,corgator,Incisor,Light Tank,core,land,Light Tank,1,t1_tank,Ligh
 bar-corbats,bar,corbats,Despot,Battleship,core,navy,Battleship,2,t3_battleship,Battleship,12000,3400,23000,51000,53.1,HighEnergyLaser | BattleshipCannon,img/bar/corbats.png
 bar-corhrk,bar,corhrk,Arbiter,Heavy Rocket Bot,core,land,Heavy Rocket Bot,2,t2_mml,Heavy Rocket Bot,610,600,5800,9500,54,HeavyRockets,img/bar/corhrk.png
 bar-armadvsol,bar,armadvsol,Advanced Solar Collector,Produces 80 Energy,arm,structure,Produces 80 Energy,1,t1_energy,Produces 80 Energy,1130,350,5000,7950,,,img/bar/armadvsol.png
-bar-cornanotc,bar,cornanotc,Construction Turret,Assist & Repair in large radius,core,structure,Assist & Repair in large radius,1,t1_engineer,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/cornanotc.png
+bar-cornanotc,bar,cornanotc,Construction Turret,Assist & Repair in large radius,core,structure,Assist & Repair in large radius,1,other,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/cornanotc.png
 bar-armmav,bar,armmav,Gunslinger,Skirmish Bot. Auto-Repair. Range increases with experience,arm,land,Skirmish Bot. Auto-Repair. Range increases with experience,2,t3_assault,Skirmish Bot. Auto-Repair. Range increases with experience,1560,650,11000,17000,49.5,Anti-swarm g2g gauss-impulse guns,img/bar/armmav.png
 bar-leghades,bar,leghades,Alaris,Fast Assault Tank,legion,land,Fast Assault Tank,1,t1_tank,Fast Assault Tank,425,65,850,1650,102.0,Close-quarters g2g gauss-cannon,img/bar/leghades.png
 bar-legotter,bar,legotter,Otter,Amphibious Construction Vehicle,legion,land,Amphibious Construction Vehicle,1,t1_engineer,Amphibious Construction Vehicle,950,150,3100,6540,43.5,,img/bar/legotter.png
@@ -1124,14 +1124,14 @@ bar-corack,bar,corack,Advanced Construction Bot,Tech 2 Constructor,core,land,Tec
 bar-legeyes,bar,legeyes,Argus,Perimeter Camera,legion,other,Perimeter Camera,1,other,Perimeter Camera,280,32,850,750,,,img/bar/legeyes.png
 bar-leganavaladvgeo,bar,leganavaladvgeo,Advanced Underwater Geothermal Powerplant,Produces 1250 Energy (Hazardous),legion,other,Produces 1250 Energy (Hazardous),2,t2_energy,Produces 1250 Energy (Hazardous),,,,32000,,,img/bar/leganavaladvgeo.png
 bar-legmoho,bar,legmoho,Advanced Metal Extractor,Advanced Metal Extractor / Storage,legion,structure,Advanced Metal Extractor / Storage,2,t2_mex,Advanced Metal Extractor / Storage,3900,640,8100,14100,,,img/bar/legmoho.png
-bar-cornecro,bar,cornecro,Graverobber,Stealthy Rez / Reclaim / Repair Bot,core,land,Stealthy Rez / Reclaim / Repair Bot,1,t1_engineer,Stealthy Rez / Reclaim / Repair Bot,220,130,1400,2800,78,,img/bar/cornecro.png
+bar-cornecro,bar,cornecro,Graverobber,Stealthy Rez / Reclaim / Repair Bot,core,land,Stealthy Rez / Reclaim / Repair Bot,1,other,Stealthy Rez / Reclaim / Repair Bot,220,130,1400,2800,78,,img/bar/cornecro.png
 bar-legack,bar,legack,Advanced Construction Bot,Tech 2 Constructor,legion,land,Tech 2 Constructor,2,t2_engineer,Tech 2 Constructor,860,410,6900,9300,36.0,,img/bar/legack.png
-bar-leghp,bar,leghp,Hovercraft Platform,Builds Hovercraft,legion,other,Builds Hovercraft,1,t1_engineer,Builds Hovercraft,3750,670,2000,8700,,,img/bar/leghp.png
+bar-leghp,bar,leghp,Hovercraft Platform,Builds Hovercraft,legion,other,Builds Hovercraft,1,t1_factory_land,Builds Hovercraft,3750,670,2000,8700,,,img/bar/leghp.png
 bar-armgremlin,bar,armgremlin,Gremlin,Stealth Tank,arm,land,Stealth Tank,2,t2_tank,Stealth Tank,1060,230,3700,8500,70.5,Light close-quarters gauss cannon,img/bar/armgremlin.png
-bar-legmineb,bar,legmineb,Harbinger,Linear Minelayer Bomber,legion,other,Linear Minelayer Bomber,1,t1_bomber,Linear Minelayer Bomber,1110,300,21000,30550,210.0,LegionMineBomb,img/bar/legmineb.png
+bar-legmineb,bar,legmineb,Harbinger,Linear Minelayer Bomber,legion,other,Linear Minelayer Bomber,1,other,Linear Minelayer Bomber,1110,300,21000,30550,210.0,LegionMineBomb,img/bar/legmineb.png
 bar-corpt,bar,corpt,Herring,Missile Corvette / Light Anti Air / Sonar,core,navy,Missile Corvette / Light Anti Air / Sonar,1,t1_frigate,Missile Corvette / Light Anti Air / Sonar,890,210,1400,2500,69,Missiles | Light g2a missile launcher,img/bar/corpt.png
 bar-armcs,bar,armcs,Construction Ship,Tech 1 Constructor,arm,navy,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,1040,200,2000,3460,65.4,,img/bar/armcs.png
-bar-legcen,bar,legcen,Phobos,Fast Assault Bot,legion,land,Fast Assault Bot,1,t1_tank,Fast Assault Bot,750,140,2200,2800,90.0,Close-quarters g2g gauss-cannon,img/bar/legcen.png
+bar-legcen,bar,legcen,Phobos,Fast Assault Bot,legion,land,Fast Assault Bot,1,t1_light_bot,Fast Assault Bot,750,140,2200,2800,90.0,Close-quarters g2g gauss-cannon,img/bar/legcen.png
 bar-cortrem,bar,cortrem,Tremor,Heavy Artillery Vehicle,core,land,Heavy Artillery Vehicle,2,t1_arty,Heavy Artillery Vehicle,3000,1850,49000,43000,40.5,RapidArtillery,img/bar/cortrem.png
 bar-corfast,bar,corfast,Twitcher,Combat Engineer,core,land,Combat Engineer,2,t2_engineer,Combat Engineer,830,210,3800,8000,90,,img/bar/corfast.png
 bar-corssub,bar,corssub,Kraken,Long-Range Battle Submarine,core,navy,Long-Range Battle Submarine,2,t1_sub,Long-Range Battle Submarine,3900,1900,29000,35000,39,AdvTorpedo,img/bar/corssub.png
@@ -1146,22 +1146,22 @@ bar-legfrad,bar,legfrad,Naval Radar / Sonar Tower,Early Surface/Naval Warning Sy
 bar-armestor,bar,armestor,Energy Storage,Increases Energy Storage (6000),arm,structure,Increases Energy Storage (6000),1,t1_energy,Increases Energy Storage (6000),1890,170,1700,4110,,,img/bar/armestor.png
 bar-legck,bar,legck,Legion Construction Bot,Tech 1 Constructor,legion,land,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,630,100,1600,3250,39,,img/bar/legck.png
 bar-legnavysub,bar,legnavysub,Ketea,Combat Submarine,legion,navy,Combat Submarine,1,t1_sub,Combat Submarine,600,320,2400,4600,57,Submerged Torpedo Launcher,img/bar/legnavysub.png
-bar-legtl,bar,legtl,Stheno,Offshore Torpedo Launcher,legion,other,Offshore Torpedo Launcher,1,other,Offshore Torpedo Launcher,1300,170,1500,3700,,Torpedo Launcher,img/bar/legtl.png
+bar-legtl,bar,legtl,Stheno,Offshore Torpedo Launcher,legion,other,Offshore Torpedo Launcher,1,t1_sub,Offshore Torpedo Launcher,1300,170,1500,3700,,Torpedo Launcher,img/bar/legtl.png
 bar-corllt,bar,corllt,Guard,Light Laser Tower,core,structure,Light Laser Tower,1,t1_pd,Light Laser Tower,650,90,700,2500,,Light g2g laser,img/bar/corllt.png
 bar-coreyes,bar,coreyes,Beholder,Perimeter Camera,core,structure,Perimeter Camera,1,other,Perimeter Camera,280,32,850,750,,,img/bar/coreyes.png
 bar-armuwfus,bar,armuwfus,Naval Fusion Reactor,Produces 1200 Energy,arm,structure,Produces 1200 Energy,2,t2_energy,Produces 1200 Energy,5600,5200,33500,99900,,,img/bar/armuwfus.png
 bar-corcan,bar,corcan,Sumo,Armored Assault Bot,core,land,Armored Assault Bot,2,t2_tank,Armored Assault Bot,5940,560,9300,15000,37.5,Laserroar | HighEnergyLaser,img/bar/corcan.png
-bar-armclaw,bar,armclaw,Dragon's Claw,Pop-up Lightning Turret,arm,structure,Pop-up Lightning Turret,1,other,Pop-up Lightning Turret,1330,340,1600,4650,,Close-quarters g2g lightning turret,img/bar/armclaw.png
+bar-armclaw,bar,armclaw,Dragon's Claw,Pop-up Lightning Turret,arm,structure,Pop-up Lightning Turret,1,wall,Pop-up Lightning Turret,1330,340,1600,4650,,Close-quarters g2g lightning turret,img/bar/armclaw.png
 bar-legadvsol,bar,legadvsol,Advanced Solar Collector,Produces 100 Energy,legion,other,Produces 100 Energy,1,t1_energy,Produces 100 Energy,800,465,4080,13580,,,img/bar/legadvsol.png
 bar-coralab,bar,coralab,Advanced Bot Lab,Produces Tech 2 Bots,core,structure,Produces Tech 2 Bots,2,t2_factory_land,Produces Tech 2 Bots,4500,2600,16000,26000,,,img/bar/coralab.png
 bar-corantiship,bar,corantiship,Oasis,"Mobile Anti-Nuke, Generator, and Radar/Sonar",core,navy,"Mobile Anti-Nuke, Generator, and Radar/Sonar",2,antinuke,"Mobile Anti-Nuke, Generator, and Radar/Sonar",5000,1400,12000,27000,63,ICBM intercepting missile launcher,img/bar/corantiship.png
 bar-armdfly,bar,armdfly,Abductor,Stealthy Armed Heavy Transport,arm,air,Stealthy Armed Heavy Transport,2,t1_transport,Stealthy Armed Heavy Transport,1170,320,6600,19000,225,Heavy a2g EMP beam,img/bar/armdfly.png
 bar-coraap,bar,coraap,Advanced Aircraft Plant,Produces Tech 2 Aircraft,core,structure,Produces Tech 2 Aircraft,2,t2_factory_air,Produces Tech 2 Aircraft,3900,2900,28000,32000,,,img/bar/coraap.png
-bar-legaspy,bar,legaspy,Eidolon,Stealthy Invisible Spy Bot,legion,land,Stealthy Invisible Spy Bot,2,t2_tank,Stealthy Invisible Spy Bot,300,125,8500,12900,62.5,coconut.jpg,img/bar/legaspy.png
+bar-legaspy,bar,legaspy,Eidolon,Stealthy Invisible Spy Bot,legion,land,Stealthy Invisible Spy Bot,2,other,Stealthy Invisible Spy Bot,300,125,8500,12900,62.5,coconut.jpg,img/bar/legaspy.png
 bar-cormine2,bar,cormine2,Medium Mine,,core,structure,Medium Mine,1,other,Medium Mine,11,25,1050,300,,Crawlingbomb Dummy Weapon,img/bar/cormine2.png
 bar-corfmd,bar,corfmd,Prevailer,Anti-Nuke System,core,structure,Anti-Nuke System,2,antinuke,Anti-Nuke System,3300,1500,40000,60000,,ICBM intercepting missile launcher,img/bar/corfmd.png
 bar-corasy,bar,corasy,Advanced Shipyard,Produces Tech 2 Ships,core,structure,Produces Tech 2 Ships,2,t2_factory_naval,Produces Tech 2 Ships,5900,2800,10000,24000,,,img/bar/corasy.png
-bar-armnanotcplat,bar,armnanotcplat,Naval Construction Turret,Assist & Repair in large radius,arm,structure,Assist & Repair in large radius,1,t1_engineer,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/armnanotcplat.png
+bar-armnanotcplat,bar,armnanotcplat,Naval Construction Turret,Assist & Repair in large radius,arm,structure,Assist & Repair in large radius,1,other,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/armnanotcplat.png
 bar-legnavyconship,bar,legnavyconship,Construction Ship,Constructs Tech 1 Naval Structures,legion,other,Constructs Tech 1 Naval Structures,1,t1_engineer,Constructs Tech 1 Naval Structures,1080,180,2000,3500,71,,img/bar/legnavyconship.png
 bar-armfmine3,bar,armfmine3,Heavy Mine,"Heavy Mine, Naval Series",arm,structure,"Heavy Mine, Naval Series",1,other,"Heavy Mine, Naval Series",11,32,1600,400,,Crawlingbomb Dummy Weapon,img/bar/armfmine3.png
 bar-corcat,bar,corcat,Catapult,Heavy Rocket Bot,core,land,Heavy Rocket Bot,3,experimental,Heavy Rocket Bot,6100,4900,80000,160000,48,CatapultRockets,img/bar/corcat.png
@@ -1171,7 +1171,7 @@ bar-armbeaver,bar,armbeaver,Beaver,Amphibious Construction Vehicle,arm,land,Amph
 bar-corkarg,bar,corkarg,Karganeth,All-Terrain Assault Mech,core,land,All-Terrain Assault Mech,3,experimental,All-Terrain Assault Mech,12500,2500,57000,94000,45,KarganethMissiles | ShoulderRockets,img/bar/corkarg.png
 bar-corsumo,bar,corsumo,Mammoth,Heavily Armored Assault Bot,core,land,Heavily Armored Assault Bot,2,t2_tank,Heavily Armored Assault Bot,15600,2200,35000,65000,22.5,HighEnergyLaser | Laserroar,img/bar/corsumo.png
 bar-legsilo,bar,legsilo,Supernova,Nuclear ICBM Launcher,legion,structure,Nuclear ICBM Launcher,2,nuke,Nuclear ICBM Launcher,6200,7700,82000,181000,,Intercontinental Thermonuclear Ballistic Missile | Nuclear Launch,img/bar/legsilo.png
-bar-legnanotc,bar,legnanotc,Construction Turret,Assist & Repair in large radius,legion,structure,Assist & Repair in large radius,1,t1_engineer,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/legnanotc.png
+bar-legnanotc,bar,legnanotc,Construction Turret,Assist & Repair in large radius,legion,structure,Assist & Repair in large radius,1,other,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/legnanotc.png
 bar-armlun,bar,armlun,Lunkhead,Heavy Hovertank,arm,land,Heavy Hovertank,3,experimental,Heavy Hovertank,5300,1150,23000,40000,50.1,Depthcharge launcher | Heavy ballistic underwater cannon | Heavy ballistic underwater cannon | Heavy g2g rocket launcher,img/bar/armlun.png
 bar-armsubk,bar,armsubk,Barracuda,Fast Assault Submarine,arm,navy,Fast Assault Submarine,2,t1_sub,Fast Assault Submarine,2350,950,17000,28000,81,Rapid armor-piercing torpedoes,img/bar/armsubk.png
 bar-armraz,bar,armraz,Razorback,Battle Mech,arm,land,Battle Mech,3,experimental,Battle Mech,13300,3800,68000,120000,69,Rapid-fire close quarters g2g armor-piercing laser,img/bar/armraz.png
@@ -1181,26 +1181,26 @@ bar-leggeo,bar,leggeo,Geothermal Powerplant,Produces 300 Energy,legion,other,Pro
 bar-armspid,bar,armspid,Webber,All-Terrain EMP and Reclaiming Spider,arm,land,All-Terrain EMP and Reclaiming Spider,2,t2_tank,All-Terrain EMP and Reclaiming Spider,1110,250,5000,7000,71.55,Close-quarters light EMP laser,img/bar/armspid.png
 bar-armmart,bar,armmart,Mauser,Mobile Artillery,arm,land,Mobile Artillery,2,t3_arty,Mobile Artillery,1070,320,4900,8500,60,Long-range g2g plasma cannon,img/bar/armmart.png
 bar-cortoast,bar,cortoast,Persecutor,Pop-up Plasma Artillery,core,structure,Pop-up Plasma Artillery,2,t2_arty,Pop-up Plasma Artillery,4250,2500,17000,25700,,Pop-up long-range heavy g2g plasma cannon | Pop-up long-range heavy g2g plasma cannon | Pop-up long-range heavy g2g plasma cannon,img/bar/cortoast.png
-bar-leganavalsonarstation,bar,leganavalsonarstation,Auscultor,Extended Sonar Station,legion,other,Extended Sonar Station,2,t1_radar,Extended Sonar Station,2400,160,2400,6100,,,img/bar/leganavalsonarstation.png
+bar-leganavalsonarstation,bar,leganavalsonarstation,Auscultor,Extended Sonar Station,legion,other,Extended Sonar Station,2,other,Extended Sonar Station,2400,160,2400,6100,,,img/bar/leganavalsonarstation.png
 bar-corvamp,bar,corvamp,Nighthawk,Stealth Fighter,core,air,Stealth Fighter,2,t2_fighter,Stealth Fighter,290,135,4750,10000,379.5,Guided a2a/a2g missile launcher,img/bar/corvamp.png
 bar-leglrpc,bar,leglrpc,Olympus,Long-Range Cluster Plasma Cannon,legion,other,Long-Range Cluster Plasma Cannon,2,other,Long-Range Cluster Plasma Cannon,4450,5200,76000,93000,,Long-Range g2g Heavy Cluster Plasma Cannon | Plasma Burst,img/bar/leglrpc.png
 bar-armfido,bar,armfido,Hound,Mortar / Skirmish Bot,arm,land,Mortar / Skirmish Bot,2,t2_tank,Mortar / Skirmish Bot,1280,285,6300,6230,69,Ballistic g2g AoE plasma cannon,img/bar/armfido.png
-bar-legbastion,bar,legbastion,Bastion,Energy Weapon Defence,legion,structure,Energy Weapon Defence,2,t2_energy,Energy Weapon Defence,12000,4200,58000,79000,,Heavy Sustained Sweepfire Heat Ray,img/bar/legbastion.png
+bar-legbastion,bar,legbastion,Bastion,Energy Weapon Defence,legion,structure,Energy Weapon Defence,2,other,Energy Weapon Defence,12000,4200,58000,79000,,Heavy Sustained Sweepfire Heat Ray,img/bar/legbastion.png
 bar-cormex,bar,cormex,Metal Extractor,Extracts Metal from Metalspots,core,structure,Extracts Metal from Metalspots,1,t1_mex,Extracts Metal from Metalspots,275,50,500,1870,,,img/bar/cormex.png
 bar-legacluster,bar,legacluster,Eviscerator,Pop-up Cluster Plasma Artillery,legion,other,Pop-up Cluster Plasma Artillery,1,t1_arty,Pop-up Cluster Plasma Artillery,3700,2300,15000,25700,,Pop-Up Long-range g2g Cluster Plasma Cannon | Pop-Up Long-range g2g Cluster Plasma Cannon | Pop-Up Long-range g2g Cluster Plasma Cannon | Pop-up Long-Range Heavy g2g Cluster Plasma Cannon,img/bar/legacluster.png
-bar-legrhapsis,bar,legrhapsis,Rhapsis,Salvo Anti-Air Missile Battery,legion,other,Salvo Anti-Air Missile Battery,1,t1_aa_turret,Salvo Anti-Air Missile Battery,1900,280,6500,4700,,Advanced g2a Salvo Missile Launcher,img/bar/legrhapsis.png
+bar-legrhapsis,bar,legrhapsis,Rhapsis,Salvo Anti-Air Missile Battery,legion,other,Salvo Anti-Air Missile Battery,1,t1_aa,Salvo Anti-Air Missile Battery,1900,280,6500,4700,,Advanced g2a Salvo Missile Launcher,img/bar/legrhapsis.png
 bar-corban,bar,corban,Banisher,Heavy Missile Tank,core,land,Heavy Missile Tank,2,t2_tank,Heavy Missile Tank,2500,1000,23000,30000,54,Banisher,img/bar/corban.png
-bar-armemp,bar,armemp,Paralyzer,EMP Missile Launcher,arm,structure,EMP Missile Launcher,2,t2_mml,EMP Missile Launcher,3350,1600,29000,79300,,Heavy long-range g2g EMP starburst rocket,img/bar/armemp.png
-bar-corspec,bar,corspec,Deceiver,Radar Jammer Bot,core,land,Radar Jammer Bot,2,t1_radar,Radar Jammer Bot,345,75,1550,6500,39,,img/bar/corspec.png
-bar-corvipe,bar,corvipe,Scorpion,Pop-up Sabot Battery,core,structure,Pop-up Sabot Battery,2,t2_tank,Pop-up Sabot Battery,3000,730,14000,15000,,Heavy g2g sabot rocket launcher,img/bar/corvipe.png
+bar-armemp,bar,armemp,Paralyzer,EMP Missile Launcher,arm,structure,EMP Missile Launcher,2,other,EMP Missile Launcher,3350,1600,29000,79300,,Heavy long-range g2g EMP starburst rocket,img/bar/armemp.png
+bar-corspec,bar,corspec,Deceiver,Radar Jammer Bot,core,land,Radar Jammer Bot,2,other,Radar Jammer Bot,345,75,1550,6500,39,,img/bar/corspec.png
+bar-corvipe,bar,corvipe,Scorpion,Pop-up Sabot Battery,core,structure,Pop-up Sabot Battery,2,t2_pd,Pop-up Sabot Battery,3000,730,14000,15000,,Heavy g2g sabot rocket launcher,img/bar/corvipe.png
 bar-armstil,bar,armstil,Stiletto,EMP Bomber,arm,air,EMP Bomber,2,t2_bomber,EMP Bomber,1880,460,38000,39000,300,Heavy a2g EMP warheads,img/bar/armstil.png
 bar-legbar,bar,legbar,Barrage,Napalm Artillery,legion,land,Napalm Artillery,1,t1_arty,Napalm Artillery,1500,250,3200,3600,40.5,HeavyCannon,img/bar/legbar.png
 bar-legvflak,bar,legvflak,Charon,Anti-Air Minigun Truck,legion,land,Anti-Air Minigun Truck,2,t2_flak,Anti-Air Minigun Truck,2700,470,10500,15130,70,Dual Rotary Microflak Cannons,img/bar/legvflak.png
-bar-armfhlt,bar,armfhlt,Manta,Floating Heavy Laser Tower,arm,structure,Floating Heavy Laser Tower,1,t2_pd,Floating Heavy Laser Tower,4250,470,6200,9670,,HighEnergyLaser,img/bar/armfhlt.png
+bar-armfhlt,bar,armfhlt,Manta,Floating Heavy Laser Tower,arm,structure,Floating Heavy Laser Tower,1,t1_pd,Floating Heavy Laser Tower,4250,470,6200,9670,,HighEnergyLaser,img/bar/armfhlt.png
 bar-corwin,bar,corwin,Wind Turbine,Produces Energy. Depends on wind strength.,core,structure,Produces Energy. Depends on wind strength.,1,t1_energy,Produces Energy. Depends on wind strength.,220,43,175,1680,,,img/bar/corwin.png
-bar-armfhp,bar,armfhp,Naval Hovercraft Platform,Builds Hovercraft,arm,structure,Builds Hovercraft,1,t1_engineer,Builds Hovercraft,3350,670,2000,8700,,,img/bar/armfhp.png
+bar-armfhp,bar,armfhp,Naval Hovercraft Platform,Builds Hovercraft,arm,structure,Builds Hovercraft,1,t1_factory_land,Builds Hovercraft,3350,670,2000,8700,,,img/bar/armfhp.png
 bar-corraid,bar,corraid,Brute,Medium Assault Tank,core,land,Medium Assault Tank,1,t1_tank,Medium Assault Tank,1970,235,2400,3310,72.9,LightCannon,img/bar/corraid.png
-bar-legatrans,bar,legatrans,Hippotes,Heavy Transport,legion,other,Heavy Transport,1,t1_transport,Heavy Transport,800,190,4000,8500,100,,img/bar/legatrans.png
+bar-legatrans,bar,legatrans,Hippotes,Heavy Transport,legion,other,Heavy Transport,1,other,Heavy Transport,800,190,4000,8500,100,,img/bar/legatrans.png
 bar-armtl,bar,armtl,Harpoon,Offshore Torpedo Launcher,arm,structure,Offshore Torpedo Launcher,1,other,Offshore Torpedo Launcher,1300,170,1500,3700,,Level1TorpedoLauncher,img/bar/armtl.png
 bar-corcsa,bar,corcsa,Construction Seaplane,Tech 1 Constructor,core,air,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,435,140,8200,14500,217.5,,img/bar/corcsa.png
 bar-corgant,bar,corgant,Experimental Gantry,Produces Experimental Units,core,structure,Produces Experimental Units,3,experimental,Produces Experimental Units,17800,8400,62000,68000,,,img/bar/corgant.png
@@ -1209,34 +1209,34 @@ bar-armpt,bar,armpt,Skater,Stealthy Patrol Boat / Light Anti Air / Sonar,arm,nav
 bar-leganavyantinukecarrier,bar,leganavyantinukecarrier,Hecate,Anti-nuke Drone Carrier Support Ship,legion,navy,Anti-nuke Drone Carrier Support Ship,2,antinuke,Anti-nuke Drone Carrier Support Ship,5000,1400,12000,26800,63,ICBM intercepting missile launcher | Multi-Drone Control Matrix,img/bar/leganavyantinukecarrier.png
 bar-armlab,bar,armlab,Bot Lab,Produces Tech 1 Bots,arm,structure,Produces Tech 1 Bots,1,t1_factory_land,Produces Tech 1 Bots,2900,500,950,5000,,,img/bar/armlab.png
 bar-armfus,bar,armfus,Fusion Reactor,Produces 750 Energy,arm,structure,Produces 750 Energy,2,t2_energy,Produces 750 Energy,3800,3350,18000,54000,,,img/bar/armfus.png
-bar-legmlv,bar,legmlv,Sapper,Stealthy Minelayer / Minesweeper,legion,land,Stealthy Minelayer / Minesweeper,1,t1_engineer,Stealthy Minelayer / Minesweeper,210,52,900,3640,69,Seismic charge,img/bar/legmlv.png
+bar-legmlv,bar,legmlv,Sapper,Stealthy Minelayer / Minesweeper,legion,land,Stealthy Minelayer / Minesweeper,1,other,Stealthy Minelayer / Minesweeper,210,52,900,3640,69,Seismic charge,img/bar/legmlv.png
 bar-legamphtank,bar,legamphtank,Cetus,Light Amphibious Tank,legion,land,Light Amphibious Tank,1,t1_tank,Light Amphibious Tank,1340,200,2000,2610,63.0,Light Close-quarters Gauss Cannon,img/bar/legamphtank.png
 bar-leganavyantiswarm,bar,leganavyantiswarm,Leocampus,Anti-Swarm Ship,legion,navy,Anti-Swarm Ship,2,other,Anti-Swarm Ship,2300,500,8500,11270,105,Advanced g2a Salvo Missile Launcher | Medium Blast Riot Cannon,img/bar/leganavyantiswarm.png
 bar-leguwestore,bar,leguwestore,Naval Energy Storage,Increases Energy Storage (6000),legion,other,Increases Energy Storage (6000),1,t1_energy,Increases Energy Storage (6000),2000,175,1800,4260,,,img/bar/leguwestore.png
 bar-armkam,bar,armkam,Banshee,Light Gunship,arm,air,Light Gunship,1,t2_gunship,Light Gunship,560,135,2300,5050,184.8,Rapid-fire close-quarters a2g plasma guns,img/bar/armkam.png
 bar-armpeep,bar,armpeep,Blink,Scout,arm,air,Scout,1,t1_air_scout,Scout,89,52,1550,2800,375,,img/bar/armpeep.png
 bar-armmoho,bar,armmoho,Advanced Metal Extractor,Advanced Metal Extractor / Storage,arm,structure,Advanced Metal Extractor / Storage,2,t2_mex,Advanced Metal Extractor / Storage,2800,620,7700,14900,,,img/bar/armmoho.png
-bar-armbeamer,bar,armbeamer,Beamer,Beam Laser Turret,arm,structure,Beam Laser Turret,1,other,Beam Laser Turret,1430,190,1500,4800,,Anti-swarm constant wave g2g laser,img/bar/armbeamer.png
+bar-armbeamer,bar,armbeamer,Beamer,Beam Laser Turret,arm,structure,Beam Laser Turret,1,t1_pd,Beam Laser Turret,1430,190,1500,4800,,Anti-swarm constant wave g2g laser,img/bar/armbeamer.png
 bar-legnavyaaship,bar,legnavyaaship,Iapetus,Anti-Air & Radar Support Ship,legion,navy,Anti-Air & Radar Support Ship,1,t1_radar,Anti-Air & Radar Support Ship,1200,250,3600,4000,60,Advanced g2a Salvo Missile Launcher | Advanced g2a Salvo Missile Launcher,img/bar/legnavyaaship.png
-bar-corhllt,bar,corhllt,Twin Guard,Anti-Swarm Double Guard,core,structure,Anti-Swarm Double Guard,1,t1_pd,Anti-Swarm Double Guard,1670,195,1750,4900,,Close-quarters light g2g laser | Close-quarters light g2g laser,img/bar/corhllt.png
+bar-corhllt,bar,corhllt,Twin Guard,Anti-Swarm Double Guard,core,structure,Anti-Swarm Double Guard,1,other,Anti-Swarm Double Guard,1670,195,1750,4900,,Close-quarters light g2g laser | Close-quarters light g2g laser,img/bar/corhllt.png
 bar-legforti,bar,legforti,Fortification Wall,Advanced Fortification,legion,other,Advanced Fortification,1,other,Advanced Fortification,8900,40,500,1000,,,img/bar/legforti.png
-bar-legstronghold,bar,legstronghold,Stronghold,Hybrid Heavy Transport Gunship,legion,air,Hybrid Heavy Transport Gunship,2,t2_gunship,Hybrid Heavy Transport Gunship,2600,550,11000,24200,175,Medium Shotgun,img/bar/legstronghold.png
+bar-legstronghold,bar,legstronghold,Stronghold,Hybrid Heavy Transport Gunship,legion,air,Hybrid Heavy Transport Gunship,2,t1_transport,Hybrid Heavy Transport Gunship,2600,550,11000,24200,175,Medium Shotgun,img/bar/legstronghold.png
 bar-armfrt,bar,armfrt,Naval Nettle,Floating Anti-air Tower,arm,structure,Floating Anti-air Tower,1,t1_aa_turret,Floating Anti-air Tower,380,90,1000,2200,,Missiles,img/bar/armfrt.png
 bar-armah,bar,armah,Sweeper,Anti-Air Hovercraft,arm,land,Anti-Air Hovercraft,1,t1_aa,Anti-Air Hovercraft,1070,230,4500,3560,88.5,Missiles | Light g2a missile launcher,img/bar/armah.png
-bar-cortron,bar,cortron,Catalyst,Tactical Missile Launcher,core,structure,Tactical Missile Launcher,2,t2_mml,Tactical Missile Launcher,3550,1200,14000,59000,,Long range tactical g2g nuclear warheads,img/bar/cortron.png
+bar-cortron,bar,cortron,Catalyst,Tactical Missile Launcher,core,structure,Tactical Missile Launcher,2,other,Tactical Missile Launcher,3550,1200,14000,59000,,Long range tactical g2g nuclear warheads,img/bar/cortron.png
 bar-legaheattank,bar,legaheattank,Prometheus,Heavy Assault Heatray Tank,legion,land,Heavy Assault Heatray Tank,2,t2_tank,Heavy Assault Heatray Tank,7700,1250,19000,25600,52,Heavy g2g Cleansing Heat Ray,img/bar/legaheattank.png
 bar-armuwadves,bar,armuwadves,Hardened Energy Storage,Increases Energy Storage (40000),arm,structure,Increases Energy Storage (40000),2,t2_energy,Increases Energy Storage (40000),11700,830,10000,20300,,,img/bar/armuwadves.png
 bar-corsilo,bar,corsilo,Apocalypse,Nuclear ICBM Launcher,core,structure,Nuclear ICBM Launcher,2,nuke,Nuclear ICBM Launcher,6200,7700,82000,181000,,Intercontinental thermonuclear ballistic missile | Nuclear Launch,img/bar/corsilo.png
 bar-cormuskrat,bar,cormuskrat,Muskrat,Amphibious Construction Vehicle,core,land,Amphibious Construction Vehicle,1,t1_engineer,Amphibious Construction Vehicle,1110,170,3500,6860,40.5,,img/bar/cormuskrat.png
-bar-cormaw,bar,cormaw,Dragon's Maw,Pop-up Flamethrower Turret,core,structure,Pop-up Flamethrower Turret,1,other,Pop-up Flamethrower Turret,1610,290,1550,4420,,Pop-up anti-swarm AoE flamethrower,img/bar/cormaw.png
+bar-cormaw,bar,cormaw,Dragon's Maw,Pop-up Flamethrower Turret,core,structure,Pop-up Flamethrower Turret,1,wall,Pop-up Flamethrower Turret,1610,290,1550,4420,,Pop-up anti-swarm AoE flamethrower,img/bar/cormaw.png
 bar-corseap,bar,corseap,Monsoon,Torpedo Gunship,core,air,Torpedo Gunship,1,t2_gunship,Torpedo Gunship,1070,230,5500,13000,266.10001,Homing torpedo launcher,img/bar/corseap.png
 bar-legadvaabot,bar,legadvaabot,Aquilon,Heavy Amphibious Anti-Air Bot,legion,land,Heavy Amphibious Anti-Air Bot,2,t2_flak,Heavy Amphibious Anti-Air Bot,1200,750,6650,11270,34.5,Rotary Microflak Cannon | Light Anti-Air Railgun,img/bar/legadvaabot.png
 bar-corcrwh,bar,corcrwh,Dragon,Flying Fortress,core,air,Flying Fortress,2,other,Flying Fortress,16700,5100,72000,120000,114.9,High energy a2g laser | Advanced d2a rapid missile launcher | Dragon's Maw: heavy medium range AoE flamethrower | HighEnergyLaser,img/bar/corcrwh.png
 bar-corpship,bar,corpship,Riptide,Assault Frigate,core,navy,Assault Frigate,1,t1_frigate,Assault Frigate,2350,420,2800,4550,82.5,LightCannon,img/bar/corpship.png
-bar-legjuno,bar,legjuno,Juno,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,legion,other,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,1,t1_radar,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,2500,660,16000,27700,,Anti-Radar/Jammer/Mine Electromagnetic Payload | juno_pulse_ghost,img/bar/legjuno.png
-bar-corgeo,bar,corgeo,Geothermal Powerplant,Produces 300 Energy,core,structure,Produces 300 Energy,1,t2_energy,Produces 300 Energy,2050,540,13000,12900,,,img/bar/corgeo.png
+bar-legjuno,bar,legjuno,Juno,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,legion,other,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,1,other,Anti Radar / Jammer / Minefield / ScoutSpam Weapon,2500,660,16000,27700,,Anti-Radar/Jammer/Mine Electromagnetic Payload | juno_pulse_ghost,img/bar/legjuno.png
+bar-corgeo,bar,corgeo,Geothermal Powerplant,Produces 300 Energy,core,structure,Produces 300 Energy,1,t1_energy,Produces 300 Energy,2050,540,13000,12900,,,img/bar/corgeo.png
 bar-cormine1,bar,cormine1,Light Mine,,core,structure,Light Mine,1,other,Light Mine,11,7,270,100,,Crawlingbomb Dummy Weapon,img/bar/cormine1.png
-bar-legfeconv,bar,legfeconv,Naval Energy Converter,Converts 70 energy into 1 metal per second,legion,other,Converts 70 energy into 1 metal per second,1,t1_fab,Converts 70 energy into 1 metal per second,167,1,1250,2680,,,img/bar/legfeconv.png
+bar-legfeconv,bar,legfeconv,Naval Energy Converter,Converts 70 energy into 1 metal per second,legion,other,Converts 70 energy into 1 metal per second,1,other,Converts 70 energy into 1 metal per second,167,1,1250,2680,,,img/bar/legfeconv.png
 bar-corfdoom,bar,corfdoom,Devastator,Floating Multi-Weapon Platform,core,structure,Floating Multi-Weapon Platform,2,other,Floating Multi-Weapon Platform,6700,1200,15000,24000,,Light close-quarters g2g laser | Medium-range g2g plasma cannon | High energy g2g laser,img/bar/corfdoom.png
 bar-legphoenix,bar,legphoenix,Phoenix,Heavy Assault Heatray Bomber,legion,air,Heavy Assault Heatray Bomber,2,t2_bomber,Heavy Assault Heatray Bomber,2000,450,25000,46600,270,PhoenixBlast | Heavy a2g Phoenix Flame Heat Ray | Targetting System,img/bar/legphoenix.png
 bar-legscout,bar,legscout,Wheelie,Light Scout Vehicle,legion,other,Light Scout Vehicle,1,t1_land_scout,Light Scout Vehicle,75,25,370,900,160.0,Burst-fire Machine Gun,img/bar/legscout.png
@@ -1250,7 +1250,7 @@ bar-legapopupdef,bar,legapopupdef,Chimera,Pop-Up Multi-Weapon Defence Turret,leg
 bar-legjav,bar,legjav,Javelin,Amphibious Raider,legion,other,Amphibious Raider,3,experimental,Amphibious Raider,7200,1200,21000,39850,65.0,Twin Rapid-fire Machine Guns | Light AA Rotary Gun,img/bar/legjav.png
 bar-corroy,bar,corroy,Oppressor,Destroyer,core,navy,Destroyer,1,t2_destroyer,Destroyer,3950,960,7200,10600,62.4,Depthcharge launcher | HeavyCannon,img/bar/corroy.png
 bar-legarad,bar,legarad,Advanced Radar Tower,Long-Range Radar,legion,other,Long-Range Radar,2,t1_radar,Long-Range Radar,355,400,14000,8000,,,img/bar/legarad.png
-bar-armaser,bar,armaser,Smuggler,Radar Jammer Bot,arm,land,Radar Jammer Bot,2,t1_radar,Radar Jammer Bot,340,78,1400,6000,48.3,,img/bar/armaser.png
+bar-armaser,bar,armaser,Smuggler,Radar Jammer Bot,arm,land,Radar Jammer Bot,2,other,Radar Jammer Bot,340,78,1400,6000,48.3,,img/bar/armaser.png
 bar-armfark,bar,armfark,Butler,Fast Assist / Repair Bot,arm,land,Fast Assist / Repair Bot,2,t2_engineer,Fast Assist / Repair Bot,335,210,3000,6000,75,,img/bar/armfark.png
 bar-corjamt,bar,corjamt,Castro,Short-Range Jamming Device,core,structure,Short-Range Jamming Device,1,other,Short-Range Jamming Device,1070,115,5200,4570,,,img/bar/corjamt.png
 bar-armacsub,bar,armacsub,Advanced Construction Sub,Tech 2 Constructor,arm,navy,Tech 2 Constructor,2,t2_engineer,Tech 2 Constructor,1110,700,9000,23000,72,,img/bar/armacsub.png

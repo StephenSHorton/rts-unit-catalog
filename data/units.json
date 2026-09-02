@@ -62,6 +62,10 @@
       "label": "T1 Tank"
     },
     {
+      "id": "t1_hover",
+      "label": "T1 Hovertank"
+    },
+    {
       "id": "t1_arty",
       "label": "T1 Mobile Artillery"
     },
@@ -748,7 +752,7 @@
       "build_time": null,
       "speed": null,
       "weapons": [],
-      "role": "t1_factory_land",
+      "role": "t2_factory_land",
       "image": "img/ta/armhp.png",
       "ted": "PLANT",
       "categories": [
@@ -798,7 +802,7 @@
       "build_time": null,
       "speed": null,
       "weapons": [],
-      "role": "t1_factory_land",
+      "role": "t2_factory_air",
       "image": "img/ta/armplat.png",
       "ted": "PLANT",
       "categories": [
@@ -3002,7 +3006,7 @@
         "ARMWAR_LCANNON",
         "ARMWAR_EMG"
       ],
-      "role": "t2_tank",
+      "role": "t1_light_bot",
       "image": "img/ta/armwar.png",
       "ted": "KBOT",
       "categories": [
@@ -4319,7 +4323,7 @@
       "build_time": null,
       "speed": null,
       "weapons": [],
-      "role": "t1_factory_land",
+      "role": "t2_factory_land",
       "image": "img/ta/corhp.png",
       "ted": "PLANT",
       "categories": [
@@ -4369,7 +4373,7 @@
       "build_time": null,
       "speed": null,
       "weapons": [],
-      "role": "t1_factory_land",
+      "role": "t2_factory_air",
       "image": "img/ta/corplat.png",
       "ted": "PLANT",
       "categories": [
@@ -7800,7 +7804,7 @@
       "weapons": [
         "Iridium Rocket Pack"
       ],
-      "role": "t2_tank",
+      "role": "t2_mml",
       "image": "img/sc/drl0204.png",
       "ted": null,
       "categories": [
@@ -10536,7 +10540,7 @@
       "weapons": [
         "Disruptor Cannon"
       ],
-      "role": "t1_light_bot",
+      "role": "t1_hover",
       "image": "img/sc/ual0201.png",
       "ted": null,
       "categories": [
@@ -10822,7 +10826,7 @@
       "build_time": 792,
       "speed": 4,
       "weapons": [],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/sc/ual0307.png",
       "ted": null,
       "categories": [
@@ -14422,7 +14426,7 @@
       "build_time": 660,
       "speed": 3.5,
       "weapons": [],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/sc/uel0307.png",
       "ted": null,
       "categories": [
@@ -17993,7 +17997,7 @@
       "build_time": 800,
       "speed": 4,
       "weapons": [],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/sc/url0306.png",
       "ted": null,
       "categories": [
@@ -19315,7 +19319,7 @@
       "weapons": [
         "Ionized Plasma Cannon"
       ],
-      "role": "t2_amphib",
+      "role": "t3_assault",
       "image": "img/sc/xel0305.png",
       "ted": null,
       "categories": [
@@ -19968,7 +19972,7 @@
         "EMP",
         "Detonation Trigger"
       ],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/sc/xrl0302.png",
       "ted": null,
       "categories": [
@@ -20009,7 +20013,7 @@
         "Nanite Torpedo Launcher",
         "Anti-Torpedo Flare"
       ],
-      "role": "t2_amphib",
+      "role": "t3_assault",
       "image": "img/sc/xrl0305.png",
       "ted": null,
       "categories": [
@@ -23080,7 +23084,7 @@
         "Thau Cannon",
         "Uall Cavitation Torpedo Launcher"
       ],
-      "role": "t2_amphib",
+      "role": "t3_assault",
       "image": "img/sc/xsl0303.png",
       "ted": null,
       "categories": [
@@ -23202,7 +23206,7 @@
       "build_time": 3600,
       "speed": 4,
       "weapons": [],
-      "role": "t3_assault",
+      "role": "other",
       "image": "img/sc/xsl0307.png",
       "ted": null,
       "categories": [
@@ -24967,7 +24971,7 @@
       "build_time": 8700,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/corfhp.png",
       "ted": null,
       "categories": [
@@ -24994,7 +24998,7 @@
       "weapons": [
         "Light g2a Missile Launcher"
       ],
-      "role": "t1_aa_turret",
+      "role": "t1_aa",
       "image": "img/bar/legrl.png",
       "ted": null,
       "categories": [
@@ -25071,7 +25075,7 @@
       "weapons": [
         "Dummy Weapon"
       ],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/corspy.png",
       "ted": null,
       "categories": [
@@ -25234,7 +25238,7 @@
       "build_time": 6930,
       "speed": 41,
       "weapons": [],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/legavjam.png",
       "ted": null,
       "categories": [
@@ -25334,7 +25338,7 @@
       "build_time": 11800,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_air",
       "image": "img/bar/legsplab.png",
       "ted": null,
       "categories": [
@@ -25411,7 +25415,7 @@
       "weapons": [
         "Two-Round Burst Fire Plasma Cannon"
       ],
-      "role": "other",
+      "role": "t2_tank",
       "image": "img/bar/legmrv.png",
       "ted": null,
       "categories": [
@@ -25461,7 +25465,7 @@
       "build_time": 17000,
       "speed": 40,
       "weapons": [],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/corsjam.png",
       "ted": null,
       "categories": [
@@ -25671,7 +25675,7 @@
       "build_time": 2800,
       "speed": 78,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/legrezbot.png",
       "ted": null,
       "categories": [
@@ -25724,7 +25728,7 @@
         "Close-quarters lightning turret",
         "Light g2a missile launcher"
       ],
-      "role": "t2_tank",
+      "role": "t2_flak",
       "image": "img/bar/armlatnk.png",
       "ted": null,
       "categories": [
@@ -25751,7 +25755,7 @@
       "weapons": [
         "Anti radar/minefield/jammer magnetic impulse rocket"
       ],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/armjuno.png",
       "ted": null,
       "categories": [
@@ -25885,7 +25889,7 @@
       "build_time": 19400,
       "speed": null,
       "weapons": [],
-      "role": "t2_mex",
+      "role": "other",
       "image": "img/bar/legmohocon.png",
       "ted": null,
       "categories": [
@@ -25937,7 +25941,7 @@
       "weapons": [
         "Heavy g2g high energy laser"
       ],
-      "role": "t2_pd",
+      "role": "t1_pd",
       "image": "img/bar/armhlt.png",
       "ted": null,
       "categories": [
@@ -26555,7 +26559,7 @@
       "build_time": 11100,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/armamsub.png",
       "ted": null,
       "categories": [
@@ -26634,7 +26638,7 @@
         "Cluster Munitions",
         "Long-Range Naval Cluster Artillery Cannon"
       ],
-      "role": "t1_arty",
+      "role": "other",
       "image": "img/bar/legnavyartyship.png",
       "ted": null,
       "categories": [
@@ -26661,7 +26665,7 @@
       "weapons": [
         "Homing Torpedo Launcher"
       ],
-      "role": "other",
+      "role": "t1_sub",
       "image": "img/bar/legctl.png",
       "ted": null,
       "categories": [
@@ -26716,7 +26720,7 @@
         "HeavyCannon",
         "ICBM intercepting missile launcher"
       ],
-      "role": "t2_energy",
+      "role": "other",
       "image": "img/bar/legrampart.png",
       "ted": null,
       "categories": [
@@ -26899,7 +26903,7 @@
       "build_time": 8700,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/corhp.png",
       "ted": null,
       "categories": [
@@ -27003,7 +27007,7 @@
       "build_time": 5300,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/cornanotcplat.png",
       "ted": null,
       "categories": [
@@ -27112,7 +27116,7 @@
       "build_time": 2800,
       "speed": 78,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/armrectr.png",
       "ted": null,
       "categories": [
@@ -27294,7 +27298,7 @@
       "build_time": 12000,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_air",
       "image": "img/bar/armplat.png",
       "ted": null,
       "categories": [
@@ -27479,7 +27483,7 @@
       "build_time": 3850,
       "speed": 207,
       "weapons": [],
-      "role": "t1_transport",
+      "role": "other",
       "image": "img/bar/leglts.png",
       "ted": null,
       "categories": [
@@ -27561,7 +27565,7 @@
         "Heavy g2g Cleansing Heat Ray",
         "Depthcharge launcher"
       ],
-      "role": "t2_pd",
+      "role": "other",
       "image": "img/bar/legamph.png",
       "ted": null,
       "categories": [
@@ -27614,7 +27618,7 @@
       "build_time": 11400,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/legamphlab.png",
       "ted": null,
       "categories": [
@@ -27778,7 +27782,7 @@
         "Very Long-Range High-Trajectory 63-Salvo Plasma Launcher",
         "Plasma Volley Energy Charger (supplies energy to Starfall cannon)"
       ],
-      "role": "t2_energy",
+      "role": "other",
       "image": "img/bar/legstarfall.png",
       "ted": null,
       "categories": [
@@ -28043,7 +28047,7 @@
       "build_time": 31300,
       "speed": null,
       "weapons": [],
-      "role": "t1_fab",
+      "role": "other",
       "image": "img/bar/leganavaleconv.png",
       "ted": null,
       "categories": [
@@ -28354,7 +28358,7 @@
       "build_time": 11800,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_air",
       "image": "img/bar/corplat.png",
       "ted": null,
       "categories": [
@@ -28618,7 +28622,7 @@
       "weapons": [
         "Seismic charge"
       ],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/cormlv.png",
       "ted": null,
       "categories": [
@@ -28747,7 +28751,7 @@
       "build_time": 20000,
       "speed": 45,
       "weapons": [],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/armsjam.png",
       "ted": null,
       "categories": [
@@ -29171,7 +29175,7 @@
       "weapons": [
         "Anti radar/minefield/jammer magnetic impulse bomb"
       ],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/legcib.png",
       "ted": null,
       "categories": [
@@ -29221,7 +29225,7 @@
       "build_time": 8700,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/armhp.png",
       "ted": null,
       "categories": [
@@ -29479,7 +29483,7 @@
       "weapons": [
         "Medium g2g plasma cannon"
       ],
-      "role": "t1_tank",
+      "role": "t1_hover",
       "image": "img/bar/armanac.png",
       "ted": null,
       "categories": [
@@ -29558,7 +29562,7 @@
       "build_time": 31300,
       "speed": null,
       "weapons": [],
-      "role": "t1_fab",
+      "role": "other",
       "image": "img/bar/legadveconv.png",
       "ted": null,
       "categories": [
@@ -29583,7 +29587,7 @@
       "build_time": 62000,
       "speed": null,
       "weapons": [],
-      "role": "experimental",
+      "role": "t2_factory_land",
       "image": "img/bar/armshltxuw.png",
       "ted": null,
       "categories": [
@@ -29691,7 +29695,7 @@
         "Self-destruction",
         "Crawlingbomb Dummy Weapon"
       ],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/bar/legsnapper.png",
       "ted": null,
       "categories": [
@@ -29793,7 +29797,7 @@
       "build_time": 11400,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/coramsub.png",
       "ted": null,
       "categories": [
@@ -29897,7 +29901,7 @@
       "build_time": 6280,
       "speed": 39,
       "weapons": [],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/bar/legajamk.png",
       "ted": null,
       "categories": [
@@ -29950,7 +29954,7 @@
         "Mine Detonator",
         "Crawlingbomb Dummy Weapon"
       ],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/bar/corsktl.png",
       "ted": null,
       "categories": [
@@ -30057,7 +30061,7 @@
         "Anti radar/minefield/jammer magnetic impulse rocket",
         "juno_pulse_ghost"
       ],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/corjuno.png",
       "ted": null,
       "categories": [
@@ -30344,7 +30348,7 @@
       "build_time": 7000,
       "speed": 33,
       "weapons": [],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/armjam.png",
       "ted": null,
       "categories": [
@@ -30372,7 +30376,7 @@
         "Vertical Plasma Cannon",
         "Forwards Plasma Cannon"
       ],
-      "role": "t1_tank",
+      "role": "t1_light_bot",
       "image": "img/bar/leglob.png",
       "ted": null,
       "categories": [
@@ -30662,7 +30666,7 @@
       "weapons": [
         "MediumPlasmaCannon"
       ],
-      "role": "t1_tank",
+      "role": "t1_hover",
       "image": "img/bar/corsnap.png",
       "ted": null,
       "categories": [
@@ -30796,7 +30800,7 @@
       "weapons": [
         "Medium g2g Heat Ray"
       ],
-      "role": "t2_tank",
+      "role": "t2_amphib",
       "image": "img/bar/corsala.png",
       "ted": null,
       "categories": [
@@ -31270,7 +31274,7 @@
       "build_time": 13100,
       "speed": null,
       "weapons": [],
-      "role": "t2_energy",
+      "role": "t1_energy",
       "image": "img/bar/armgeo.png",
       "ted": null,
       "categories": [
@@ -31557,7 +31561,7 @@
       "build_time": 6200,
       "speed": 66,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/armrecl.png",
       "ted": null,
       "categories": [
@@ -31642,7 +31646,7 @@
       "weapons": [
         "Dummy Weapon"
       ],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/armspy.png",
       "ted": null,
       "categories": [
@@ -31744,7 +31748,7 @@
       "build_time": 5000,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/leglab.png",
       "ted": null,
       "categories": [
@@ -31772,7 +31776,7 @@
         "Self-destruction",
         "Crawlingbomb Dummy Weapon"
       ],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/bar/armvader.png",
       "ted": null,
       "categories": [
@@ -31801,7 +31805,7 @@
         "Long-range g2a guided missile launcher",
         "Heavy g2a flak cannon"
       ],
-      "role": "t2_flak",
+      "role": "other",
       "image": "img/bar/armaas.png",
       "ted": null,
       "categories": [
@@ -31985,7 +31989,7 @@
       "build_time": 5960,
       "speed": 66.9,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/correcl.png",
       "ted": null,
       "categories": [
@@ -32010,7 +32014,7 @@
       "build_time": 6380,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_air",
       "image": "img/bar/legap.png",
       "ted": null,
       "categories": [
@@ -32144,7 +32148,7 @@
       "weapons": [
         "Light Close-Quarters Fast-Firing g2g Laser"
       ],
-      "role": "other",
+      "role": "t1_hover",
       "image": "img/bar/armsh.png",
       "ted": null,
       "categories": [
@@ -32169,7 +32173,7 @@
       "build_time": 19800,
       "speed": 36,
       "weapons": [],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/leganavyradjamship.png",
       "ted": null,
       "categories": [
@@ -32223,7 +32227,7 @@
       "weapons": [
         "Rapid-Fire Gatling Gun"
       ],
-      "role": "other",
+      "role": "t1_aa",
       "image": "img/bar/legfmg.png",
       "ted": null,
       "categories": [
@@ -32275,7 +32279,7 @@
       "weapons": [
         "CommandoBlaster"
       ],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/bar/cormando.png",
       "ted": null,
       "categories": [
@@ -32546,7 +32550,7 @@
       "weapons": [
         "Medium Homing Torpedo Launcher"
       ],
-      "role": "t2_bomber",
+      "role": "t1_sub",
       "image": "img/bar/legatorpbomber.png",
       "ted": null,
       "categories": [
@@ -32623,7 +32627,7 @@
       "weapons": [
         "Light Close-Quarters g2g Heat Ray"
       ],
-      "role": "other",
+      "role": "t1_hover",
       "image": "img/bar/legsh.png",
       "ted": null,
       "categories": [
@@ -32734,7 +32738,7 @@
         "AA2Missile",
         "FlakCannon"
       ],
-      "role": "t2_flak",
+      "role": "other",
       "image": "img/bar/corarch.png",
       "ted": null,
       "categories": [
@@ -32813,7 +32817,7 @@
       "weapons": [
         "Dual close-quarters g2g laser"
       ],
-      "role": "t2_tank",
+      "role": "t1_light_bot",
       "image": "img/bar/armwar.png",
       "ted": null,
       "categories": [
@@ -32892,7 +32896,7 @@
       "weapons": [
         "Seismic charge"
       ],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/armmlv.png",
       "ted": null,
       "categories": [
@@ -32917,7 +32921,7 @@
       "build_time": 68000,
       "speed": null,
       "weapons": [],
-      "role": "experimental",
+      "role": "t2_factory_land",
       "image": "img/bar/corgantuw.png",
       "ted": null,
       "categories": [
@@ -33059,7 +33063,7 @@
       "weapons": [
         "Heavy A2A Gatling Guns"
       ],
-      "role": "t2_fighter",
+      "role": "t2_flak",
       "image": "img/bar/legafigdef.png",
       "ted": null,
       "categories": [
@@ -33089,7 +33093,7 @@
         "Long-Range g2g Cluster Plasma Cannon",
         "Cluster Munitions"
       ],
-      "role": "t1_arty",
+      "role": "t2_arty",
       "image": "img/bar/legcluster.png",
       "ted": null,
       "categories": [
@@ -33377,7 +33381,7 @@
       "build_time": 8700,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/legfhp.png",
       "ted": null,
       "categories": [
@@ -33404,7 +33408,7 @@
       "weapons": [
         "Medium g2g plasma cannon"
       ],
-      "role": "t1_tank",
+      "role": "t1_hover",
       "image": "img/bar/legner.png",
       "ted": null,
       "categories": [
@@ -33563,7 +33567,7 @@
       "build_time": 5300,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/legnanotcplat.png",
       "ted": null,
       "categories": [
@@ -33666,7 +33670,7 @@
       "build_time": 5960,
       "speed": 66.9,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/legnavyrezsub.png",
       "ted": null,
       "categories": [
@@ -33745,7 +33749,7 @@
       "weapons": [
         "Pop-up heavy g2g gauss cannon"
       ],
-      "role": "other",
+      "role": "t2_arty",
       "image": "img/bar/armpb.png",
       "ted": null,
       "categories": [
@@ -33801,7 +33805,7 @@
       "weapons": [
         "Medium Shotgun"
       ],
-      "role": "t1_tank",
+      "role": "t1_hover",
       "image": "img/bar/legcar.png",
       "ted": null,
       "categories": [
@@ -33828,7 +33832,7 @@
       "weapons": [
         "High energy g2g laser"
       ],
-      "role": "t2_pd",
+      "role": "t1_pd",
       "image": "img/bar/corfhlt.png",
       "ted": null,
       "categories": [
@@ -33930,7 +33934,7 @@
       "build_time": 62000,
       "speed": null,
       "weapons": [],
-      "role": "experimental",
+      "role": "t2_factory_land",
       "image": "img/bar/armshltx.png",
       "ted": null,
       "categories": [
@@ -34058,7 +34062,7 @@
       "build_time": 5700,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/legvp.png",
       "ted": null,
       "categories": [
@@ -34326,7 +34330,7 @@
         "Self-destruction",
         "Crawlingbomb Dummy Weapon"
       ],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/bar/corroach.png",
       "ted": null,
       "categories": [
@@ -34536,7 +34540,7 @@
       "build_time": 5300,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/armnanotc.png",
       "ted": null,
       "categories": [
@@ -34983,7 +34987,7 @@
       "build_time": 7500,
       "speed": 41.4,
       "weapons": [],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/coreter.png",
       "ted": null,
       "categories": [
@@ -35145,7 +35149,7 @@
         "Advanced Anti-Air Salvo Missile Launcher",
         "Dual Rotary Microflak Cannons"
       ],
-      "role": "t2_flak",
+      "role": "other",
       "image": "img/bar/leganavyaaship.png",
       "ted": null,
       "categories": [
@@ -35225,7 +35229,7 @@
       "weapons": [
         "Medium g2a Flak Blunderbuss"
       ],
-      "role": "t1_aa_turret",
+      "role": "t1_aa",
       "image": "img/bar/leglupara.png",
       "ted": null,
       "categories": [
@@ -35442,7 +35446,7 @@
       "weapons": [
         "Medium Blast Riot Cannon"
       ],
-      "role": "shield",
+      "role": "t2_tank",
       "image": "img/bar/legshot.png",
       "ted": null,
       "categories": [
@@ -35548,7 +35552,7 @@
       "weapons": [
         "High energy g2g laser"
       ],
-      "role": "t2_pd",
+      "role": "t1_pd",
       "image": "img/bar/corhlt.png",
       "ted": null,
       "categories": [
@@ -35600,7 +35604,7 @@
       "weapons": [
         "Burst-Fire A2A Machine Gun"
       ],
-      "role": "t1_interceptor",
+      "role": "t1_aa",
       "image": "img/bar/legfig.png",
       "ted": null,
       "categories": [
@@ -35708,7 +35712,7 @@
       "weapons": [
         "Light g2a Missile Launcher"
       ],
-      "role": "t1_aa_turret",
+      "role": "t1_aa",
       "image": "img/bar/legfrl.png",
       "ted": null,
       "categories": [
@@ -35760,7 +35764,7 @@
       "weapons": [
         "PoisonArrowCannon"
       ],
-      "role": "t2_tank",
+      "role": "t2_amphib",
       "image": "img/bar/corparrow.png",
       "ted": null,
       "categories": [
@@ -35814,7 +35818,7 @@
       "weapons": [
         "Light Close-Quarters Fast-Firing g2g Laser"
       ],
-      "role": "other",
+      "role": "t1_hover",
       "image": "img/bar/corsh.png",
       "ted": null,
       "categories": [
@@ -35893,7 +35897,7 @@
       "weapons": [
         "HighEnergyLaser"
       ],
-      "role": "t1_tank",
+      "role": "t1_hover",
       "image": "img/bar/corhal.png",
       "ted": null,
       "categories": [
@@ -35920,7 +35924,7 @@
       "weapons": [
         "Long-range advanced torpedo launcher"
       ],
-      "role": "other",
+      "role": "t1_sub",
       "image": "img/bar/leganavaltorpturret.png",
       "ted": null,
       "categories": [
@@ -35945,7 +35949,7 @@
       "build_time": 5100,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_naval",
       "image": "img/bar/legsy.png",
       "ted": null,
       "categories": [
@@ -36156,7 +36160,7 @@
       "build_time": 5300,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/cornanotc.png",
       "ted": null,
       "categories": [
@@ -36360,7 +36364,7 @@
       "build_time": 2800,
       "speed": 78,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/cornecro.png",
       "ted": null,
       "categories": [
@@ -36410,7 +36414,7 @@
       "build_time": 8700,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/leghp.png",
       "ted": null,
       "categories": [
@@ -36464,7 +36468,7 @@
       "weapons": [
         "LegionMineBomb"
       ],
-      "role": "t1_bomber",
+      "role": "other",
       "image": "img/bar/legmineb.png",
       "ted": null,
       "categories": [
@@ -36544,7 +36548,7 @@
       "weapons": [
         "Close-quarters g2g gauss-cannon"
       ],
-      "role": "t1_tank",
+      "role": "t1_light_bot",
       "image": "img/bar/legcen.png",
       "ted": null,
       "categories": [
@@ -36938,7 +36942,7 @@
       "weapons": [
         "Torpedo Launcher"
       ],
-      "role": "other",
+      "role": "t1_sub",
       "image": "img/bar/legtl.png",
       "ted": null,
       "categories": [
@@ -37070,7 +37074,7 @@
       "weapons": [
         "Close-quarters g2g lightning turret"
       ],
-      "role": "other",
+      "role": "wall",
       "image": "img/bar/armclaw.png",
       "ted": null,
       "categories": [
@@ -37226,7 +37230,7 @@
       "weapons": [
         "coconut.jpg"
       ],
-      "role": "t2_tank",
+      "role": "other",
       "image": "img/bar/legaspy.png",
       "ted": null,
       "categories": [
@@ -37330,7 +37334,7 @@
       "build_time": 5300,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/armnanotcplat.png",
       "ted": null,
       "categories": [
@@ -37595,7 +37599,7 @@
       "build_time": 5300,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/legnanotc.png",
       "ted": null,
       "categories": [
@@ -37864,7 +37868,7 @@
       "build_time": 6100,
       "speed": null,
       "weapons": [],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/leganavalsonarstation.png",
       "ted": null,
       "categories": [
@@ -37973,7 +37977,7 @@
       "weapons": [
         "Heavy Sustained Sweepfire Heat Ray"
       ],
-      "role": "t2_energy",
+      "role": "other",
       "image": "img/bar/legbastion.png",
       "ted": null,
       "categories": [
@@ -38055,7 +38059,7 @@
       "weapons": [
         "Advanced g2a Salvo Missile Launcher"
       ],
-      "role": "t1_aa_turret",
+      "role": "t1_aa",
       "image": "img/bar/legrhapsis.png",
       "ted": null,
       "categories": [
@@ -38109,7 +38113,7 @@
       "weapons": [
         "Heavy long-range g2g EMP starburst rocket"
       ],
-      "role": "t2_mml",
+      "role": "other",
       "image": "img/bar/armemp.png",
       "ted": null,
       "categories": [
@@ -38134,7 +38138,7 @@
       "build_time": 6500,
       "speed": 39,
       "weapons": [],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/corspec.png",
       "ted": null,
       "categories": [
@@ -38161,7 +38165,7 @@
       "weapons": [
         "Heavy g2g sabot rocket launcher"
       ],
-      "role": "t2_tank",
+      "role": "t2_pd",
       "image": "img/bar/corvipe.png",
       "ted": null,
       "categories": [
@@ -38269,7 +38273,7 @@
       "weapons": [
         "HighEnergyLaser"
       ],
-      "role": "t2_pd",
+      "role": "t1_pd",
       "image": "img/bar/armfhlt.png",
       "ted": null,
       "categories": [
@@ -38319,7 +38323,7 @@
       "build_time": 8700,
       "speed": null,
       "weapons": [],
-      "role": "t1_engineer",
+      "role": "t1_factory_land",
       "image": "img/bar/armfhp.png",
       "ted": null,
       "categories": [
@@ -38371,7 +38375,7 @@
       "build_time": 8500,
       "speed": 100,
       "weapons": [],
-      "role": "t1_transport",
+      "role": "other",
       "image": "img/bar/legatrans.png",
       "ted": null,
       "categories": [
@@ -38610,7 +38614,7 @@
       "weapons": [
         "Seismic charge"
       ],
-      "role": "t1_engineer",
+      "role": "other",
       "image": "img/bar/legmlv.png",
       "ted": null,
       "categories": [
@@ -38794,7 +38798,7 @@
       "weapons": [
         "Anti-swarm constant wave g2g laser"
       ],
-      "role": "other",
+      "role": "t1_pd",
       "image": "img/bar/armbeamer.png",
       "ted": null,
       "categories": [
@@ -38850,7 +38854,7 @@
         "Close-quarters light g2g laser",
         "Close-quarters light g2g laser"
       ],
-      "role": "t1_pd",
+      "role": "other",
       "image": "img/bar/corhllt.png",
       "ted": null,
       "categories": [
@@ -38902,7 +38906,7 @@
       "weapons": [
         "Medium Shotgun"
       ],
-      "role": "t2_gunship",
+      "role": "t1_transport",
       "image": "img/bar/legstronghold.png",
       "ted": null,
       "categories": [
@@ -38984,7 +38988,7 @@
       "weapons": [
         "Long range tactical g2g nuclear warheads"
       ],
-      "role": "t2_mml",
+      "role": "other",
       "image": "img/bar/cortron.png",
       "ted": null,
       "categories": [
@@ -39116,7 +39120,7 @@
       "weapons": [
         "Pop-up anti-swarm AoE flamethrower"
       ],
-      "role": "other",
+      "role": "wall",
       "image": "img/bar/cormaw.png",
       "ted": null,
       "categories": [
@@ -39256,7 +39260,7 @@
         "Anti-Radar/Jammer/Mine Electromagnetic Payload",
         "juno_pulse_ghost"
       ],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/legjuno.png",
       "ted": null,
       "categories": [
@@ -39281,7 +39285,7 @@
       "build_time": 12900,
       "speed": null,
       "weapons": [],
-      "role": "t2_energy",
+      "role": "t1_energy",
       "image": "img/bar/corgeo.png",
       "ted": null,
       "categories": [
@@ -39333,7 +39337,7 @@
       "build_time": 2680,
       "speed": null,
       "weapons": [],
-      "role": "t1_fab",
+      "role": "other",
       "image": "img/bar/legfeconv.png",
       "ted": null,
       "categories": [
@@ -39712,7 +39716,7 @@
       "build_time": 6000,
       "speed": 48.3,
       "weapons": [],
-      "role": "t1_radar",
+      "role": "other",
       "image": "img/bar/armaser.png",
       "ted": null,
       "categories": [

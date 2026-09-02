@@ -41,6 +41,7 @@ LINEAGE = [
     ("t1_land_scout", "Land Scout"),
     ("t1_light_bot", "T1 Light Assault"),
     ("t1_tank", "T1 Tank"),
+    ("t1_hover", "T1 Hovertank"),
     ("t1_arty", "T1 Mobile Artillery"),
     ("t1_aa", "T1 Mobile AA"),
     ("t1_air_scout", "Air Scout"),
@@ -133,7 +134,7 @@ TA_ROLE = {
     "ARMRAD": "t1_radar", "CORRAD": "t1_radar",
     "ARMSONAR": "t1_radar", "CORSONAR": "t1_radar",
     "ARMBULL": "t2_tank", "CORREAP": "t2_tank", "CORGOL": "t2_tank",
-    "ARMFIDO": "t2_tank", "ARMZEUS": "t2_tank", "ARMWAR": "t2_tank",
+    "ARMFIDO": "t2_tank", "ARMZEUS": "t2_tank", "ARMWAR": "t1_light_bot",
     "CORCAN": "t2_tank", "CORSUMO": "t2_tank", "CORPYRO": "t2_tank",
     "ARMMERL": "t2_mml", "CORVROC": "t2_mml", "CORHRK": "t2_mml",
     "ARMFLAK": "t2_flak", "CORFLAK": "t2_flak",
@@ -155,6 +156,8 @@ TA_ROLE = {
     "ARMUWFUS": "t2_energy", "CORUWFUS": "t2_energy",
     "ARMMOHO": "t2_mex", "CORMOHO": "t2_mex",
     "ARMMMKR": "t2_fab", "CORMMKR": "t2_fab",
+    "ARMHP": "t2_factory_land", "CORHP": "t2_factory_land",
+    "ARMPLAT": "t2_factory_air", "CORPLAT": "t2_factory_air",
     "ARMALAB": "t2_factory_land", "ARMAVP": "t2_factory_land",
     "CORALAB": "t2_factory_land", "CORAVP": "t2_factory_land",
     "ARMAAP": "t2_factory_air", "CORAAP": "t2_factory_air",
@@ -498,20 +501,30 @@ def sc_role(cats: set[str], desc: str, name: str) -> str:
         if "ANTIAIR" in cats:
             return "t2_flak" if tech >= 2 else "t1_aa"
         if "ARTILLERY" in cats or "mobile light artillery" in d or "mobile heavy artillery" in d:
-            return "t3_arty" if tech >= 3 else "t1_arty"
+            return "t3_arty" if tech >= 3 else ("t1_arty" if tech == 1 else "t3_arty")
         if "SILO" in cats or "missile launcher" in d:
             return "t2_mml"
-        if "AMPHIBIOUS" in cats:
-            return "t2_amphib"
+        if "SHIELD" in cats or "stealth" in d or "bomb" in d or "jammer" in d:
+            return "other"
         if tech >= 3:
             return "t3_assault"
-        if tech == 2:
-            return "t2_tank"
-        if "BOT" in cats and ("light" in d or "assault bot" in d):
+        if "HOVER" in cats and ("tank" in d or "assault" in d):
+            return "t2_tank" if tech >= 2 else "t1_hover"
+        if "TANK" in cats:
+            if "AMPHIBIOUS" in cats and tech >= 2:
+                return "t2_amphib"
+            return "t2_tank" if tech >= 2 else "t1_tank"
+        if "BOT" in cats:
+            if tech >= 2:
+                if "rocket" in d or "missile" in d:
+                    return "t2_mml"
+                return "t2_tank"
+            if "assault bot" in d or "light assault" in d:
+                return "t1_light_bot"
             return "t1_light_bot"
-        if "TANK" in cats or "BOT" in cats:
-            return "t1_tank" if "light" not in d else "t1_light_bot"
-        return "t1_light_bot" if tech == 1 else "t2_tank"
+        if "AMPHIBIOUS" in cats and tech >= 2:
+            return "t2_amphib"
+        return "other"
 
     return "other"
 
@@ -647,84 +660,166 @@ def bar_domain(subfolder: str, desc: str) -> str:
 def bar_role(code: str, desc: str, name: str, subfolder: str, unitgroup: str, tech: int) -> str:
     up = code.upper()
     if up in TA_ROLE:
-        return TA_ROLE[up]
-    d = f"{desc} {name} {subfolder} {unitgroup}".lower()
-    if "commander" in d:
+        inherited = TA_ROLE[up]
+        if not (tech <= 1 and inherited.startswith("t2_")):
+            return inherited
+    sf = (subfolder or "").lower().replace("\\", "/")
+    ug = (unitgroup or "").lower()
+    blob = f"{name} {desc}".lower()
+    is_building = "building" in sf or "/labs" in sf or sf.endswith("labs")
+    is_bot = "bot" in sf
+    is_vehicle = "vehicle" in sf
+    is_hover = "hover" in sf
+    is_air = "aircraft" in sf or "seaplane" in sf
+    is_ship = "ship" in sf
+    is_gantry = "gantry" in sf
+
+    if "commander" in blob:
         return "commander"
-    if tech >= 3 or "experimental" in d or "gantry" in d:
-        if "constructor" in d or "engineer" in d:
+    if "spy" in blob or "radar-invisible" in blob:
+        return "other"
+    if "radar" in blob and "anti-nuke" not in blob and "jammer" not in blob:
+        return "t1_radar"
+    if "jammer" in blob:
+        return "other"
+    if "anti-nuke" in blob or "antinuke" in blob:
+        return "antinuke"
+
+    factory_folder = any(x in sf for x in ("landfactories", "seafactories", "airfactories", "/labs"))
+    factory_text = any(x in blob for x in (
+        "bot lab", "vehicle plant", "aircraft plant", "drone plant", "shipyard",
+        "hovercraft platform", "seaplane platform", "amphibious complex",
+        "produces tech", "produces amphibious", "builds hovercraft", "builds seaplanes",
+        "constructs seaplanes", "produces tech 1 ships", "produces tech 1 vehicles",
+        "produces tech 1 bots", "produces tech 1 aircraft",
+    ))
+    if (factory_folder or (is_building and factory_text)) and "constructor" not in blob:
+        if "aircraft" in blob or "drone plant" in blob or "seaplane" in blob:
+            return "t2_factory_air" if tech >= 2 else "t1_factory_air"
+        if "shipyard" in blob or ("ship" in blob and "hover" not in blob):
+            return "t2_factory_naval" if tech >= 2 else "t1_factory_naval"
+        return "t2_factory_land" if tech >= 2 else "t1_factory_land"
+
+    if is_gantry or tech >= 3 or "experimental" in blob:
+        if "constructor" in blob or "engineer" in blob:
             return "t3_engineer"
-        if any(x in d for x in ("lab", "plant", "shipyard", "factory")):
+        if is_building and factory_text:
             return "t2_factory_land"
         return "experimental"
-    if "constructor" in d or "engineer" in d or unitgroup == "builder":
-        return "t2_engineer" if tech >= 2 else "t1_engineer"
-    if "aircraft plant" in d:
-        return "t2_factory_air" if tech >= 2 else "t1_factory_air"
-    if "shipyard" in d:
-        return "t2_factory_naval" if tech >= 2 else "t1_factory_naval"
-    if any(x in d for x in ("bot lab", "vehicle plant", "hovercraft platform")):
-        return "t2_factory_land" if tech >= 2 else "t1_factory_land"
-    if "metal extractor" in d:
-        return "t2_mex" if tech >= 2 else "t1_mex"
-    if "fusion" in d or (tech >= 2 and "energy" in d and "converter" not in d):
-        return "t3_energy" if tech >= 3 else "t2_energy" if tech >= 2 else "t1_energy"
-    if "solar" in d or "wind" in d or "tidal" in d or unitgroup == "energy":
-        return "t2_energy" if tech >= 2 else "t1_energy"
-    if "converter" in d or "fabricat" in d:
-        return "t1_fab"
-    if "anti-nuke" in d or "antinuke" in d:
-        return "antinuke"
-    if "nuke" in d or "icbm" in d:
-        return "nuke"
-    if "shield" in d:
-        return "shield"
-    if "dragon" in d and ("teeth" in d or "fortification" in d or "wall" in d):
-        return "wall"
-    if "radar" in d or "sonar" in d:
-        return "t1_radar"
-    if "anti-air" in d or "flak" in d:
-        if "tower" in d or "turret" in d or "battery" in d:
+
+    mobile_con = (
+        "constructor" in blob
+        or "construction" in blob
+        or "combat engineer" in blob
+        or "naval engineer" in blob
+    ) and not is_building
+    if mobile_con or (ug in {"builder", "buildert2", "buildert3"} and not is_building):
+        if "nano" in blob or "turret" in blob:
+            return "other"
+        if "rez" in blob or "resurrection" in blob or "minelayer" in blob or "paratrooper" in blob:
+            return "other"
+        if tech >= 3:
+            return "t3_engineer"
+        if tech >= 2 or ug == "buildert2":
+            return "t2_engineer"
+        return "t1_engineer"
+
+    if is_building:
+        if "metal extractor" in blob:
+            return "t2_mex" if tech >= 2 else "t1_mex"
+        if "fusion" in blob:
+            return "t3_energy" if tech >= 3 else "t2_energy"
+        if "solar" in blob or "wind" in blob or "tidal" in blob or ug == "energy":
+            return "t2_energy" if tech >= 2 else "t1_energy"
+        if "converter" in blob or "fabricat" in blob:
+            return "t1_fab"
+        if "anti-nuke" in blob or "antinuke" in blob or ug == "antinuke":
+            return "antinuke"
+        if ug == "nuke" or "icbm" in blob or ("nuke" in blob and "anti" not in blob):
+            return "nuke"
+        if "shield" in blob:
+            return "shield"
+        if "dragon" in blob or "fortification" in blob or "wall" in blob:
+            return "wall"
+        if "radar" in blob or "sonar" in blob:
+            return "t1_radar"
+        if "anti-air" in blob or "flak" in blob:
             return "t2_flak" if tech >= 2 else "t1_aa_turret"
+        if "artillery" in blob or "bertha" in blob or "cannon" in blob:
+            return "t3_arty_static" if tech >= 3 else "t2_arty"
+        if "laser" in blob or "point defense" in blob or "sentry" in blob or "pop-up" in blob:
+            return "t2_pd" if tech >= 2 else "t1_pd"
+        return "other"
+
+    if ug == "energy" or "solar" in blob or "wind" in blob or "tidal" in blob:
+        return "t2_energy" if tech >= 2 else "t1_energy"
+    if "metal extractor" in blob:
+        return "t2_mex" if tech >= 2 else "t1_mex"
+
+    if is_air:
+        if "scout" in blob:
+            return "t1_air_scout"
+        if "transport" in blob:
+            return "t1_transport"
+        if "gunship" in blob:
+            return "t2_gunship"
+        if "bomber" in blob:
+            return "t3_strat_bomber" if tech >= 3 else "t2_bomber" if tech >= 2 else "t1_bomber"
+        if "fighter" in blob or "interceptor" in blob:
+            return "t3_asf" if tech >= 3 else "t2_fighter" if tech >= 2 else "t1_interceptor"
+        return "other"
+
+    if is_ship or ug in {"sub", "weaponsub"}:
+        if "battleship" in blob or "flagship" in blob:
+            return "t3_battleship"
+        if "cruiser" in blob:
+            return "t2_cruiser"
+        if "destroyer" in blob:
+            return "t2_destroyer"
+        if "frigate" in blob or "corvette" in blob or "patrol" in blob:
+            return "t1_frigate"
+        if "submarine" in blob or ug == "sub":
+            return "t1_sub"
+        return "other"
+
+    if ug in {"aa", "weaponaa"} or "anti-air" in blob or "flak" in blob:
         return "t2_flak" if tech >= 2 else "t1_aa"
-    if "artillery" in d and ("tower" in d or "cannon" in d) and "mobile" not in d:
-        return "t3_arty_static" if tech >= 3 else "t2_arty"
-    if "laser tower" in d or "point defense" in d or "sentry" in d or "guard" in d:
-        return "t2_pd" if tech >= 2 else "t1_pd"
-    if "fighter" in d or "interceptor" in d:
-        return "t3_asf" if tech >= 3 else "t2_fighter" if tech >= 2 else "t1_interceptor"
-    if "bomber" in d:
-        return "t3_strat_bomber" if tech >= 3 else "t2_bomber" if tech >= 2 else "t1_bomber"
-    if "gunship" in d:
-        return "t2_gunship"
-    if "scout" in d and ("air" in d or "plane" in d):
-        return "t1_air_scout"
-    if "transport" in d:
-        return "t1_transport"
-    if "battleship" in d or "flagship" in d:
-        return "t3_battleship"
-    if "cruiser" in d:
-        return "t2_cruiser"
-    if "destroyer" in d:
-        return "t2_destroyer"
-    if "frigate" in d or "corvette" in d or "patrol boat" in d:
-        return "t1_frigate"
-    if "submarine" in d or "sub " in d:
-        return "t1_sub"
-    if "artillery" in d or "mortar" in d:
+    if "artillery" in blob or "mortar" in blob:
         return "t3_arty" if tech >= 3 else "t1_arty"
-    if "rocket" in d or "missile launcher" in d:
+    if "rocket" in blob or "missile launcher" in blob:
         return "t2_mml" if tech >= 2 else "t1_arty"
-    if "infantry" in d or "grunt" in d or "pawn" in d or "goblin" in d:
-        return "t1_light_bot"
-    if "scout" in d:
+    if "scout" in blob:
         return "t1_land_scout"
-    if "tank" in d or "assault" in d or "bot" in d:
+    if "jammer" in blob or "spy" in blob or "bomb" in blob or "stealth" in blob and "tank" not in blob:
+        return "other"
+
+    if is_hover:
+        if tech >= 2:
+            return "t2_tank"
+        return "t1_hover"
+    if is_bot:
         if tech >= 3:
             return "t3_assault"
         if tech >= 2:
             return "t2_tank"
-        return "t1_tank"
+        return "t1_light_bot"
+    if is_vehicle:
+        if "carrier" in blob or "drone" in blob:
+            return "other"
+        if tech >= 3:
+            return "t3_assault"
+        if tech >= 2:
+            if "amphib" in blob:
+                return "t2_amphib"
+            if "tank" in blob or "assault" in blob or "raiding" in blob:
+                return "t2_tank"
+            return "other"
+        if "tank" in blob or "assault" in blob:
+            return "t1_tank"
+        return "other"
+
+    if tech >= 3:
+        return "experimental"
     return "other"
 
 
