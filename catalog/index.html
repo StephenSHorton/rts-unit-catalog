@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TA / SC / BAR Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Fragment+Mono&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!--
+    THESIS: One machine at a time on its own page. The wall is an era. Lineage is the century from TA to BAR.
+    OWN-WORLD: Night operations room. TA and BAR keep portrait frames; SupCom sits on angular faction plates.
+    STORY: Switch eras, open a unit as a page, read TA → SC → BAR as one progression.
+    FIRST VIEWPORT: Era switcher + portrait wall of the selected game.
+    FORM: Visual unit archive. Hash routes are pages, not sheets.
+    FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+  -->
+  <div class="grain" aria-hidden="true"></div>
+  <header class="bar">
+    <div class="wrap bar-grid">
+      <a class="brand" href="#/ta">
+        <span class="brand-mark">ARCHIVE</span>
+        <h1>TA <em>→</em> SC <em>→</em> BAR</h1>
+      </a>
+      <nav class="eras" id="eras" aria-label="Era"></nav>
+      <label class="search" id="search-wrap">
+        <span class="vh">Search units</span>
+        <input id="q" type="search" placeholder="Peewee, Pawn, Fatboy…" autocomplete="off" />
+      </label>
+    </div>
+  </header>
+
+  <nav class="filters" id="filters" aria-label="Filters">
+    <div class="wrap filters-row">
+      <div class="chip-row" id="faction-filters"></div>
+      <div class="chip-row" id="domain-filters"></div>
+      <div class="chip-row" id="tech-filters"></div>
+      <p class="count" id="count"></p>
+    </div>
+  </nav>
+
+  <main class="wrap" id="stage"></main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
