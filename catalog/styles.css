@@ -41,10 +41,15 @@ a { color: inherit; }
   padding-left: 28px;
   padding-right: 28px;
 }
+.chrome {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--void);
+  border-bottom: 1px solid var(--line);
+}
 .bar {
-  position: sticky; top: 0; z-index: 20;
   padding: 16px 0 12px;
-  background: linear-gradient(to bottom, #08090b 70%, rgba(8,9,11,.92));
   border-bottom: 1px solid var(--line);
 }
 .bar-grid {
@@ -115,10 +120,8 @@ a { color: inherit; }
 .search input:focus { border-color: var(--stamp); }
 
 .filters {
-  position: sticky; top: 68px; z-index: 15;
   padding: 10px 0 8px;
-  background: rgba(8,9,11,.94);
-  border-bottom: 1px solid var(--line);
+  background: var(--void);
 }
 .filters-row {
   display: flex;
@@ -345,6 +348,5 @@ main { position: relative; z-index: 1; padding-top: 22px; padding-bottom: 80px; 
   .bar-grid { grid-template-columns: 1fr; gap: 10px; }
   .role-row { grid-template-columns: 1fr; }
   .arrow { display: none; }
-  .filters { position: static; }
   .page { grid-template-columns: 1fr; }
 }

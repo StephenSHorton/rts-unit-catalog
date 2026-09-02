@@ -19,28 +19,30 @@
     FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
   -->
   <div class="grain" aria-hidden="true"></div>
-  <header class="bar">
-    <div class="wrap bar-grid">
-      <a class="brand" href="#/ta">
-        <span class="brand-mark">ARCHIVE</span>
-        <h1>TA <em>→</em> SC <em>→</em> BAR</h1>
-      </a>
-      <nav class="eras" id="eras" aria-label="Era"></nav>
-      <label class="search" id="search-wrap">
-        <span class="vh">Search units</span>
-        <input id="q" type="search" placeholder="Peewee, Pawn, Fatboy…" autocomplete="off" />
-      </label>
-    </div>
-  </header>
+  <div class="chrome">
+    <header class="bar">
+      <div class="wrap bar-grid">
+        <a class="brand" href="#/ta">
+          <span class="brand-mark">ARCHIVE</span>
+          <h1>TA <em>→</em> SC <em>→</em> BAR</h1>
+        </a>
+        <nav class="eras" id="eras" aria-label="Era"></nav>
+        <label class="search" id="search-wrap">
+          <span class="vh">Search units</span>
+          <input id="q" type="search" placeholder="Peewee, Pawn, Fatboy…" autocomplete="off" />
+        </label>
+      </div>
+    </header>
 
-  <nav class="filters" id="filters" aria-label="Filters">
-    <div class="wrap filters-row">
-      <div class="chip-row" id="faction-filters"></div>
-      <div class="chip-row" id="domain-filters"></div>
-      <div class="chip-row" id="tech-filters"></div>
-      <p class="count" id="count"></p>
-    </div>
-  </nav>
+    <nav class="filters" id="filters" aria-label="Filters">
+      <div class="wrap filters-row">
+        <div class="chip-row" id="faction-filters"></div>
+        <div class="chip-row" id="domain-filters"></div>
+        <div class="chip-row" id="tech-filters"></div>
+        <p class="count" id="count"></p>
+      </div>
+    </nav>
+  </div>
 
   <main class="wrap" id="stage"></main>
 
