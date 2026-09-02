@@ -28,9 +28,9 @@
   "counts": {
     "ta": 278,
     "sc": 407,
-    "bar": 572,
-    "total": 1257,
-    "with_image": 1252
+    "bar": 569,
+    "total": 1254,
+    "with_image": 1250
   },
   "lineage": [
     {
@@ -24794,35 +24794,6 @@
       ]
     },
     {
-      "id": "bar-armdecom",
-      "game": "bar",
-      "code": "armdecom",
-      "name": "Commander",
-      "aka": "Decoy Commander",
-      "faction": "arm",
-      "domain": "commander",
-      "kind": "Decoy Commander",
-      "tech": 2,
-      "description": "Decoy Commander",
-      "hp": 3700,
-      "cost_metal": 770,
-      "cost_energy": 12000,
-      "build_time": 30000,
-      "speed": 37.5,
-      "weapons": [
-        "Decoy-disintegrator",
-        "Light close-quarters g2g laser",
-        "J7NSLaser"
-      ],
-      "role": "commander",
-      "image": "img/bar/armdecom.png",
-      "ted": null,
-      "categories": [
-        "ArmBots/T2",
-        "buildert2"
-      ]
-    },
-    {
       "id": "bar-armca",
       "game": "bar",
       "code": "armca",
@@ -27068,35 +27039,6 @@
       "categories": [
         "Legion/Defenses",
         "aa"
-      ]
-    },
-    {
-      "id": "bar-cordecom",
-      "game": "bar",
-      "code": "cordecom",
-      "name": "Commander",
-      "aka": "Decoy Commander",
-      "faction": "core",
-      "domain": "commander",
-      "kind": "Decoy Commander",
-      "tech": 2,
-      "description": "Decoy Commander",
-      "hp": 3700,
-      "cost_metal": 750,
-      "cost_energy": 13000,
-      "build_time": 33000,
-      "speed": 37.5,
-      "weapons": [
-        "Disintegrator",
-        "J7Laser",
-        "J7NSLaser"
-      ],
-      "role": "commander",
-      "image": "img/bar/cordecom.png",
-      "ted": null,
-      "categories": [
-        "CorBots/T2",
-        "buildert2"
       ]
     },
     {
@@ -36789,36 +36731,6 @@
       "categories": [
         "CorAircraft/T2",
         "util"
-      ]
-    },
-    {
-      "id": "bar-legdecom",
-      "game": "bar",
-      "code": "legdecom",
-      "name": "Legion Commander",
-      "aka": "Decoy Commander",
-      "faction": "legion",
-      "domain": "commander",
-      "kind": "Decoy Commander",
-      "tech": 2,
-      "description": "Decoy Commander",
-      "hp": 3700,
-      "cost_metal": 750,
-      "cost_energy": 13000,
-      "build_time": 32600,
-      "speed": 37.5,
-      "weapons": [
-        "Close-Quarters Heatray",
-        "Disintegrator",
-        "Anti Air Missile Launcher",
-        "Underwater Torpedo Launcher"
-      ],
-      "role": "commander",
-      "image": null,
-      "ted": null,
-      "categories": [
-        "CorBots/T2",
-        "buildert2"
       ]
     },
     {

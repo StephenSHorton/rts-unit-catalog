@@ -586,6 +586,8 @@ def parse_sc() -> list[dict]:
 BAR_SKIP_PREFIX = ("critter_", "dbg_")
 BAR_SKIP_EXACT = {
     "dice", "chip", "freefusion", "comeffigy", "dummycom",
+    # Decoy commanders share the real ACU portrait/name and clutter lineage.
+    "armdecom", "cordecom", "legdecom",
 }
 
 
@@ -617,6 +619,8 @@ def bar_skip(code: str) -> bool:
     if "_hat_" in c or c.startswith("cor_hat"):
         return True
     if "comlvl" in c or "comboss" in c:
+        return True
+    if c.endswith("decom"):
         return True
     if c.endswith("_old"):
         return True
@@ -834,6 +838,12 @@ def parse_bar() -> list[dict]:
         name = loc.get("name") or code
         desc = loc.get("description") or ""
         cp = raw.get("customparams") or {}
+        if cp.get("isdecoycommander"):
+            continue
+        # Locale names the real ACUs "Armada/Cortex/Legion Commander";
+        # decoys are just "Commander" (or Legion decoy with no portrait).
+        if name.strip().lower() == "commander":
+            continue
         sub = cp.get("subfolder") or ""
         faction = bar_faction(code, sub)
         if not faction:
@@ -1024,7 +1034,7 @@ def main() -> None:
     print(f"  {len(sc)} SC units (Nomads excluded)")
     print("Parsing BAR units...")
     bar = parse_bar()
-    print(f"  {len(bar)} BAR units (critters/hats/levelled commanders skipped)")
+    print(f"  {len(bar)} BAR units (critters/hats/decoys/levelled commanders skipped)")
     for u in sc:
         p = IMG_SC / f"{u['code'].lower()}.png"
         u["image"] = f"img/sc/{p.name}" if p.exists() else None

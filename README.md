@@ -26,8 +26,8 @@ Start-Process (Resolve-Path .\catalog\index.html)
 |---|---|
 | Total Annihilation (base + CC + BT) | 278 |
 | Supreme Commander + FA (no Nomads) | 407 |
-| Beyond All Reason | 572 |
-| **Total** | **1,257** (1,252 with portraits) |
+| Beyond All Reason | 569 |
+| **Total** | **1,254** (1,250 with portraits) |
 
 - `data/units.json`
 - `data/units.csv`

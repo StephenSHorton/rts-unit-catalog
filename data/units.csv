@@ -687,7 +687,6 @@ sc-zsb9603,sc,ZSB9603,Uosiya,Naval Factory,seraphim,structure,Naval Factory,3,t2
 bar-corfort,bar,corfort,Fortification Wall,Advanced Fortification,core,structure,Advanced Fortification,2,wall,Advanced Fortification,8900,40,500,900,,,img/bar/corfort.png
 bar-corfdrag,bar,corfdrag,Shark's Teeth,Naval Fortification,core,structure,Naval Fortification,1,wall,Naval Fortification,4450,15,0,400,,,img/bar/corfdrag.png
 bar-coruwadves,bar,coruwadves,Hardened Energy Storage,Increases Energy Storage (40000),core,structure,Increases Energy Storage (40000),2,t2_energy,Increases Energy Storage (40000),12700,840,11000,20400,,,img/bar/coruwadves.png
-bar-armdecom,bar,armdecom,Commander,Decoy Commander,arm,commander,Decoy Commander,2,commander,Decoy Commander,3700,770,12000,30000,37.5,Decoy-disintegrator | Light close-quarters g2g laser | J7NSLaser,img/bar/armdecom.png
 bar-armca,bar,armca,Construction Aircraft,Tech 1 Constructor,arm,air,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,156,110,3000,7960,208.2,,img/bar/armca.png
 bar-armhvytrans,bar,armhvytrans,Osprey,Heavy Transport,arm,air,Heavy Transport,1,t1_transport,Heavy Transport,630,190,4000,8500,110,,img/bar/armhvytrans.png
 bar-armdecade,bar,armdecade,Dolphin,Fast Assault Corvette,arm,navy,Fast Assault Corvette,1,t1_frigate,Fast Assault Corvette,970,175,1500,2450,104.7,Rapid-fire close-quarters plasma turret,img/bar/armdecade.png
@@ -773,7 +772,6 @@ bar-armkraken,bar,armkraken,Gorgon,Floating Rapid-fire Plasma Tower,arm,structur
 bar-cornanotcplat,bar,cornanotcplat,Naval Construction Turret,Assist & Repair in large radius,core,structure,Assist & Repair in large radius,1,other,Assist & Repair in large radius,560,230,3200,5300,,,img/bar/cornanotcplat.png
 bar-leginf,bar,leginf,Inferno,Long-Range Burst-Fire Napalm Artillery Vehicle,legion,land,Long-Range Burst-Fire Napalm Artillery Vehicle,2,t1_arty,Long-Range Burst-Fire Napalm Artillery Vehicle,3650,1700,30000,42900,37.5,Heavy Burst-Fire Napalm Artillery Tri-Cannons,img/bar/leginf.png
 bar-leglraa,bar,leglraa,Xyston,Long-Range Anti-Air Rail Accelerator,legion,other,Long-Range Anti-Air Rail Accelerator,2,t2_flak,Long-Range Anti-Air Rail Accelerator,1670,1600,36000,28000,,Heavy Anti-Air Railgun | Long-range heavy g2a missile launcher,img/bar/leglraa.png
-bar-cordecom,bar,cordecom,Commander,Decoy Commander,core,commander,Decoy Commander,2,commander,Decoy Commander,3700,750,13000,33000,37.5,Disintegrator | J7Laser | J7NSLaser,img/bar/cordecom.png
 bar-armrectr,bar,armrectr,Lazarus,Stealthy Rez / Repair / Reclaim Bot,arm,land,Stealthy Rez / Repair / Reclaim Bot,1,other,Stealthy Rez / Repair / Reclaim Bot,220,130,1400,2800,78,,img/bar/armrectr.png
 bar-armtarg,bar,armtarg,Pinpointer,"Enhanced Radar Targeting, more facilities enhance accuracy",arm,structure,"Enhanced Radar Targeting, more facilities enhance accuracy",2,t1_radar,"Enhanced Radar Targeting, more facilities enhance accuracy",2100,810,7200,8700,,,img/bar/armtarg.png
 bar-cordrag,bar,cordrag,Dragon's Teeth,Fortification,core,structure,Fortification,1,wall,Fortification,2800,8,0,255,,,img/bar/cordrag.png
@@ -1141,7 +1139,6 @@ bar-armsaber,bar,armsaber,Sabre,Seaplane Gunship,arm,air,Seaplane Gunship,1,t2_g
 bar-legtarg,bar,legtarg,Pinpointer,"Enhances Radar Targeting, more facilities reduce radar wobble",legion,other,"Enhances Radar Targeting, more facilities reduce radar wobble",2,t1_radar,"Enhances Radar Targeting, more facilities reduce radar wobble",2100,810,7200,8700,,,img/bar/legtarg.png
 bar-armfdrag,bar,armfdrag,Shark's Teeth,Naval Fortification,arm,structure,Naval Fortification,1,wall,Naval Fortification,4450,15,0,370,,,img/bar/armfdrag.png
 bar-corawac,bar,corawac,Condor,Radar / Sonar Plane,core,air,Radar / Sonar Plane,2,t1_radar,Radar / Sonar Plane,990,180,8300,16000,321,,img/bar/corawac.png
-bar-legdecom,bar,legdecom,Legion Commander,Decoy Commander,legion,commander,Decoy Commander,2,commander,Decoy Commander,3700,750,13000,32600,37.5,Close-Quarters Heatray | Disintegrator | Anti Air Missile Launcher | Underwater Torpedo Launcher,
 bar-legfrad,bar,legfrad,Naval Radar / Sonar Tower,Early Surface/Naval Warning System,legion,structure,Early Surface/Naval Warning System,1,t1_radar,Early Surface/Naval Warning System,110,130,1000,1800,,,img/bar/legfrad.png
 bar-armestor,bar,armestor,Energy Storage,Increases Energy Storage (6000),arm,structure,Increases Energy Storage (6000),1,t1_energy,Increases Energy Storage (6000),1890,170,1700,4110,,,img/bar/armestor.png
 bar-legck,bar,legck,Legion Construction Bot,Tech 1 Constructor,legion,land,Tech 1 Constructor,1,t1_engineer,Tech 1 Constructor,630,100,1600,3250,39,,img/bar/legck.png
